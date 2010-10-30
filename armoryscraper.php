@@ -493,7 +493,7 @@ function printArray($a){
 		}
 	}
 }
-
+/**
 $region = $_POST["region"];
 $realm = $_POST["realm"];
 $character = $_POST["character"];
@@ -530,5 +530,6 @@ $array = $character->getStatistics();
 echo "<br/>";
 echo "Statistics: "."<br/>";
 printArray($array)."<br/>";
+**/
 
 ?>

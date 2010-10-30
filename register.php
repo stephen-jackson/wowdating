@@ -7,7 +7,7 @@
 <body>
 <h1>hello world</h1>
   <?php
-  include "db_connect.php";
+  include("db_connect.php");
   include('armoryscraper.php');
   
   $name = $_POST['username'];
@@ -16,7 +16,7 @@
   $charRealm = $_POST['charRealm'];
   $region = $_POST['region'];
   
-  $character = new armoryscraper("US",$charRealm,$charName);
+  $character = new armoryscraper($region,$charRealm,$charName);
   
   $lvl = $character->getLevel();
   $race = $character->getRaceId();
@@ -24,27 +24,9 @@
   $class = $character->getClassId();
   $faction = $character->getFactionId();
   $HK = $character->getLifetimeHonorableKills();
-  $query = "INSERT INTO characters (charName, charRealm, lvl, race, sex, charClass, Faction, HK) " . 
-  		   "VALUES ('$charName', '$charRealm', '$lvl', '$race', '$class', '$faction', '$HK')";
-  mysqli_query($db, $query);
   
-  $result = mysqli_query($db, "SELECT * FROM characters");
-
-while ($row = mysqli_fetch_assoc($result))
-{
-	//$street = $row['venueStreet'];
-	//$city = $row['venueCity'];
-	//$state = $row['venueState'];
-	$jo=$row['charName'];
-	$jon=$row['charRealm'];
-	$zipcode=$row['lvl'];
-	$description = $row['race'];
-	$photo = $row['sex'];
-	$map = $row['charClass'];
-	$dollar = $row['Faction'];
-	$hate = $row['HK'];
-	echo $jo.$jon.$zipcode.$description.$photo.$map.$dollar.$hate;
-}
-  
+  $query = "INSERT INTO characters (charName, charRealm, lvl, race, sex, charClass, Faction, HK) VALUES ('$charName', '$charRealm', '$lvl', '$race', '$class', '$faction', '$HK')";
+  $result = mysqli_query($db, $query)
+   or die("Error Querying Database");
   
   ?>
