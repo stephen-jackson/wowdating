@@ -21,7 +21,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 DROP DATABASE IF EXISTS romance;
 CREATE DATABASE IF NOT EXISTS romance;
-GRANT ALL PRIVELEGES ON romance.* to 'romanceteam'@'localhost' identified by 'romance';
+GRANT ALL PRIVILEGES ON romance.* to 'wowteam'@'localhost' identified by 'wow';
 USE romance;
 
 -- --------------------------------------------------------
@@ -51,27 +51,28 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `charClass` int(2) Not Null,
   `Faction` int(1) Not Null,
   `HK` int(15) Not Null,
-  PRIMARY KEY (`charName`, `charRealm`),
+  PRIMARY KEY (`charName`, `charRealm`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
 -- --------------------------------------------------------
+
 
 CREATE TABLE IF NOT EXISTS `userCharacters` (
 	`userId` varchar(50) Not Null,
 	`userChar` varchar(20) Not Null,
 	`userRealm` varchar(20) Not Null,
-	PRIMARY KEY (`userId`, `userChar`, `userRealm`),
+	PRIMARY KEY (`userId`, `userChar`, `userRealm`)
 )	ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
 
 ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`userName`);
+  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userId`) REFERENCES `users` (`userName`);
   
 ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters_ibfk_1` FOREIGN KEY (`userChar`) REFERENCES `characters` (`charName`);
+  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userChar`) REFERENCES `characters` (`charName`);
   
 ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters_ibfk_1` FOREIGN KEY (`userRealm`) REFERENCES `characters` (`charRealm`);
+  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userRealm`) REFERENCES `characters` (`charRealm`);
 
 
 
