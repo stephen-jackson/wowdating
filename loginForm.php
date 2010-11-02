@@ -19,6 +19,7 @@
     <input type="submit" value="Login" name="submit" />
   </form>
   <p><a href="registerForm.php">Register</a></p>
-  </div>
+<?php include("footer.html"); ?>
+</div>
 </body>
 </html>

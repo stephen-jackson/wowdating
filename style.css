@@ -52,7 +52,7 @@ form label {
 		margin-left: auto;
 		margin-bottom:40px;
 /*		background: 	#dceef6;  OLD BACKGROUND*/
-		background:   black;
+		background:   #333333;
 	}
 
 	#Navigation{
@@ -70,7 +70,7 @@ form label {
 		text-align: left;
 		padding-left: 10px;
 		/*background-color: #dceef6; OLD COLOR */
-		background-color: black;
+		background-color: #333333;
 		
 		}
 		
@@ -78,7 +78,7 @@ form label {
 		float: right;
 		width: 250px;
 		/*background: #dceef6; OLD COLOR */
-		background: black;
+		background: #333333;
 		text-align: left;
 		padding-left: 10px;
 		margin-right: 20px;

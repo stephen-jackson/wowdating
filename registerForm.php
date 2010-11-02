@@ -8,7 +8,8 @@
 <body>
 <div id="wrap">
 <?php include("header.php") ?>
- <h1>Please create an account by filling in the required sections.</h1>
+ <h1>Register</h1>
+ <h3>Please create an account by filling in the required sections.</h3>
   <form method="post" action="register.php">
     <label for="username">*Username:</label>
     <input type="text" id="username" name="username" /><br />
@@ -22,6 +23,7 @@
 	<input type="radio" name="region" value="EU" /> EU<br />
     <input type="submit" value="Create Account" name="submit" />
   </form>
+<?php include("footer.html"); ?>
   </div>
   </body>
   </html>

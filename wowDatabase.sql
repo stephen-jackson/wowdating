@@ -58,21 +58,11 @@ CREATE TABLE IF NOT EXISTS `characters` (
 
 
 CREATE TABLE IF NOT EXISTS `userCharacters` (
-	`userId` varchar(50) Not Null,
-	`userChar` varchar(20) Not Null,
-	`userRealm` varchar(20) Not Null,
-	PRIMARY KEY (`userId`, `userChar`, `userRealm`)
+	`userName` varchar(50) Not Null,
+	`charName` varchar(20) Not Null,
+	`charRealm` varchar(20) Not Null
 )	ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
-
-ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userId`) REFERENCES `users` (`userName`);
-  
-ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userChar`) REFERENCES `characters` (`charName`);
-  
-ALTER TABLE `userCharacters`
-  ADD CONSTRAINT `userCharacters` FOREIGN KEY (`userRealm`) REFERENCES `characters` (`charRealm`);
 
 
 
