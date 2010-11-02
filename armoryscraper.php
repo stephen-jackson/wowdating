@@ -1,4 +1,10 @@
 <?php
+/**
+ Author: Heather Martin (edited class constructor code from Giacomo Furlan)
+ Date: 11/1/2010
+ Description: This class acceses information about specific wow characters from the
+			  world of warcraft armory
+**/
 class armoryscraper {
 	private $general_xml;
 	private $achiev_xml;
@@ -251,12 +257,20 @@ class armoryscraper {
 	function getLifetimeHonorableKills() {
 		return $this->general_xml->characterInfo->characterTab->pvp->lifetimehonorablekills['value'];
 	}
+	
+	/**
+	  (String) Primary Spec Name.
+	*/
 	function getPrimarySpec() {
 		foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
 			if($data["group"] == 1){
 				return $data["prim"];}
 		}
 	}
+	
+	/**
+	  (String) Secondary Spec Name.
+	*/
 	function getSecondarySpec() {
 		foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
 			if($data["group"] == 2){
@@ -465,7 +479,10 @@ class armoryscraper {
 		return $array;
 	}
 
-	
+	/**
+	  Saves a string of the characters name, realm, level, raceid, genderid, classid, factionid, HK
+	  to a text file located in that character's file
+	**/
 	function toDatabase(){
 		$region = $this->region;
 		$server = $this->getRealm();
@@ -482,7 +499,6 @@ class armoryscraper {
 	}
 }
 	
-
 /**
   prints the contents of a 2d array
 */
@@ -493,43 +509,4 @@ function printArray($a){
 		}
 	}
 }
-/**
-$region = $_POST["region"];
-$realm = $_POST["realm"];
-$character = $_POST["character"];
-$character = new armoryscraper($region,$realm,$character);
-$character->toDatabase();
-echo "Name: ".$character->getName()."<br/>";
-echo "Realm: ".$character->getRealm()."<br/>";
-echo "Battlegroup: ".$character->getBattleGroup()."<br/>";
-echo "Faction: ".$character->getFaction()."<br/>";
-echo "Guild: ".$character->getGuildName()."<br/>";
-echo "Class: ".$character->getClass()."<br/>";
-echo "Primary Spec: ".$character->getPrimarySpec()."<br/>";
-echo "Secondary Spec: ".$character->getSecondarySpec()."<br/>";
-echo "Level: ".$character->getLevel()."<br/>";
-echo "Sex: ".$character->getGender()."<br/>";
-echo "Race: ".$character->getRace()."<br/>";
-echo "Honorable Kills: ".$character->getLifetimeHonorableKills()."<br/>";
-echo "Pvp Achievments Completed: ".$character->getPvpAchievementPoints()."%"."<br/>";
-echo "Dungeon Achievments Completed: ".$character->getDungeonAchievementPoints()."%"."<br/>";
-echo "Reputation Achievments Completed: ".$character->getReputationAchievementPoints()."%"."<br/>";
-echo "World Achievments Completed: ".$character->getWorldAchievementPoints()."%"."<br/>";
-echo "Exploration Achievments Completed: ".$character->getExplorationAchievementPoints()."%"."<br/>";
-echo "Quest Achievments Completed: ".$character->getQuestAchievementPoints()."%"."<br/>";
-echo "Profession Achievments Completed: ".$character->getProfessionAchievementPoints()."%"."<br/>";
-echo "<br/>";
-$array = $character->getPrimaryProfessions();
-echo "Primary Professions: "."<br/>";
-printArray($array)."<br/>";
-$array = $character->getSecondaryProfessions();
-echo "<br/>";
-echo "Secondary Professions: "."<br/>";
-printArray($array)."<br/>";
-$array = $character->getStatistics();
-echo "<br/>";
-echo "Statistics: "."<br/>";
-printArray($array)."<br/>";
-**/
-
 ?>
