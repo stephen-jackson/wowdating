@@ -1,0 +1,14 @@
+GitHub Helpful Hints
+
+cd repository/folder
+git init
+
+git config --get repository.url
+// Go to http://github.com/stephen-jackson/wowdating and click HTTP and copy the url.
+// This is so you'll never have to find the web address again :)
+
+git pull
+
+git add -A
+git commit -m "message"
+git push
