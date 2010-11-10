@@ -5,6 +5,19 @@
  Description: This class acceses information about specific wow characters from the
 			  world of warcraft armory
 **/
+
+function parseString($s){
+	$string = "";
+	$stringArray = preg_split('//', $s, -1);
+	foreach($stringArray as $char){
+		if($char == " "){
+			$char = "+";
+		}
+		$string = "$string$char";
+	}
+	return $string;
+}
+
 class armoryscraper {
 	private $general_xml;
 	private $achiev_xml;
@@ -213,7 +226,11 @@ class armoryscraper {
 	  (String) Guild name.
 	*/
 	function getGuildName() {
-		return $this->general_xml->characterInfo->character["guildName"];
+		if ($this->general_xml->characterInfo->character["guildName"] != ""){
+			return $this->general_xml->characterInfo->character["guildName"];
+		}else{
+			return "none";
+		}
 	}
 	
 	/**
@@ -262,9 +279,14 @@ class armoryscraper {
 	  (String) Primary Spec Name.
 	*/
 	function getPrimarySpec() {
-		foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
-			if($data["group"] == 1){
-				return $data["prim"];}
+		if (($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec != null) && 
+		($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec["prim"] != "")){
+			foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
+				if($data["group"] == 1){
+					return $data["prim"];}
+			}
+		}else{
+			return "none";
 		}
 	}
 	
@@ -272,9 +294,14 @@ class armoryscraper {
 	  (String) Secondary Spec Name.
 	*/
 	function getSecondarySpec() {
-		foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
-			if($data["group"] == 2){
-				return $data["prim"];}
+		if (($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec != null) && 
+		($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec["prim"] != "")){
+			foreach ($this->general_xml->characterInfo->characterTab->talentSpecs->talentSpec as $spec=>$data){
+				if($data["group"] == 2){
+					return $data["prim"];}
+			}
+		}else{
+			return "none";
 		}
 	}
 
@@ -284,19 +311,23 @@ class armoryscraper {
 	function getPvpAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "Player vs. Player"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "Player vs. Player"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}
+				}
 			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -306,18 +337,22 @@ class armoryscraper {
 	function getDungeonAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["id"] == "168"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["id"] == "168"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -327,18 +362,22 @@ class armoryscraper {
 	function getProfessionAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "Professions"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "Professions"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -348,18 +387,22 @@ class armoryscraper {
 	function getQuestAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "Quests"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "Quests"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -369,18 +412,22 @@ class armoryscraper {
 	function getExplorationAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "Exploration"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "Exploration"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -390,18 +437,22 @@ class armoryscraper {
 	function getWorldAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "World Events"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "World Events"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -411,18 +462,22 @@ class armoryscraper {
 	function getReputationAchievementPoints() {
 		$i = 0;
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
-			if ($data["name"] == "Reputation"){
-				$valuno = $data->c["earnedPoints"];
-				$valdos = $data->c["totalPoints"];
-				$val_one = intval($valuno);
-				$val_two = intval($valdos);
-				if ($val_one == 0){
-					$average = 0;
-					return $average;}
-				else{
-				$average = ($val_one / $val_two) * 100;
-				return round($average);}}
+		if ($this->general_xml->characterInfo->summary->category != null){
+			foreach($this->general_xml->characterInfo->summary->category as $category => $data) {
+				if ($data["name"] == "Reputation"){
+					$valuno = $data->c["earnedPoints"];
+					$valdos = $data->c["totalPoints"];
+					$val_one = intval($valuno);
+					$val_two = intval($valdos);
+					if ($val_one == 0){
+						$average = 0;
+						return $average;}
+					else{
+					$average = ($val_one / $val_two) * 100;
+					return round($average);}}
+			}
+		}else{
+			return 0;
 		}
 	}
 	
@@ -433,15 +488,16 @@ class armoryscraper {
 		$i = 0;
 		$array = array();
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->statistics_xml->statistics->summary->statistic as $statistic => $data) {
-			$return[$i] = array(
-				"name" => $data["name"],
-				"quantity" => $data["quantity"]
-			);
-			$array[] = $return[$i];
+		if ($this->statistics_xml->statistics->summary->statistic != null){
+			foreach($this->statistics_xml->statistics->summary->statistic as $statistic => $data) {
+				$return[$i] = array(
+					"name" => $data["name"],
+					"quantity" => $data["quantity"]
+				);
+				$array[] = $return[$i];
+			}
+			return $array;
 		}
-		return $array;
-		
 	}
 	
 	/**
@@ -451,15 +507,16 @@ class armoryscraper {
 		$i = 0;
 		$array = array();
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->characterTab->professions->skill as $skill => $data) {
-			$return[$i] = array(
-				"name" => $data["name"],
-				"skill" => $data["value"]
-			);
-			$array[] = $return[$i];
+		if ($this->general_xml->characterInfo->characterTab->professions->skill != null){
+			foreach($this->general_xml->characterInfo->characterTab->professions->skill as $skill => $data) {
+				$return[$i] = array(
+					"name" => $data["name"],
+					"skill" => $data["value"]
+				);
+				$array[] = $return[$i];
+			}
+			return $array;
 		}
-		return $array;
-		
 	}
 	
 	/**
@@ -469,14 +526,16 @@ class armoryscraper {
 		$i = 0;
 		$array = array();
 		//iterating over the array using foreach, assigning the current value to skill on each iteration
-		foreach($this->general_xml->characterInfo->characterTab->secondaryProfessions->skill as $skill => $data) {
-			$return[$i] = array(
-				"name" => $data["name"],
-				"skill" => $data["value"]
-			);
-			$array[] = $return[$i];
+		if ($this->general_xml->characterInfo->characterTab->secondaryProfessions->skill != null){
+			foreach($this->general_xml->characterInfo->characterTab->secondaryProfessions->skill as $skill => $data) {
+				$return[$i] = array(
+					"name" => $data["name"],
+					"skill" => $data["value"]
+				);
+				$array[] = $return[$i];
+			}
+			return $array;
 		}
-		return $array;
 	}
 
 	/**
@@ -497,16 +556,70 @@ class armoryscraper {
 		//writes the conents of the current curl session to the file
 		fclose($file);
 	}
+	
+	function characterModelUrl(){
+	$src = "http://www.wowarmory.com/character-model-embed.xml?r=".parseString($this->getRealm())."&cn=".$this->getName()."&rhtml=true";
+	return $src;
+	}
 }
 	
 /**
   prints the contents of a 2d array
-*/
+
 function printArray($a){
 	foreach ($a as $v1 => $n1) {
 		foreach($n1 as $v2=>$n2){
 			echo "$v2 - $n2 <br/>";
 		}
 	}
+}
+*/
+/**
+  prints the contents of a 2d array
+*/
+function printArray($a){
+	if (empty($a)){
+		echo "none";
+	}
+	else{
+		$counter = 0;
+		foreach ($a as $v1 => $n1) {
+			foreach($n1 as $v2=>$n2){
+				if($counter  % 2 != 0){
+					echo  " = $n2 <br/>";
+				}
+				else{
+					echo "$n2";
+				}
+				$counter += 1;
+			}
+		}
+	}
+}
+
+/**
+  prints the characters general information
+*/
+function printGeneralInfo($character){
+	echo "Name: ".$character->getName()."<br/>";
+	echo "Realm: ".$character->getRealm()."<br/>";
+	echo "Battlegroup: ".$character->getBattleGroup()."<br/>";
+	echo "Faction: ".$character->getFaction()."<br/>";
+	echo "Guild: ".$character->getGuildName()."<br/>";
+	echo "Class: ".$character->getClass()."<br/>";
+	echo "Primary Spec: ".$character->getPrimarySpec()."<br/>";
+	echo "Secondary Spec: ".$character->getSecondarySpec()."<br/>";
+	echo "Level: ".$character->getLevel()."<br/>";
+	echo "Sex: ".$character->getGender()."<br/>";
+	echo "Race: ".$character->getRace()."<br/>";
+	echo "Honorable Kills: ".$character->getLifetimeHonorableKills()."<br/>";
+	echo "Pvp Achievments Completed: ".$character->getPvpAchievementPoints()."%"."<br/>";
+	echo "Dungeon Achievments Completed: ".$character->getDungeonAchievementPoints()."%"."<br/>";
+	echo "Reputation Achievments Completed: ".$character->getReputationAchievementPoints()."%"."<br/>";
+	echo "World Achievments Completed: ".$character->getWorldAchievementPoints()."%"."<br/>";
+	echo "Exploration Achievments Completed: ".$character->getExplorationAchievementPoints()."%"."<br/>";
+	echo "Quest Achievments Completed: ".$character->getQuestAchievementPoints()."%"."<br/>";
+	echo "Profession Achievments Completed: ".$character->getProfessionAchievementPoints()."%"."<br/>";
+	echo "<br/>";
 }
 ?>
