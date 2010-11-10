@@ -42,7 +42,7 @@
 	if($userExists<1 and $charExists<1){
 		$query = "INSERT INTO users(userName, password) VALUES ('$name', '$pw')";
 		$result = mysqli_query($db, $query)
-			or die("<br>Error adding user.");	
+			or die("<br>Error adding user.<br />");	
 		echo "<p>User created.</p>";
 		
 		echo "<p align=\"left\">Character: $charName<br>Realm: $charRealm<br>Level: $lvl<br>Race: $race<br>Sex: $sex<br>Class: $class<br>Faction: $faction<br>HK: $HK</p>";
@@ -52,7 +52,7 @@
 			or die("Error inserting character into database.");
 		echo "<p>Character added to database.</p>";
    
-		$query = "INSERT INTO userCharacters(userName, charName, charRealm) VALUES ('$name', '$charName', '$charRealm')";
+		$query = "INSERT INTO userCharacters(userId, charName, charRealm) VALUES ('$name', '$charName', '$charRealm')";
 		$result = mysqli_query($db, $query)
 			or die("Error adding user and character to join table.");
 	}

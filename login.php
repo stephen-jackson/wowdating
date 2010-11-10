@@ -77,7 +77,7 @@ session_start();
 		while ($row = mysqli_fetch_assoc($query_result)) {
 			$toon = $row['userChar'];
 			$toonRealm = $row['userRealm'];
-			$toonRegion = 'US';
+			$toonRegion = US;
 		}
 		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=".$toonRegion;
 		echo "<h1>The following user is closest to you is</h1>";
