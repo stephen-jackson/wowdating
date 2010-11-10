@@ -52,7 +52,7 @@
 			or die("Error inserting character into database.");
 		echo "<p>Character added to database.</p>";
    
-		$query = "INSERT INTO userCharacters(userId, charName, charRealm) VALUES ('$name', '$charName', '$charRealm')";
+		$query = "INSERT INTO userCharacters(userId, userChar, userRealm) VALUES ('$name', '$charName', '$charRealm')";
 		$result = mysqli_query($db, $query)
 			or die("Error adding user and character to join table.");
 	}
