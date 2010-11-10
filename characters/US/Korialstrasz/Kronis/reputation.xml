@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/reputation.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-reputation.xml">
+  <tabInfo subTab="reputation" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Kronis&amp;gn=Pandemic"/>
+  <characterInfo>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Kronis" class="Paladin" classId="2" classUrl="c=Paladin" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Pandemic" guildUrl="r=Korialstrasz&amp;gn=Pandemic" lastModified="November 10, 2010" level="80" name="Kronis" points="4820" prefix="" race="Dwarf" raceId="3" realm="Korialstrasz" suffix=" the Kingslayer" titleId="140">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <reputationTab>
+      <faction header="1" iconKey="zzother" id="999999" key="zzother" name="Other">
+        <faction id="70" key="syndicate" name="Syndicate" reputation="-14750"/>
+      </faction>
+      <faction header="1" iconKey="wrathofthelichking" id="1097" key="wrathofthelichking" name="Wrath of the Lich King">
+        <faction id="1073" key="thekalu'ak" name="The Kalu'ak" reputation="14140"/>
+        <faction header="1" iconKey="wrathofthelichking" id="1117" key="sholazarbasin" name="Sholazar Basin">
+          <faction id="1105" key="theoracles" name="The Oracles" reputation="22100"/>
+          <faction id="1104" key="frenzyhearttribe" name="Frenzyheart Tribe" reputation="-31498"/>
+        </faction>
+        <faction id="1098" key="knightsoftheebonblade" name="Knights of the Ebon Blade" reputation="42999"/>
+        <faction id="1119" key="thesonsofhodir" name="The Sons of Hodir" reputation="42000"/>
+        <faction id="1090" key="kirintor" name="Kirin Tor" reputation="42999"/>
+        <faction header="1" iconKey="wrathofthelichking" id="1037" key="alliancevanguard" name="Alliance Vanguard" reputation="42999">
+          <faction id="1050" key="valianceexpedition" name="Valiance Expedition" reputation="42999"/>
+          <faction id="1094" key="thesilvercovenant" name="The Silver Covenant" reputation="42999"/>
+          <faction id="1068" key="explorers'league" name="Explorers' League" reputation="42999"/>
+          <faction id="1126" key="thefrostborn" name="The Frostborn" reputation="42999"/>
+        </faction>
+        <faction id="1106" key="argentcrusade" name="Argent Crusade" reputation="42999"/>
+        <faction id="1091" key="thewyrmrestaccord" name="The Wyrmrest Accord" reputation="42999"/>
+        <faction id="1156" key="theashenverdict" name="The Ashen Verdict" reputation="42999"/>
+      </faction>
+      <faction header="1" iconKey="theburningcrusade" id="980" key="theburningcrusade" name="The Burning Crusade">
+        <faction id="990" key="thescaleofthesands" name="The Scale of the Sands" reputation="5931"/>
+        <faction id="1015" key="netherwing" name="Netherwing" reputation="1250"/>
+        <faction id="978" key="kurenai" name="Kurenai" reputation="29404"/>
+        <faction id="1012" key="ashtonguedeathsworn" name="Ashtongue Deathsworn" reputation="675"/>
+        <faction id="933" key="theconsortium" name="The Consortium" reputation="18084"/>
+        <faction id="989" key="keepersoftime" name="Keepers of Time" reputation="25859"/>
+        <faction id="967" key="thevioleteye" name="The Violet Eye" reputation="42999"/>
+        <faction id="946" key="honorhold" name="Honor Hold" reputation="31515"/>
+        <faction header="1" iconKey="theburningcrusade" id="936" key="shattrathcity" name="Shattrath City">
+          <faction id="934" key="thescryers" name="The Scryers" reputation="-42000"/>
+          <faction id="935" key="thesha'tar" name="The Sha'tar" reputation="42999"/>
+          <faction id="1011" key="lowercity" name="Lower City" reputation="26165"/>
+          <faction id="932" key="thealdor" name="The Aldor" reputation="42999"/>
+          <faction id="1031" key="sha'tariskyguard" name="Sha'tari Skyguard" reputation="7025"/>
+          <faction id="1077" key="shatteredsunoffensive" name="Shattered Sun Offensive" reputation="42999"/>
+        </faction>
+        <faction id="1038" key="ogri'la" name="Ogri'la" reputation="0"/>
+        <faction id="942" key="cenarionexpedition" name="Cenarion Expedition" reputation="42999"/>
+        <faction id="970" key="sporeggar" name="Sporeggar" reputation="13367"/>
+      </faction>
+      <faction header="1" iconKey="classic" id="1118" key="classic" name="Classic">
+        <faction header="1" iconKey="classic" id="469" key="alliance" name="Alliance" reputation="4284">
+          <faction id="930" key="exodar" name="Exodar" reputation="42999"/>
+          <faction id="69" key="darnassus" name="Darnassus" reputation="42999"/>
+          <faction id="54" key="gnomeregan" name="Gnomeregan" reputation="42999"/>
+          <faction id="72" key="stormwind" name="Stormwind" reputation="42999"/>
+          <faction id="47" key="ironforge" name="Ironforge" reputation="42999"/>
+        </faction>
+        <faction id="609" key="cenarioncircle" name="Cenarion Circle" reputation="8390"/>
+        <faction id="909" key="darkmoonfaire" name="Darkmoon Faire" reputation="770"/>
+        <faction id="749" key="hydraxianwaterlords" name="Hydraxian Waterlords" reputation="2040"/>
+        <faction id="59" key="thoriumbrotherhood" name="Thorium Brotherhood" reputation="2275"/>
+        <faction id="576" key="timbermawhold" name="Timbermaw Hold" reputation="-1280"/>
+        <faction id="270" key="zandalartribe" name="Zandalar Tribe" reputation="0"/>
+        <faction header="1" iconKey="classic" id="891" key="allianceforces" name="Alliance Forces">
+          <faction id="509" key="theleagueofarathor" name="The League of Arathor" reputation="3200"/>
+          <faction id="890" key="silverwingsentinels" name="Silverwing Sentinels" reputation="1712"/>
+          <faction id="730" key="stormpikeguard" name="Stormpike Guard" reputation="14018"/>
+        </faction>
+        <faction id="809" key="shen'dralar" name="Shen'dralar" reputation="0"/>
+        <faction id="87" key="bloodsailbuccaneers" name="Bloodsail Buccaneers" reputation="-10375"/>
+        <faction id="529" key="argentdawn" name="Argent Dawn" reputation="16761"/>
+        <faction header="1" iconKey="classic" id="169" key="steamwheedlecartel" name="Steamwheedle Cartel">
+          <faction id="369" key="gadgetzan" name="Gadgetzan" reputation="8876"/>
+          <faction id="21" key="bootybay" name="Booty Bay" reputation="7477"/>
+          <faction id="577" key="everlook" name="Everlook" reputation="5876"/>
+          <faction id="470" key="ratchet" name="Ratchet" reputation="6026"/>
+        </faction>
+        <faction id="349" key="ravenholdt" name="Ravenholdt" reputation="691"/>
+      </faction>
+      <faction header="1" iconKey="guild" id="1169" key="guild" name="Guild">
+        <faction id="1168" key="guildreputation" name="Guild Reputation" reputation="0"/>
+      </faction>
+    </reputationTab>
+  </characterInfo>
+</page>

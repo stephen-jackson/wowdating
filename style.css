@@ -84,6 +84,14 @@ form label {
 		margin-right: 20px;
 		}
 		
+	#picture{
+		float: right;
+		width: 250px;
+		text-align: left;
+		padding-left: 10px;
+		margin-right: 400px;
+		}
+		
      #footer{
      	clear: both;
      	/*background: #cc9; old color*/

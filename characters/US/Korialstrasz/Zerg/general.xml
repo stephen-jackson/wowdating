@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Zerg&amp;gn=Pandemic"/>
+  <characterInfo>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Zerg" class="Rogue" classId="4" classUrl="c=Rogue" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Pandemic" guildUrl="r=Korialstrasz&amp;gn=Pandemic" lastModified="October 30, 2010" level="80" name="Zerg" points="3375" prefix="" race="Night Elf" raceId="4" realm="Korialstrasz" suffix=" the Kingslayer" titleId="140">
+      <arenaTeams>
+        <arenaTeam battleGroup="Whirlwind" created="1253404800000" faction="Alliance" factionId="0" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="Cleave FTW" ranking="0" rating="0" realm="Korialstrasz" realmUrl="b=Whirlwind&amp;r=Korialstrasz&amp;ts=3&amp;t=Cleave+FTW&amp;ff=realm&amp;fv=Korialstrasz&amp;select=Cleave+FTW" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="3" teamSize="3" teamUrl="r=Korialstrasz&amp;ts=3&amp;t=Cleave+FTW&amp;select=Cleave+FTW" url="r=Korialstrasz&amp;ts=3&amp;t=Cleave+FTW&amp;select=Cleave+FTW">
+          <emblem background="ff997f00" borderColor="ffe000ca" borderStyle="5" iconColor="ffedffed" iconStyle="58"/>
+          <members>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=True%C3%B1" class="Paladin" classId="2" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="RAID NAKED" guildId="87227" guildUrl="r=Korialstrasz&amp;gn=RAID+NAKED" name="Trueñ" race="Dwarf" raceId="3" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=Daan" class="Shaman" classId="7" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guildId="0" name="Daan" race="Draenei" raceId="11" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=Kayinna" class="Druid" classId="11" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guildId="0" name="Kayinna" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=Zerg" class="Rogue" classId="4" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Pandemic" guildId="10571201" guildUrl="r=Korialstrasz&amp;gn=Pandemic" name="Zerg" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+        <arenaTeam battleGroup="Whirlwind" created="1276387200000" faction="Alliance" factionId="0" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="Dîkes on Bikes" ranking="0" rating="0" realm="Korialstrasz" realmUrl="b=Whirlwind&amp;r=Korialstrasz&amp;ts=5&amp;t=D%C3%AEkes+on+Bikes&amp;ff=realm&amp;fv=Korialstrasz&amp;select=D%C3%AEkes+on+Bikes" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="5" teamSize="5" teamUrl="r=Korialstrasz&amp;ts=5&amp;t=D%C3%AEkes+on+Bikes&amp;select=D%C3%AEkes+on+Bikes" url="r=Korialstrasz&amp;ts=5&amp;t=D%C3%AEkes+on+Bikes&amp;select=D%C3%AEkes+on+Bikes">
+          <emblem background="ff28f500" borderColor="ffff00fb" borderStyle="5" iconColor="ff821000" iconStyle="50"/>
+          <members>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=True%C3%B1" class="Paladin" classId="2" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="RAID NAKED" guildId="87227" guildUrl="r=Korialstrasz&amp;gn=RAID+NAKED" name="Trueñ" race="Dwarf" raceId="3" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=Zerg" class="Rogue" classId="4" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Pandemic" guildId="10571201" guildUrl="r=Korialstrasz&amp;gn=Pandemic" name="Zerg" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Korialstrasz&amp;cn=Kayinna" class="Druid" classId="11" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guildId="0" name="Kayinna" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+      </arenaTeams>
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec group="2" icon="ability_backstab" prim="Combat" treeOne="5" treeThree="0" treeTwo="31"/>
+        <talentSpec active="1" group="1" icon="ability_backstab" prim="Combat" treeOne="5" treeThree="0" treeTwo="31"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="1365"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="165" key="leatherworking" max="450" name="Leatherworking" value="450"/>
+        <skill id="393" key="skinning" max="450" name="Skinning" value="450"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="450" name="Cooking" value="450"/>
+        <skill id="129" key="firstaid" max="450" name="First Aid" value="450"/>
+        <skill id="356" key="fishing" max="450" name="Fishing" value="450"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="30184"/>
+        <secondBar casting="-1" effective="100" notCasting="-1" type="e"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="119" base="109" block="-1" effective="129"/>
+        <agility armor="4490" attack="2235" base="202" critHitPercent="26.71" effective="2245"/>
+        <stamina base="105" effective="2276" health="22580" petBonus="-1"/>
+        <intellect base="43" critHitPercent="-1.00" effective="63" mana="-1" petBonus="-1"/>
+        <spirit base="67" effective="87" healthRegen="30" manaRegen="-1"/>
+        <armor base="12780" effective="12780" percent="45.62" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="858.0" max="1900" min="1546" percent="0" speed="2.01"/>
+        <offHandDamage dps="751.1" max="959" min="780" percent="0" speed="1.16"/>
+        <mainHandSpeed hastePercent="22.17" hasteRating="727" value="2.01"/>
+        <offHandSpeed hastePercent="22.17" hasteRating="727" value="1.16"/>
+        <power base="5680" effective="6105" increasedDps="436.0"/>
+        <hitRating increasedHitPercent="10.44" penetration="0" reducedArmorPercent="0.00" value="321"/>
+        <critChance percent="50.73" plusPercent="24.03" rating="1103"/>
+        <expertise additional="20" percent="5.00" rating="156" value="20"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="593.4" max="981" min="767" percent="0" speed="1.47"/>
+        <speed hastePercent="22.17" hasteRating="727" value="1.47"/>
+        <power base="2315" effective="2670" increasedDps="190.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="10.44" penetration="0" reducedArmorPercent="0.00" value="321"/>
+        <critChance percent="50.73" plusPercent="24.03" rating="1103"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="53"/>
+          <fire value="53"/>
+          <frost value="53"/>
+          <holy value="53"/>
+          <nature value="53"/>
+          <shadow value="53"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="53"/>
+        <hitRating increasedHitPercent="12.24" penetration="0" reducedResist="0" value="321"/>
+        <critChance rating="1103">
+          <arcane percent="24.03"/>
+          <fire percent="24.03"/>
+          <frost percent="24.03"/>
+          <holy percent="24.03"/>
+          <nature percent="24.03"/>
+          <shadow percent="24.03"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="0.00" notCasting="0.00"/>
+        <hasteRating hastePercent="22.17" hasteRating="727"/>
+      </spell>
+      <defenses>
+        <armor base="12780" effective="12780" percent="45.62" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="400.00"/>
+        <dodge increasePercent="0.00" percent="50.25" rating="0"/>
+        <parry increasePercent="0.00" percent="5.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="63690" durability="70" gem0Id="41398" gem1Id="40112" gem2Id="0" gemIcon0="inv_jewelcrafting_shadowspirit_02" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_helmet_149" id="50089" level="251" maxDurability="100" name="Shadowblade Helmet" permanentEnchantIcon="ability_warrior_rampage" permanentEnchantItemId="44149" permanentenchant="3817" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="0"/>
+        <item displayInfoId="64272" durability="0" gem0Id="40125" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_42" icon="inv_misc_pelt_wolf_ruin_01" id="50452" level="264" maxDurability="0" name="Wodin's Lucky Necklace" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="1834370304" slot="1"/>
+        <item displayInfoId="64398" durability="67" gem0Id="40112" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_shoulder_112" id="51185" level="264" maxDurability="100" name="Sanctified Shadowblade Pauldrons" permanentEnchantIcon="inv_axe_85" permanentEnchantItemId="44871" permanentenchant="3808" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="64426" durability="116" gem0Id="40112" gem1Id="40112" gem2Id="40112" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" gemIcon2="inv_jewelcrafting_gem_37" icon="inv_chest_leather_22" id="50001" level="264" maxDurability="165" name="Ikfirus's Sack of Wonder" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44465" permanentenchant="3832" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1222749120" slot="4"/>
+        <item displayInfoId="64635" durability="37" gem0Id="40117" gem1Id="40112" gem2Id="40112" gemIcon0="inv_jewelcrafting_gem_38" gemIcon1="inv_jewelcrafting_gem_37" gemIcon2="inv_jewelcrafting_gem_37" icon="inv_misc_noose_01" id="50995" level="264" maxDurability="55" name="Vengeful Noose" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="5"/>
+        <item displayInfoId="64416" durability="84" gem0Id="40112" gem1Id="40112" gem2Id="49110" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" gemIcon2="inv_misc_gem_pearl_12" icon="inv_pants_leather_34" id="49899" level="264" maxDurability="120" name="Bladeborn Leggings" permanentEnchantIcon="inv_misc_armorkit_33" permanentEnchantItemId="38374" permanentenchant="3823" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1056188736" slot="6"/>
+        <item displayInfoId="64414" durability="59" gem0Id="40112" gem1Id="40112" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_boots_leather_07" id="49895" level="264" maxDurability="75" name="Footpads of Impending Death" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="38986" permanentenchant="3826" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1704018176" slot="7"/>
+        <item displayInfoId="61653" durability="39" gem0Id="40112" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_bracer_23b" id="47581" level="245" maxDurability="55" name="Bracers of Swift Death" permanentEnchantIcon="inv_bracer_08" permanentEnchantItemId="43097" permanentenchant="3756" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1074984192" slot="8"/>
+        <item displayInfoId="64424" durability="40" gem0Id="40112" gem1Id="40112" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_gauntlets_79" id="50982" level="264" maxDurability="55" name="Cat Burglar's Grips" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44458" permanentenchant="1603" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="44357" durability="0" gem0Id="40112" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_jewelry_ring_70" id="51387" level="251" maxDurability="0" name="Seal of the Twilight Queen" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="774295712" slot="10"/>
+        <item displayInfoId="63958" durability="0" gem0Id="40112" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_jewelry_ring_81" id="50402" level="277" maxDurability="0" name="Ashen Band of Endless Vengeance" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="566854720" slot="11"/>
+        <item displayInfoId="48008" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_rune_12" id="50355" level="264" maxDurability="0" name="Herkuml War Token" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="12"/>
+        <item displayInfoId="64254" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_qirajidol_onyx" id="50198" level="232" maxDurability="0" name="Needle-Encrusted Scorpion" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="1013553088" slot="13"/>
+        <item displayInfoId="64326" durability="0" gem0Id="40125" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_42" icon="inv_misc_cape_14" id="50470" level="264" maxDurability="0" name="Recovered Scarlet Onslaught Cape" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44457" permanentenchant="1099" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="14"/>
+        <item displayInfoId="64472" durability="101" gem0Id="40112" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_axe_113" id="51916" level="264" maxDurability="105" name="Frost Giant's Cleaver" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44493" permanentenchant="3789" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="2017323904" slot="15"/>
+        <item displayInfoId="64472" durability="93" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_axe_113" id="50411" level="264" maxDurability="105" name="Scourgeborne Waraxe" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44493" permanentenchant="3789" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="1288853824" slot="16"/>
+        <item displayInfoId="64454" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_throwingknife_07" id="50474" level="264" maxDurability="0" name="Shrapnel Star" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="0" slot="17"/>
+      </items>
+      <glyphs>
+        <glyph effect="You apply poisons to your weapons 50% faster." icon="trade_brewpoison" id="469" name="Glyph of Poisons" type="minor"/>
+        <glyph effect="Increases the distance your Safe Fall ability allows you to fall without taking damage." icon="inv_feather_01" id="467" name="Glyph of Safe Fall" type="minor"/>
+        <glyph effect="Enables you to walk on water while your Sprint ability is active." icon="ability_rogue_sprint" id="468" name="Glyph of Blurred Speed" type="minor"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="328" points="3375" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="25" earnedPoints="265" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="15" earnedPoints="150" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="29" earnedPoints="305" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="34" earnedPoints="350" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="135" earnedPoints="1375" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="48" earnedPoints="480" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="5" earnedPoints="70" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="37" earnedPoints="380" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="7"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>
