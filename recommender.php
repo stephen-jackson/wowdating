@@ -48,7 +48,7 @@ class recommender{
 		return $this->bestDistance;
 	}
 	
-	function getBestPersonUsername()
+	function getBestPersonUsername(){
 		return $this->bestPerson[0];
 	}
 }
