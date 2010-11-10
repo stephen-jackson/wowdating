@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Lainya&amp;gn=Dragons+Call"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Lainya" class="Priest" classId="5" classUrl="c=Priest" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Dragons Call" guildUrl="r=Bloodhoof&amp;gn=Dragons+Call" lastModified="October 20, 2010" level="80" name="Lainya" points="1160" prefix="" race="Human" raceId="1" realm="Bloodhoof" suffix=" the Patient" titleId="137">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec active="1" group="2" icon="spell_holy_powerwordshield" prim="Discipline" treeOne="31" treeThree="2" treeTwo="3"/>
+        <talentSpec group="1" icon="spell_holy_powerwordshield" prim="Discipline" treeOne="31" treeThree="2" treeTwo="3"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="1848"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="333" key="enchanting" max="375" name="Enchanting" value="289"/>
+        <skill id="197" key="tailoring" max="450" name="Tailoring" value="420"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="129" key="firstaid" max="225" name="First Aid" value="173"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="19480"/>
+        <secondBar casting="417" effective="21868" notCasting="640" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="33" base="43" block="-1" effective="43"/>
+        <agility armor="102" attack="-1" base="51" critHitPercent="4.16" effective="51"/>
+        <stamina base="67" effective="1270" health="12520" petBonus="-1"/>
+        <intellect base="210" critHitPercent="8.57" effective="1219" mana="18005" petBonus="-1"/>
+        <spirit base="186" effective="766" healthRegen="39" manaRegen="447"/>
+        <armor base="5122" effective="5122" percent="25.16" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="66.5" max="161" min="110" percent="0" speed="2.04"/>
+        <offHandDamage dps="2.7" max="6" min="5" percent="0" speed="1.95"/>
+        <mainHandSpeed hastePercent="2.84" hasteRating="93" value="2.04"/>
+        <offHandSpeed hastePercent="2.84" hasteRating="93" value="1.95"/>
+        <power base="66" effective="66" increasedDps="4.0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="13.50" plusPercent="9.35" rating="429"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="287.5" max="655" min="352" percent="0" speed="1.75"/>
+        <speed hastePercent="2.84" hasteRating="93" value="1.75"/>
+        <power base="0" effective="0" increasedDps="0.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="13.50" plusPercent="9.35" rating="429"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="1651"/>
+          <fire value="1651"/>
+          <frost value="1651"/>
+          <holy value="1651"/>
+          <nature value="1651"/>
+          <shadow value="1651"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="1651"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedResist="0" value="0"/>
+        <critChance rating="429">
+          <arcane percent="17.92"/>
+          <fire percent="17.92"/>
+          <frost percent="17.92"/>
+          <holy percent="17.92"/>
+          <nature percent="17.92"/>
+          <shadow percent="17.92"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="417.00" notCasting="640.00"/>
+        <hasteRating hastePercent="2.84" hasteRating="93"/>
+      </spell>
+      <defenses>
+        <armor base="5122" effective="5122" percent="25.16" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="397.00"/>
+        <dodge increasePercent="0.00" percent="4.16" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="52492" durability="72" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_helmet_107" id="37294" level="200" maxDurability="80" name="Crown of Unbridled Magic" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1992804864" slot="0"/>
+        <item displayInfoId="9852" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_04" id="37683" level="200" maxDurability="0" name="Necromancer's Amulet" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="1952440448" slot="1"/>
+        <item displayInfoId="61172" durability="89" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_110" id="47981" level="232" maxDurability="100" name="Velen's Shoulderpads of Conquest" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="61722" durability="149" gem0Id="0" gem1Id="40027" gem2Id="0" gemIcon1="inv_jewelcrafting_gem_29" icon="inv_chest_cloth_75" id="47936" level="232" maxDurability="165" name="Velen's Robe of Conquest" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="4"/>
+        <item displayInfoId="51809" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_10" id="37242" level="200" maxDurability="55" name="Sash of the Servant" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="-1076023680" slot="5"/>
+        <item displayInfoId="60529" durability="108" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_cloth_27" id="47185" level="200" maxDurability="120" name="Leggings of the Haggard Apprentice" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1780509184" slot="6"/>
+        <item displayInfoId="52073" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_09" id="36060" level="182" maxDurability="55" name="Coldwraith Boots" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-39" rarity="2" seed="-1546649519" slot="7"/>
+        <item displayInfoId="53822" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_07" id="37361" level="200" maxDurability="55" name="Cuffs of Winged Levitation" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="-2033726976" slot="8"/>
+        <item displayInfoId="61168" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_79" id="47982" level="232" maxDurability="55" name="Velen's Gloves of Conquest" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="39121" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_62" id="35597" level="159" maxDurability="0" name="Band of Glittering Permafrost" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="1302859392" slot="10"/>
+        <item displayInfoId="39122" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_56" id="38611" level="183" maxDurability="0" name="Ringlet of Repose" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="924386560" slot="11"/>
+        <item displayInfoId="18047" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_egg_02" id="49078" level="200" maxDurability="0" name="Ancient Pickled Egg" permanentenchant="0" pickUp="PickUpFoodGeneric" putDown="PutDownFoodGeneric" randomPropertiesId="0" rarity="4" seed="1424674944" slot="12"/>
+        <item displayInfoId="43431" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_pocketwatch_02" id="49076" level="200" maxDurability="0" name="Mithril Pocketwatch" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="332167032" slot="13"/>
+        <item displayInfoId="54522" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_05" id="43283" level="200" maxDurability="0" name="Subterranean Waterfall Shroud" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1745367424" slot="14"/>
+        <item displayInfoId="51602" durability="90" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_staff_71" id="37099" level="187" maxDurability="100" name="Sempiternal Staff" permanentenchant="0" pickUp="PutDownWoodSmall" putDown="PutDownWoodLarge" randomPropertiesId="0" rarity="3" seed="1859259776" slot="15"/>
+        <item displayInfoId="55720" durability="68" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_wand_07" id="37619" level="200" maxDurability="75" name="Wand of Ahn'kahet" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="-1810944768" slot="17"/>
+      </items>
+      <glyphs>
+        <glyph effect="Increases your chance to hit with your Smite by 18%." icon="spell_holy_greaterblessingofsalvation" id="712" name="Glyph of Divine Accuracy" type="major"/>
+        <glyph effect="Receive 5% of your maximum mana if your Shadowfiend dies from damage." icon="spell_shadow_shadowfiend" id="463" name="Glyph of Shadowfiend" type="minor"/>
+        <glyph effect="Your Levitate spell no longer requires a reagent." icon="spell_holy_layonhands" id="459" name="Glyph of Levitate" type="minor"/>
+        <glyph effect="Reduces the cooldown of your Fade spell by 9 sec." icon="spell_magic_lesserinvisibilty" id="253" name="Glyph of Fade" type="major"/>
+        <glyph effect="Reduces the mana cost of your Fade spell by 30%." icon="ability_mage_invisibility" id="458" name="Glyph of Fading" type="minor"/>
+        <glyph effect="Your Smite spell inflicts an additional 20% damage against targets afflicted by Holy Fire." icon="spell_holy_holysmite" id="270" name="Glyph of Smite" type="major"/>
+        <glyph effect="Increases the critical effect chance of your Flash Heal on targets at or below 25% health by 10%." icon="spell_holy_flashheal" id="255" name="Glyph of Flash Heal" type="prime"/>
+        <glyph effect="Increases the periodic damage of your Shadow Word: Pain by 10%." icon="spell_shadow_shadowwordpain" id="261" name="Glyph of Shadow Word: Pain" type="prime"/>
+        <glyph effect="Reduces the cooldown of Penance by 2 sec." icon="spell_holy_penance" id="710" name="Glyph of Penance" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="114" points="1160" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="18" earnedPoints="180" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="1" earnedPoints="10" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="0" earnedPoints="0" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="28" earnedPoints="290" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="56" earnedPoints="560" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="7" earnedPoints="70" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="2" earnedPoints="30" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="2" earnedPoints="20" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="2"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

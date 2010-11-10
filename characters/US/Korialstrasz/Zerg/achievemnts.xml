@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Zerg&amp;gn=Pandemic"/>
+  <characterInfo>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Zerg" class="Rogue" classId="4" classUrl="c=Rogue" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Pandemic" guildUrl="r=Korialstrasz&amp;gn=Pandemic" lastModified="October 30, 2010" level="80" name="Zerg" points="3375" prefix="" race="Night Elf" raceId="4" realm="Korialstrasz" suffix=" the Kingslayer" titleId="140"/>
+  </characterInfo>
+  <achievements>
+    <summary>
+      <c earned="328" points="3375" total="1056" totalPoints="11640"/>
+      <category>
+        <c earned="25" earnedPoints="265" total="52" totalPoints="535"/>
+      </category>
+      <category>
+        <c earned="15" earnedPoints="150" total="49" totalPoints="530"/>
+      </category>
+      <category>
+        <c earned="29" earnedPoints="305" total="70" totalPoints="830"/>
+      </category>
+      <category>
+        <c earned="34" earnedPoints="350" total="166" totalPoints="1930"/>
+      </category>
+      <category>
+        <c earned="135" earnedPoints="1375" total="458" totalPoints="4955"/>
+      </category>
+      <category>
+        <c earned="48" earnedPoints="480" total="75" totalPoints="760"/>
+      </category>
+      <category>
+        <c earned="5" earnedPoints="70" total="45" totalPoints="560"/>
+      </category>
+      <category>
+        <c earned="37" earnedPoints="380" total="141" totalPoints="1540"/>
+      </category>
+      <category>
+        <c earned="7"/>
+      </category>
+      <achievement categoryId="155" dateCompleted="2010-10-30T06:57:00-07:00" desc="Ruin Hallow's End for the Horde by completing Sergeant Hartman's quests which involve crashing the wickerman festival and cleaning up the stinkbombs from Southshore." icon="achievement_halloween_rottenegg_01" id="1040" points="10" title="Rotten Hallow"/>
+      <achievement categoryId="155" dateCompleted="2010-10-30T06:41:00-07:00" desc="Visit the Candy Buckets in Eastern Kingdoms." icon="inv_misc_food_27" id="966" points="10" title="Tricks and Treats of Eastern Kingdoms"/>
+      <achievement categoryId="155" dateCompleted="2010-10-25T06:12:00-07:00" desc="Obtain a Sinister Squashling pet and Hallowed Helm." icon="achievement_halloween_cat_01" id="292" points="10" title="Sinister Calling"/>
+      <achievement categoryId="155" dateCompleted="2010-10-23T15:09:00-07:00" desc="Show off your sparkling smile by using a Tooth Pick." icon="achievement_halloween_smiley_01" id="981" points="10" title="That Sparkling Smile"/>
+      <achievement categoryId="155" dateCompleted="2010-10-21T17:01:00-07:00" desc="Obtain a Flimsy Mask during Hallow's End." icon="inv_mask_06" id="979" points="10" title="The Mask Task"/>
+    </summary>
+    <rootCategories>
+      <category id="92" name="General"/>
+      <category id="96" name="Quests">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="97" name="Exploration">
+        <category name="Eastern Kingdoms"/>
+        <category name="Kalimdor"/>
+        <category name="Outland"/>
+        <category name="Northrend"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <category name="Arena"/>
+        <category name="Alterac Valley"/>
+        <category name="Arathi Basin"/>
+        <category name="Eye of the Storm"/>
+        <category name="Warsong Gulch"/>
+        <category name="Strand of the Ancients"/>
+        <category name="Wintergrasp"/>
+        <category name="Isle of Conquest"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Lich King Dungeon"/>
+        <category name="Lich King 10-Player Raid"/>
+        <category name="Lich King 25-Player Raid"/>
+        <category name="Secrets of Ulduar 10-Player Raid"/>
+        <category name="Secrets of Ulduar 25-Player Raid"/>
+        <category name="Call of the Crusade 10-Player Raid"/>
+        <category name="Call of the Crusade 25-Player Raid"/>
+        <category name="Fall of the Lich King 10-Player Raid"/>
+        <category name="Fall of the Lich King 25-Player Raid"/>
+      </category>
+      <category id="169" name="Professions">
+        <category name="Cooking"/>
+        <category name="Fishing"/>
+        <category name="First Aid"/>
+      </category>
+      <category id="201" name="Reputation">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="155" name="World Events">
+        <category name="Lunar Festival"/>
+        <category name="Love is in the Air"/>
+        <category name="Noblegarden"/>
+        <category name="Children's Week"/>
+        <category name="Midsummer"/>
+        <category name="Brewfest"/>
+        <category name="Hallow's End"/>
+        <category name="Pilgrim's Bounty"/>
+        <category name="Winter Veil"/>
+        <category name="Argent Tournament"/>
+      </category>
+      <category id="81" name="Feats of Strength"/>
+    </rootCategories>
+  </achievements>
+</page>

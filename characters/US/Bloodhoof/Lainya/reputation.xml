@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/reputation.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-reputation.xml">
+  <tabInfo subTab="reputation" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Lainya&amp;gn=Dragons+Call"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Lainya" class="Priest" classId="5" classUrl="c=Priest" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Dragons Call" guildUrl="r=Bloodhoof&amp;gn=Dragons+Call" lastModified="October 20, 2010" level="80" name="Lainya" points="1160" prefix="" race="Human" raceId="1" realm="Bloodhoof" suffix=" the Patient" titleId="137">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <reputationTab>
+      <faction header="1" iconKey="wrathofthelichking" id="1097" key="wrathofthelichking" name="Wrath of the Lich King">
+        <faction id="1090" key="kirintor" name="Kirin Tor" reputation="514"/>
+        <faction header="1" iconKey="wrathofthelichking" id="1037" key="alliancevanguard" name="Alliance Vanguard" reputation="42999">
+          <faction id="1050" key="valianceexpedition" name="Valiance Expedition" reputation="22326"/>
+          <faction id="1094" key="thesilvercovenant" name="The Silver Covenant" reputation="22326"/>
+          <faction id="1068" key="explorers'league" name="Explorers' League" reputation="22326"/>
+          <faction id="1126" key="thefrostborn" name="The Frostborn" reputation="22326"/>
+        </faction>
+      </faction>
+      <faction header="1" iconKey="theburningcrusade" id="980" key="theburningcrusade" name="The Burning Crusade">
+        <faction id="1012" key="ashtonguedeathsworn" name="Ashtongue Deathsworn" reputation="310"/>
+        <faction id="933" key="theconsortium" name="The Consortium" reputation="6241"/>
+        <faction id="989" key="keepersoftime" name="Keepers of Time" reputation="0"/>
+        <faction id="946" key="honorhold" name="Honor Hold" reputation="10319"/>
+        <faction header="1" iconKey="theburningcrusade" id="936" key="shattrathcity" name="Shattrath City">
+          <faction id="934" key="thescryers" name="The Scryers" reputation="0"/>
+          <faction id="935" key="thesha'tar" name="The Sha'tar" reputation="567"/>
+          <faction id="1011" key="lowercity" name="Lower City" reputation="10874"/>
+          <faction id="1077" key="shatteredsunoffensive" name="Shattered Sun Offensive" reputation="0"/>
+        </faction>
+        <faction id="942" key="cenarionexpedition" name="Cenarion Expedition" reputation="5636"/>
+      </faction>
+      <faction header="1" iconKey="classic" id="1118" key="classic" name="Classic">
+        <faction header="1" iconKey="classic" id="469" key="alliance" name="Alliance" reputation="3300">
+          <faction id="930" key="exodar" name="Exodar" reputation="3000"/>
+          <faction id="69" key="darnassus" name="Darnassus" reputation="3100"/>
+          <faction id="54" key="gnomeregan" name="Gnomeregan" reputation="3100"/>
+          <faction id="72" key="stormwind" name="Stormwind" reputation="8174"/>
+          <faction id="47" key="ironforge" name="Ironforge" reputation="3100"/>
+        </faction>
+        <faction id="749" key="hydraxianwaterlords" name="Hydraxian Waterlords" reputation="18"/>
+        <faction id="59" key="thoriumbrotherhood" name="Thorium Brotherhood" reputation="0"/>
+        <faction header="1" iconKey="classic" id="891" key="allianceforces" name="Alliance Forces">
+          <faction id="509" key="theleagueofarathor" name="The League of Arathor" reputation="176"/>
+          <faction id="890" key="silverwingsentinels" name="Silverwing Sentinels" reputation="352"/>
+          <faction id="730" key="stormpikeguard" name="Stormpike Guard" reputation="2512"/>
+        </faction>
+        <faction header="1" iconKey="classic" id="169" key="steamwheedlecartel" name="Steamwheedle Cartel">
+          <faction id="470" key="ratchet" name="Ratchet" reputation="500"/>
+        </faction>
+      </faction>
+      <faction header="1" iconKey="guild" id="1169" key="guild" name="Guild">
+        <faction id="1168" key="guildreputation" name="Guild Reputation" reputation="0"/>
+      </faction>
+    </reputationTab>
+  </characterInfo>
+</page>
