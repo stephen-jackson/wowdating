@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/reputation.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-reputation.xml">
+  <tabInfo subTab="reputation" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Veldron"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Veldron" class="Death Knight" classId="6" classUrl="c=Death+Knight" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="October 1, 2010" level="79" name="Veldron" points="670" prefix="" race="Draenei" raceId="11" realm="Bloodhoof" suffix="" titleId="0">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <reputationTab>
+      <faction header="1" iconKey="wrathofthelichking" id="1097" key="wrathofthelichking" name="Wrath of the Lich King">
+        <faction id="1073" key="thekalu'ak" name="The Kalu'ak" reputation="15640"/>
+        <faction id="1098" key="knightsoftheebonblade" name="Knights of the Ebon Blade" reputation="8413"/>
+        <faction id="1090" key="kirintor" name="Kirin Tor" reputation="7884"/>
+        <faction header="1" iconKey="wrathofthelichking" id="1037" key="alliancevanguard" name="Alliance Vanguard" reputation="11774">
+          <faction id="1050" key="valianceexpedition" name="Valiance Expedition" reputation="18115"/>
+          <faction id="1094" key="thesilvercovenant" name="The Silver Covenant" reputation="4528"/>
+          <faction id="1068" key="explorers'league" name="Explorers' League" reputation="4528"/>
+          <faction id="1126" key="thefrostborn" name="The Frostborn" reputation="4528"/>
+        </faction>
+        <faction id="1106" key="argentcrusade" name="Argent Crusade" reputation="4043"/>
+        <faction id="1091" key="thewyrmrestaccord" name="The Wyrmrest Accord" reputation="13091"/>
+      </faction>
+      <faction header="1" iconKey="theburningcrusade" id="980" key="theburningcrusade" name="The Burning Crusade">
+        <faction id="933" key="theconsortium" name="The Consortium" reputation="6247"/>
+        <faction id="946" key="honorhold" name="Honor Hold" reputation="12924"/>
+        <faction header="1" iconKey="theburningcrusade" id="936" key="shattrathcity" name="Shattrath City">
+          <faction id="934" key="thescryers" name="The Scryers" reputation="-5728"/>
+          <faction id="935" key="thesha'tar" name="The Sha'tar" reputation="3137"/>
+          <faction id="1011" key="lowercity" name="Lower City" reputation="9927"/>
+          <faction id="932" key="thealdor" name="The Aldor" reputation="5160"/>
+          <faction id="1077" key="shatteredsunoffensive" name="Shattered Sun Offensive" reputation="0"/>
+        </faction>
+        <faction id="942" key="cenarionexpedition" name="Cenarion Expedition" reputation="9073"/>
+      </faction>
+      <faction header="1" iconKey="classic" id="1118" key="classic" name="Classic">
+        <faction header="1" iconKey="classic" id="469" key="alliance" name="Alliance" reputation="4993">
+          <faction id="930" key="exodar" name="Exodar" reputation="6918"/>
+          <faction id="69" key="darnassus" name="Darnassus" reputation="6150"/>
+          <faction id="54" key="gnomeregan" name="Gnomeregan" reputation="4793"/>
+          <faction id="72" key="stormwind" name="Stormwind" reputation="9293"/>
+          <faction id="47" key="ironforge" name="Ironforge" reputation="4793"/>
+        </faction>
+        <faction id="609" key="cenarioncircle" name="Cenarion Circle" reputation="0"/>
+        <faction id="909" key="darkmoonfaire" name="Darkmoon Faire" reputation="0"/>
+        <faction id="270" key="zandalartribe" name="Zandalar Tribe" reputation="0"/>
+        <faction header="1" iconKey="classic" id="891" key="allianceforces" name="Alliance Forces">
+          <faction id="890" key="silverwingsentinels" name="Silverwing Sentinels" reputation="70"/>
+          <faction id="730" key="stormpikeguard" name="Stormpike Guard" reputation="48"/>
+        </faction>
+        <faction header="1" iconKey="classic" id="169" key="steamwheedlecartel" name="Steamwheedle Cartel">
+          <faction id="21" key="bootybay" name="Booty Bay" reputation="500"/>
+        </faction>
+      </faction>
+    </reputationTab>
+  </characterInfo>
+</page>
