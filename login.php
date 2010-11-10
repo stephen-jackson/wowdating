@@ -71,11 +71,19 @@ session_start();
 		}
 		
 		$bestUser = $recommend->getBestPersonUsername();
+		$query_toon = "select userChar, userRealm from usercharacters wher userId = '$bestUser'";
+		$query_result = mysqli_query($db, $query_toon);
 		
+		while ($row = mysqli_fetch_assoc($query_result)) {
+			$toon = $row['userChar'];
+			$toonRealm = $row['userRealm'];
+		}
+		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=US";
 		echo "<h1>The following user is closest to you is</h1>";
-		echo "<h1>$bestUser</h1>";
+		echo "<a href=<?php print $url; ?>><?php print $bestUser; ?></a>"
 	}
 	?>
+	
 	</div>
 </body>
 </html>
