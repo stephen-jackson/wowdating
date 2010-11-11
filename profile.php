@@ -8,7 +8,6 @@
 </head>
 <body>
 <div id="wrap">
-<?php include("header.php"); ?>
 <h2>Profile Page</h2>
 </div>
 <?php 

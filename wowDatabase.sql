@@ -58,9 +58,9 @@ CREATE TABLE IF NOT EXISTS `characters` (
 
 
 CREATE TABLE IF NOT EXISTS `userCharacters` (
-	`userName` varchar(50) Not Null,
-	`charName` varchar(20) Not Null,
-	`charRealm` varchar(20) Not Null
+	`userId` varchar(50) Not Null,
+	`userChar` varchar(20) Not Null,
+	`userRealm` varchar(20) Not Null
 )	ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
 
