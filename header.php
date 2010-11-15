@@ -10,7 +10,8 @@
 <td align = "right">
 <a href = "index.php"> Home </a> |
 <a href = "registerForm.php"> Register </a> |
-<a href = "loginForm.php"> Login </a>
+<a href = "loginForm.php"> Login </a> |
+<a href = "logout.php"> Logout </a>
 </tr>
 </table>
 <hr/>

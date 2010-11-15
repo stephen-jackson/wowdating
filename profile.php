@@ -8,6 +8,7 @@
 </head>
 <body>
 <div id="wrap">
+<?php include("header.php"); ?>
 <h2>Profile Page</h2>
 </div>
 <?php 
@@ -35,7 +36,7 @@
 </div>
 <div id = "picture">
 <h2 align = "center">Character Picture</h2>
-<br><iframe src=<?php print $src; ?> scrolling="no" height="588" width="321" frameborder="0"></iframe>
+<br><iframe src=<?php print $src; ?> scrolling="no" height="588" width="321" frameborder="0"></iframe><br />
 </div>
 <div id ="wrap" align = "left"> 
 <h2>Statistics</h2>
