@@ -16,7 +16,6 @@
 	$name = $_REQUEST['character'];
 	$realm = $_REQUEST['realm'];
 	$region = $_REQUEST['region'];
-	echo $name." ".$realm." ".$region;
 	$profile = new profile($region, $realm, $name);
 	$character = $profile->getCharacter();
 	$src = $profile->getSrc();
