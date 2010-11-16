@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Docspears&amp;gn=IMA+WHALE+OORAAROAAOOA"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Docspears" class="Priest" classId="5" classUrl="c=Priest" faction="Horde" factionId="1" gender="Female" genderId="1" guildName="IMA WHALE OORAAROAAOOA" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" lastModified="November 11, 2010" level="80" name="Docspears" points="5835" prefix="Ambassador " race="Undead" raceId="5" realm="Auchindoun" suffix="" titleId="98"/>
+  </characterInfo>
+  <achievements>
+    <summary>
+      <c earned="559" points="5835" total="1056" totalPoints="11640"/>
+      <category>
+        <c earned="32" earnedPoints="335" total="52" totalPoints="535"/>
+      </category>
+      <category>
+        <c earned="30" earnedPoints="300" total="49" totalPoints="530"/>
+      </category>
+      <category>
+        <c earned="40" earnedPoints="430" total="70" totalPoints="830"/>
+      </category>
+      <category>
+        <c earned="112" earnedPoints="1170" total="166" totalPoints="1930"/>
+      </category>
+      <category>
+        <c earned="207" earnedPoints="2180" total="458" totalPoints="4955"/>
+      </category>
+      <category>
+        <c earned="35" earnedPoints="350" total="75" totalPoints="760"/>
+      </category>
+      <category>
+        <c earned="19" earnedPoints="220" total="45" totalPoints="560"/>
+      </category>
+      <category>
+        <c earned="84" earnedPoints="850" total="141" totalPoints="1540"/>
+      </category>
+      <category>
+        <c earned="11"/>
+      </category>
+      <achievement categoryId="155" dateCompleted="2010-10-22T03:35:00-04:00" desc="Show off your sparkling smile by using a Tooth Pick." icon="achievement_halloween_smiley_01" id="981" points="10" title="That Sparkling Smile"/>
+      <achievement categoryId="169" dateCompleted="2010-10-18T06:00:00-04:00" desc="Fish something up in Orgrimmar and Stormwind." icon="inv_helmet_44" id="150" points="10" title="The Fishing Diplomat"/>
+      <achievement categoryId="169" dateCompleted="2010-10-18T01:01:00-04:00" desc="Become a Grand Master in first aid." icon="spell_holy_sealofsacrifice" id="135" points="10" title="Grand Master in First Aid"/>
+      <achievement categoryId="169" dateCompleted="2010-10-18T01:01:00-04:00" desc="Become a Master in first aid." icon="spell_holy_sealofsacrifice" id="134" points="10" title="Master in First Aid"/>
+      <achievement categoryId="169" dateCompleted="2010-10-18T00:56:00-04:00" desc="Become an Artisan in first aid." icon="spell_holy_sealofsacrifice" id="133" points="10" title="Artisan in First Aid"/>
+    </summary>
+    <rootCategories>
+      <category id="92" name="General"/>
+      <category id="96" name="Quests">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="97" name="Exploration">
+        <category name="Eastern Kingdoms"/>
+        <category name="Kalimdor"/>
+        <category name="Outland"/>
+        <category name="Northrend"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <category name="Arena"/>
+        <category name="Alterac Valley"/>
+        <category name="Arathi Basin"/>
+        <category name="Eye of the Storm"/>
+        <category name="Warsong Gulch"/>
+        <category name="Strand of the Ancients"/>
+        <category name="Wintergrasp"/>
+        <category name="Isle of Conquest"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Lich King Dungeon"/>
+        <category name="Lich King 10-Player Raid"/>
+        <category name="Lich King 25-Player Raid"/>
+        <category name="Secrets of Ulduar 10-Player Raid"/>
+        <category name="Secrets of Ulduar 25-Player Raid"/>
+        <category name="Call of the Crusade 10-Player Raid"/>
+        <category name="Call of the Crusade 25-Player Raid"/>
+        <category name="Fall of the Lich King 10-Player Raid"/>
+        <category name="Fall of the Lich King 25-Player Raid"/>
+      </category>
+      <category id="169" name="Professions">
+        <category name="Cooking"/>
+        <category name="Fishing"/>
+        <category name="First Aid"/>
+      </category>
+      <category id="201" name="Reputation">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="155" name="World Events">
+        <category name="Lunar Festival"/>
+        <category name="Love is in the Air"/>
+        <category name="Noblegarden"/>
+        <category name="Children's Week"/>
+        <category name="Midsummer"/>
+        <category name="Brewfest"/>
+        <category name="Hallow's End"/>
+        <category name="Pilgrim's Bounty"/>
+        <category name="Winter Veil"/>
+        <category name="Argent Tournament"/>
+      </category>
+      <category id="81" name="Feats of Strength"/>
+    </rootCategories>
+  </achievements>
+</page>

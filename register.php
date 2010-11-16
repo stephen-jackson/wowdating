@@ -20,7 +20,10 @@
 	$pw = $_POST['pw'];
 	$charName = $_POST['charName'];
 	$charRealm = $_POST['charRealm'];
-	$region = $_POST['region'];
+	/* Remove region option until supported.
+	$region = $_POST['region']; 
+	*/
+	$region = "US";
   
 	$character = new armoryscraper($region,$charRealm,$charName);
 
@@ -43,25 +46,37 @@
 		$query = "INSERT INTO users(userName, password) VALUES ('$name', '$pw')";
 		$result = mysqli_query($db, $query)
 			or die("<br>Error adding user.<br />");	
-		echo "<p>User created.</p>";
+		echo "<h4>User created.</h4>";
 		
-		echo "<p align=\"left\">Character: $charName<br>Realm: $charRealm<br>Level: $lvl<br>Race: $race<br>Sex: $sex<br>Class: $class<br>Faction: $faction<br>HK: $HK</p>";
+		/*
+		echo "
+		<table>
+		<tr><td>Character</td> <td>$charName</td></tr>
+		<tr><td>Realm</td> <td>$charRealm</td></tr>
+		<tr><td>Level</td> <td>$lvl</td></tr>
+		<tr><td>Race</td> <td>$race</td></tr>
+		<tr><td>Sex</td> <td>$sex</td></tr>
+		<tr><td>Class</td> <td>$class</td></tr>
+		<tr><td>Faction</td> <td>$faction</td></tr>
+		<tr><td>HK</td> <td>$HK</td></tr>
+		</table>";
+		*/
 	
-		$query = "INSERT INTO characters(charName,charRealm,lvl,race,sex,charClass,Faction,HK) VALUES ('$charName','$charRealm','$lvl','$race','$sex','$class','$faction','$HK')";
+		$query = "INSERT INTO characters(charName, charRealm, lvl, race, sex, charClass, Faction, HK) VALUES ('$charName','$charRealm','$lvl','$race','$sex','$class','$faction','$HK')";
 		$result = mysqli_query($db, $query)
 			or die("Error inserting character into database.");
-		echo "<p>Character added to database.</p>";
+		echo "<h4>Character added to database.</h4>";
    
-		$query = "INSERT INTO userCharacters(userId, userChar, userRealm) VALUES ('$name', '$charName', '$charRealm')";
+		$query = "INSERT INTO userCharacters(userName, charName, charRealm) VALUES ('$name', '$charName', '$charRealm')";
 		$result = mysqli_query($db, $query)
 			or die("Error adding user and character to join table.");
 	}
 	else{
 		if($userExists > 0){
-			echo "<p>User already exists.</p>";
+			echo "<p>Error: User already exists.</p>";
 		}
 		if($charExists > 0){
-			echo "<p>Character already exists.</p>";
+			echo "<p>Error: Character already exists.</p>";
 		}
 	}
   ?>

@@ -18,46 +18,62 @@ session_start();
 	$name = mysqli_real_escape_string($db, trim($_POST['username']));
 	$pw = mysqli_real_escape_string($db, trim($_POST['pw']));
 	
+	/* Log in user */
 	$query = "SELECT * FROM users WHERE userName='$name' AND password='$pw'";
     $result = mysqli_query($db, $query);
 
 	$num_rows = mysqli_num_rows($result);
-	
-	If ($num_rows<1) {
-		Echo "<h1>Invalid login</h1>";
-		Echo "<a href=loginForm.php>Try Again</a>";
+	if ($num_rows<1) {
+		echo "<h1>Invalid login</h1>";
+		echo "<a href=loginForm.php>Try Again</a>";
 	}
-	Else {
+	else {
 	
 		$_SESSION['currentUser'] = $name;
-		Echo "<h1>Welcome ".$_SESSION['currentUser']."</h1>";
+		echo "<h1>Welcome, ".$_SESSION['currentUser']."!</h1>";
 		
-		$values_query = "select * from userCharacters join characters where userId = '$name' and userChar = charName";
+		/* Grab user's character */
+		$values_query = "SELECT * FROM userCharacters NATURAL JOIN characters WHERE userName = '$name'";
 		$result = mysqli_query($db, $values_query)
-		or die ("You inserted an incorrect username.");
+			or die ("Query Error: Cannot find any character(s) associated with username $name.");
 		
+		echo "<h4>Character profiles:";
 		while ($row = mysqli_fetch_assoc($result)) {
-			$userName = $row['userId'];
+			$userName = $row['userName'];
+			$charName = $row['charName'];
+			$charRealm = $row['charRealm'];
 			$lvl = $row['lvl'];
 			$race = $row['race'];
 			$sex = $row['sex'];
 			$class = $row['charClass'];
 			$faction = $row['Faction'];
 			$hk = $row['HK'];
-			
+			$region = "US";
+			$linkUrl = "profile.php?character=$charName&realm=$charRealm&region=$region";
+			echo " <a href=$linkUrl>$charName - $charRealm</a>";
 		}
+		echo ".</h4>";
 		
 		$userArray = array();
-		array_push($userArray, $userName, $lvl, $race, $sex, $class, $faction, $hk);
+		array_push($userArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
 		
-		$recommend = new recommender($userArray);
-		$query = "select * from userCharacters join characters on userChar = charName";
+		/* Grab all other characters */
+		$recommend = new recommender($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
+		$query = "SELECT * FROM userCharacters NATURAL JOIN characters";
 		$result = mysqli_query($db, $query)
-		or die ("No rows");
+			or die ("Query Error: No characters in database.");
+		
+		/* test */
+		$num_rows = mysqli_num_rows($result);
+		if ($num_rows<1) {
+			echo "<h2>Error: No characters in database.</h2>";
+		}
 		
 		while ($row = mysqli_fetch_assoc($result)) {
-			if ($row['userId'] <> $name) {
-				$userName = $row['userId'];
+			if ($row['userName'] <> $name) {
+				$userName = $row['userName'];
+				$charName = $row['charName'];
+				$charRealm = $row['charRealm'];
 				$lvl = $row['lvl'];
 				$race = $row['race'];
 				$sex = $row['sex'];
@@ -65,23 +81,29 @@ session_start();
 				$faction = $row['Faction'];
 				$hk = $row['HK'];
 				$otherUserArray = array();
-				array_push($otherUserArray, $userName, $lvl, $race, $sex, $class, $faction, $hk);
+				array_push($otherUserArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
 				$recommend->recommend($otherUserArray);
 			}
 		}
 		
 		$bestUser = $recommend->getBestPersonUsername();
-		$query_toon = "select userChar, userRealm from usercharacters where userId = '$bestUser'";
-		$query_result = mysqli_query($db, $query_toon);
+		$query_toon = "SELECT charName, charRealm FROM usercharacters NATURAL JOIN characters WHERE userName = '$bestUser'";
+		$query_result = mysqli_query($db, $query_toon)
+			or die("Query Error: Cannot find a character for the closest user.");
+		
+		/* test */
+		$num_rows = mysqli_num_rows($query_result);
+		if ($num_rows<1) {
+			echo "<h2>Error: No closest user.</h2>";
+		}
 		
 		while ($row = mysqli_fetch_assoc($query_result)) {
-			$toon = $row['userChar'];
-			$toonRealm = $row['userRealm'];
+			$toon = $row['charName'];
+			$toonRealm = $row['charRealm'];
 			$toonRegion = "US";
 		}
 		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=".$toonRegion ;
-		echo "<h1>The following user is closest to you is</h1>";
-		echo "<h1><a href=$linkUrl>$bestUser</a></h1>";
+		echo "<h4>The closest user to you is: <a href=$linkUrl>$toon - $toonRealm</a>.</h4>";
 	}
 	?>
 	

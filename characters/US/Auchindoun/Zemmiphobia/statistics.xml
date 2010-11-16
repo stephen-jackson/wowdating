@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/statistics.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-statistics.xml">
+  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Zemmiphobia&amp;gn=Invictus"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Zemmiphobia" class="Death Knight" classId="6" classUrl="c=Death+Knight" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Invictus" guildUrl="r=Auchindoun&amp;gn=Invictus" lastModified="November 15, 2010" level="80" name="Zemmiphobia" points="6400" prefix="Chef " race="Draenei" raceId="11" realm="Auchindoun" suffix="" titleId="52"/>
+  </characterInfo>
+  <statistics>
+    <summary>
+      <statistic id="1745" name="Cooking Recipes known" quantity="234"/>
+      <statistic id="1748" name="First Aid Manuals learned" quantity="31"/>
+      <statistic id="339" name="Mounts owned" quantity="42"/>
+      <statistic id="338" name="Vanity pets owned" quantity="36"/>
+      <statistic id="1735" name="Inscriptions learned" quantity="724"/>
+    </summary>
+    <rootCategories>
+      <category id="130" name="Character">
+        <category name="Consumables"/>
+        <category name="Reputation"/>
+        <category name="Gear"/>
+      </category>
+      <category id="141" name="Combat"/>
+      <category id="128" name="Kills">
+        <category name="Creatures"/>
+        <category name="Honorable Kills"/>
+        <category name="Killing Blows"/>
+      </category>
+      <category id="122" name="Deaths">
+        <category name="Arenas"/>
+        <category name="Battlegrounds"/>
+        <category name="Dungeons"/>
+        <category name="World"/>
+        <category name="Resurrection"/>
+      </category>
+      <category id="133" name="Quests"/>
+      <category id="14807" name="Dungeons &amp; Raids">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+        <category name="Secrets of Ulduar"/>
+        <category name="Call of the Crusade"/>
+        <category name="Fall of the Lich King"/>
+      </category>
+      <category id="132" name="Skills">
+        <category name="Secondary Skills"/>
+        <category name="Professions"/>
+      </category>
+      <category id="134" name="Travel"/>
+      <category id="131" name="Social"/>
+      <category id="21" name="Player vs. Player">
+        <category name="Rated Arenas"/>
+        <category name="Battlegrounds"/>
+        <category name="World"/>
+      </category>
+    </rootCategories>
+  </statistics>
+</page>

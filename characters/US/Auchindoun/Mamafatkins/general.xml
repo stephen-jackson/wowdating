@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Mamafatkins&amp;gn=Invictus"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Mamafatkins" class="Druid" classId="11" classUrl="c=Druid" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Invictus" guildUrl="r=Auchindoun&amp;gn=Invictus" lastModified="November 13, 2010" level="80" name="Mamafatkins" points="7820" prefix="" race="Night Elf" raceId="4" realm="Auchindoun" suffix=" the Exalted" titleId="46">
+      <arenaTeams>
+        <arenaTeam battleGroup="Retaliation" created="1245024000000" faction="Alliance" factionId="0" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="On the Failboat" ranking="0" rating="0" realm="Auchindoun" realmUrl="b=Retaliation&amp;r=Auchindoun&amp;ts=2&amp;t=On+the+Failboat&amp;ff=realm&amp;fv=Auchindoun&amp;select=On+the+Failboat" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="2" teamSize="2" teamUrl="r=Auchindoun&amp;ts=2&amp;t=On+the+Failboat&amp;select=On+the+Failboat" url="r=Auchindoun&amp;ts=2&amp;t=On+the+Failboat&amp;select=On+the+Failboat">
+          <emblem background="ff2b0002" borderColor="ff0008a3" borderStyle="5" iconColor="ffe5e1e1" iconStyle="102"/>
+          <members>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Mamafatkins" class="Druid" classId="11" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Mamafatkins" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Nistarok" class="Warrior" classId="1" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Nistarok" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+      </arenaTeams>
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec group="2" icon="ability_racial_bearform" prim="Feral Combat" treeOne="0" treeThree="3" treeTwo="33"/>
+        <talentSpec active="1" group="1" icon="spell_nature_starfall" prim="Balance" treeOne="31" treeThree="5" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="13445"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="755" key="jewelcrafting" max="450" name="Jewelcrafting" value="450"/>
+        <skill id="186" key="mining" max="150" name="Mining" value="107"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="450" name="Cooking" value="450"/>
+        <skill id="129" key="firstaid" max="450" name="First Aid" value="450"/>
+        <skill id="356" key="fishing" max="450" name="Fishing" value="450"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="27967"/>
+        <secondBar casting="174" effective="31281" notCasting="402" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="150" base="85" block="-1" effective="85"/>
+        <agility armor="172" attack="-1" base="86" critHitPercent="8.51" effective="86"/>
+        <stamina base="101" effective="2073" health="20550" petBonus="-1"/>
+        <intellect base="151" critHitPercent="13.11" effective="1871" mana="27785" petBonus="-1"/>
+        <spirit base="159" effective="315" healthRegen="23" manaRegen="227"/>
+        <armor base="6996" effective="6996" percent="31.47" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="148.1" max="309" min="212" percent="0" speed="1.76"/>
+        <offHandDamage dps="6.7" max="12" min="11" percent="0" speed="1.68"/>
+        <mainHandSpeed hastePercent="19.34" hasteRating="634" value="1.76"/>
+        <offHandSpeed hastePercent="19.34" hasteRating="634" value="1.68"/>
+        <power base="150" effective="150" increasedDps="10.0"/>
+        <hitRating increasedHitPercent="9.33" penetration="0" reducedArmorPercent="0.00" value="287"/>
+        <critChance percent="24.54" plusPercent="16.03" rating="736"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="0.0" max="0" min="0" percent="0" speed="0.00"/>
+        <speed hastePercent="19.34" hasteRating="634" value="0.00"/>
+        <power base="0" effective="0" increasedDps="0.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="9.33" penetration="0" reducedArmorPercent="0.00" value="287"/>
+        <critChance percent="24.54" plusPercent="16.03" rating="736"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="3061"/>
+          <fire value="3061"/>
+          <frost value="3061"/>
+          <holy value="3061"/>
+          <nature value="3061"/>
+          <shadow value="3061"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="3061"/>
+        <hitRating increasedHitPercent="16.89" penetration="0" reducedResist="0" value="443"/>
+        <critChance rating="736">
+          <arcane percent="33.14"/>
+          <fire percent="33.14"/>
+          <frost percent="33.14"/>
+          <holy percent="33.14"/>
+          <nature percent="33.14"/>
+          <shadow percent="33.14"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="174.00" notCasting="402.00"/>
+        <hasteRating hastePercent="19.34" hasteRating="634"/>
+      </spell>
+      <defenses>
+        <armor base="6996" effective="6996" percent="31.47" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="400.00"/>
+        <dodge increasePercent="0.00" percent="7.02" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="64446" durability="100" gem0Id="41285" gem1Id="40113" gem2Id="0" gemIcon0="inv_jewelcrafting_icediamond_02" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_helmet_148" id="50821" level="251" maxDurability="100" name="Lasherweave Cover" permanentEnchantIcon="spell_fire_masterofelements" permanentEnchantItemId="44877" permanentenchant="3820" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="0"/>
+        <item displayInfoId="64219" durability="0" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="item_icecrownnecklaced" id="50005" level="264" maxDurability="0" name="Amulet of the Silent Eulogy" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="1532003648" slot="1"/>
+        <item displayInfoId="64496" durability="99" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_shoulder_111" id="51147" level="264" maxDurability="100" name="Sanctified Lasherweave Mantle" permanentEnchantIcon="spell_nature_lightningoverload" permanentEnchantItemId="44874" permanentenchant="3810" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="52962" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_green_01" id="41255" level="1" maxDurability="0" name="Green Workman's Shirt" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="1878524288" slot="3"/>
+        <item displayInfoId="64492" durability="55" gem0Id="40155" gem1Id="42144" gem2Id="40113" gemIcon0="inv_jewelcrafting_gem_39" gemIcon1="inv_jewelcrafting_dragonseye05" gemIcon2="inv_jewelcrafting_gem_37" icon="inv_belt_59" id="50994" level="264" maxDurability="55" name="Belt of Petrified Ivy" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="5"/>
+        <item displayInfoId="64458" durability="120" gem0Id="40113" gem1Id="40155" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_39" icon="inv_pants_leather_35" id="50820" level="251" maxDurability="120" name="Lasherweave Trousers" permanentEnchantIcon="spell_nature_astralrecalgroup" permanentEnchantItemId="41602" permanentenchant="3719" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="6"/>
+        <item displayInfoId="64469" durability="75" gem0Id="40133" gem1Id="40113" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_40" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_boots_leather_8" id="50783" level="251" maxDurability="75" name="Boots of the Frozen Seed" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="39006" permanentenchant="3232" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="841796800" slot="7"/>
+        <item displayInfoId="64455" durability="55" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_bracer_40" id="50985" level="251" maxDurability="55" name="Wrists of Septic Shock" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44470" permanentenchant="2332" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1229356096" slot="8"/>
+        <item displayInfoId="64494" durability="55" gem0Id="42144" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_dragonseye05" icon="inv_gauntlets_83" id="51148" level="264" maxDurability="55" name="Sanctified Lasherweave Gloves" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="64225" durability="0" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="item_icecrownringc" id="51381" level="251" maxDurability="0" name="Cerise Coiled Ring" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="816765664" slot="10"/>
+        <item displayInfoId="63960" durability="0" gem0Id="40152" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" icon="inv_jewelry_ring_83" id="50398" level="277" maxDurability="0" name="Ashen Band of Endless Destruction" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="1006263680" slot="11"/>
+        <item displayInfoId="64631" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_ammo_gunpowder_05" id="50358" level="264" maxDurability="0" name="Purified Lunar Dust" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="12"/>
+        <item displayInfoId="43609" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_spyglass_02" id="50345" level="264" maxDurability="0" name="Muradin's Spyglass" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="784611392" slot="13"/>
+        <item displayInfoId="64300" durability="0" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="item_icecrowncape" id="50014" level="264" maxDurability="0" name="Greatcloak of the Turned Champion" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="39003" permanentenchant="3831" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1329248000" slot="14"/>
+        <item displayInfoId="64342" durability="120" gem0Id="42144" gem1Id="40133" gem2Id="0" gemIcon0="inv_jewelcrafting_dragonseye05" gemIcon1="inv_jewelcrafting_gem_40" icon="inv_staff_109" id="49992" level="264" maxDurability="120" name="Nibelung" permanentEnchantIcon="inv_scroll_05" permanentEnchantItemId="45056" permanentenchant="3854" pickUp="PutDownWoodSmall" putDown="PutDownWoodLarge" randomPropertiesId="0" rarity="4" seed="1022652880" slot="15"/>
+        <item displayInfoId="64624" durability="0" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_offhand_1h_ulduarraid_d_01" id="50457" level="264" maxDurability="0" name="Idol of the Lunar Eclipse" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="0" rarity="4" seed="0" slot="17"/>
+        <item displayInfoId="60400" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="46874" level="1" maxDurability="0" name="Argent Crusader's Tabard" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="0" slot="18"/>
+      </items>
+      <glyphs>
+        <glyph effect="Increases the damage done by Starfall by 10%, but decreases its radius by 50%." icon="spell_arcane_arcanepotency" id="631" name="Glyph of Focus" type="major"/>
+        <glyph effect="Increases your swim speed by 50% while in Aquatic Form." icon="ability_druid_aquaticform" id="431" name="Glyph of Aquatic Form" type="minor"/>
+        <glyph effect="Your Rebirth spell no longer requires a reagent." icon="spell_nature_wispsplodegreen" id="434" name="Glyph of Unburdened Rebirth" type="minor"/>
+        <glyph effect="When Innervate is cast on a friendly target other than the caster, the caster will gain 50% of Innervate's effect." icon="spell_nature_lightning" id="169" name="Glyph of Innervate" type="major"/>
+        <glyph effect="Mana cost of your Mark of the Wild reduced by 50%." icon="spell_nature_giftofthewild" id="433" name="Glyph of Mark of the Wild" type="minor"/>
+        <glyph effect="Reduces the cooldown of Starfall by 30 sec." icon="ability_druid_starfall" id="178" name="Glyph of Starfall" type="major"/>
+        <glyph effect="Your Wrath does 10% additional damage to targets afflicted by your Insect Swarm." icon="spell_nature_abolishmagic" id="179" name="Glyph of Wrath" type="prime"/>
+        <glyph effect="Increases the damage of your Insect Swarm ability by 30%." icon="spell_nature_insectswarm" id="176" name="Glyph of Insect Swarm" type="prime"/>
+        <glyph effect="Your Starfire ability increases the duration of your Moonfire effect on the target by 3 sec, up to a maximum of 9 additional seconds." icon="spell_arcane_starfire" id="175" name="Glyph of Starfire" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="726" points="7820" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="42" earnedPoints="435" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="30" earnedPoints="300" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="68" earnedPoints="780" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="62" earnedPoints="640" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="287" earnedPoints="3065" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="63" earnedPoints="630" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="38" earnedPoints="490" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="136" earnedPoints="1480" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="25"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

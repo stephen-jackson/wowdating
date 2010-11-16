@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Zemmiphobia&amp;gn=Invictus"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Zemmiphobia" class="Death Knight" classId="6" classUrl="c=Death+Knight" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Invictus" guildUrl="r=Auchindoun&amp;gn=Invictus" lastModified="November 15, 2010" level="80" name="Zemmiphobia" points="6400" prefix="Chef " race="Draenei" raceId="11" realm="Auchindoun" suffix="" titleId="52">
+      <arenaTeams>
+        <arenaTeam battleGroup="Retaliation" created="1282694400000" faction="Alliance" factionId="0" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="jadam cleave" ranking="0" rating="0" realm="Auchindoun" realmUrl="b=Retaliation&amp;r=Auchindoun&amp;ts=5&amp;t=jadam+cleave&amp;ff=realm&amp;fv=Auchindoun&amp;select=jadam+cleave" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="5" teamSize="5" teamUrl="r=Auchindoun&amp;ts=5&amp;t=jadam+cleave&amp;select=jadam+cleave" url="r=Auchindoun&amp;ts=5&amp;t=jadam+cleave&amp;select=jadam+cleave">
+          <emblem background="ff6919ff" borderColor="ff9994e0" borderStyle="4" iconColor="ff94231c" iconStyle="36"/>
+          <members>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Hitted" class="Warrior" classId="1" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Hitted" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Dalenku" class="Warlock" classId="9" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Dalenku" race="Gnome" raceId="7" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Revamped" class="Rogue" classId="4" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Revamped" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Shamdu" class="Druid" classId="11" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Shamdu" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Acekings" class="Death Knight" classId="6" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guildId="0" name="Acekings" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Raep" class="Paladin" classId="2" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Raep" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Aceseven" class="Hunter" classId="3" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guildId="0" name="Aceseven" race="Night Elf" raceId="4" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Sohrin" class="Death Knight" classId="6" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Sohrin" race="Human" raceId="1" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Flidais" class="Shaman" classId="7" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Flidais" race="Draenei" raceId="11" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Zemmiphobia" class="Death Knight" classId="6" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Invictus" guildId="9049060" guildUrl="r=Auchindoun&amp;gn=Invictus" name="Zemmiphobia" race="Draenei" raceId="11" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+      </arenaTeams>
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec active="1" group="2" icon="spell_deathknight_frostpresence" prim="Frost" treeOne="3" treeThree="2" treeTwo="31"/>
+        <talentSpec group="1" icon="spell_deathknight_unholypresence" prim="Unholy" treeOne="5" treeThree="31" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="10377"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="182" key="herbalism" max="450" name="Herbalism" value="450"/>
+        <skill id="773" key="inscription" max="450" name="Inscription" value="450"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="450" name="Cooking" value="450"/>
+        <skill id="129" key="firstaid" max="450" name="First Aid" value="450"/>
+        <skill id="356" key="fishing" max="450" name="Fishing" value="450"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="31651"/>
+        <secondBar casting="-1" effective="100" notCasting="-1" perFive="-1" type="p"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="3824" base="192" block="-1" effective="1922"/>
+        <agility armor="592" attack="-1" base="109" critHitPercent="4.74" effective="296"/>
+        <stamina base="160" effective="2371" health="23530" petBonus="-1"/>
+        <intellect base="35" critHitPercent="-1.00" effective="55" mana="-1" petBonus="-1"/>
+        <spirit base="61" effective="81" healthRegen="46" manaRegen="-1"/>
+        <armor base="15179" effective="15179" percent="49.91" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="896.0" max="1607" min="1285" percent="0" speed="1.61"/>
+        <offHandDamage dps="560.1" max="1043" min="834" percent="0" speed="1.68"/>
+        <mainHandSpeed hastePercent="16.22" hasteRating="532" value="1.61"/>
+        <offHandSpeed hastePercent="16.22" hasteRating="532" value="1.68"/>
+        <power base="4569" effective="4908" increasedDps="350.0"/>
+        <hitRating increasedHitPercent="8.13" penetration="0" reducedArmorPercent="0.00" value="250"/>
+        <critChance percent="26.18" plusPercent="21.44" rating="984"/>
+        <expertise additional="25" percent="6.25" rating="199" value="25"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="0.0" max="0" min="0" percent="0" speed="0.00"/>
+        <speed hastePercent="16.22" hasteRating="532" value="0.00"/>
+        <power base="0" effective="339" increasedDps="24.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="8.13" penetration="0" reducedArmorPercent="0.00" value="250"/>
+        <critChance percent="26.18" plusPercent="21.44" rating="984"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="45"/>
+          <fire value="45"/>
+          <frost value="45"/>
+          <holy value="45"/>
+          <nature value="45"/>
+          <shadow value="45"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="45"/>
+        <hitRating increasedHitPercent="9.53" penetration="0" reducedResist="0" value="250"/>
+        <critChance rating="984">
+          <arcane percent="21.44"/>
+          <fire percent="21.44"/>
+          <frost percent="21.44"/>
+          <holy percent="21.44"/>
+          <nature percent="21.44"/>
+          <shadow percent="21.44"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="0.00" notCasting="0.00"/>
+        <hasteRating hastePercent="16.22" hasteRating="532"/>
+      </spell>
+      <defenses>
+        <armor base="15179" effective="15179" percent="49.91" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="400.00"/>
+        <dodge increasePercent="0.00" percent="7.70" rating="0"/>
+        <parry increasePercent="9.64" percent="13.74" rating="436"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="64594" durability="80" gem0Id="41398" gem1Id="40111" gem2Id="0" gemIcon0="inv_jewelcrafting_shadowspirit_02" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_helmet_151" id="50096" level="251" maxDurability="100" name="Scourgelord Helmet" permanentEnchantIcon="ability_warrior_rampage" permanentEnchantItemId="44149" permanentenchant="3817" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="0" slot="0"/>
+        <item displayInfoId="64190" durability="0" gem0Id="40142" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" icon="inv_jewelry_necklace_48" id="51548" level="251" maxDurability="0" name="Collar of Haughty Disdain" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="1855196032" slot="1"/>
+        <item displayInfoId="64705" durability="79" gem0Id="40142" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" icon="inv_shoulder_130" id="50098" level="251" maxDurability="100" name="Scourgelord Shoulderplates" permanentEnchantIcon="inv_inscription_tradeskill01" permanentEnchantSpellDesc="Permanently adds 120 attack power and 15 critical strike rating to shoulder armor.&#10;&#10;&#10;&#10;Can only be applied to your own armor, and doing so will cause it to become soulbound." permanentEnchantSpellName="Master's Inscription of the Axe" permanentenchant="3835" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="7902" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_yellow_01" id="4332" level="27" maxDurability="0" name="Bright Yellow Shirt" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="1423023744" slot="3"/>
+        <item displayInfoId="64523" durability="128" gem0Id="49110" gem1Id="40111" gem2Id="40111" gemIcon0="inv_misc_gem_pearl_12" gemIcon1="inv_jewelcrafting_gem_37" gemIcon2="inv_jewelcrafting_gem_37" icon="inv_chest_plate_25" id="50801" level="251" maxDurability="165" name="Blade-Scored Carapace" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44465" permanentenchant="3832" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="601562560" slot="4"/>
+        <item displayInfoId="64774" durability="44" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_62" id="51782" level="251" maxDurability="55" name="Etched Dragonbone Girdle" permanentenchant="0" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="778972672" slot="5"/>
+        <item displayInfoId="64595" durability="93" gem0Id="40111" gem1Id="40111" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_pants_plate_31" id="50097" level="251" maxDurability="120" name="Scourgelord Legplates" permanentEnchantIcon="inv_misc_armorkit_33" permanentEnchantItemId="38374" permanentenchant="3823" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="0" slot="6"/>
+        <item displayInfoId="64789" durability="61" gem0Id="40111" gem1Id="40111" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_boots_plate_12" id="49983" level="264" maxDurability="75" name="Blood-Soaked Saronite Stompers" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="39006" permanentenchant="3232" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="741731584" slot="7"/>
+        <item displayInfoId="61999" durability="45" gem0Id="40111" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_bracer_29a" id="47935" level="245" maxDurability="55" name="Armguards of the Nether Lord" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44815" permanentenchant="3845" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="892537312" slot="8"/>
+        <item displayInfoId="64593" durability="45" gem0Id="40111" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_gauntlets_87" id="50095" level="251" maxDurability="55" name="Scourgelord Gauntlets" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44458" permanentenchant="1603" pickUp="PickUpLargeChain" putDown="PutDownLArgeChain" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="63958" durability="0" gem0Id="40142" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" icon="inv_jewelry_ring_81" id="52572" level="277" maxDurability="0" name="Ashen Band of Endless Might" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="590699264" slot="10"/>
+        <item displayInfoId="35431" durability="0" gem0Id="40111" gem1Id="40111" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_jewelry_ring_53naxxramas" id="47920" level="245" maxDurability="0" name="Carnivorous Band" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="1974851584" slot="11"/>
+        <item displayInfoId="56181" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_inscription_tarotgreatness" id="42987" level="200" maxDurability="0" name="Darkmoon Card: Greatness" permanentenchant="0" pickUp="PickUpBook" putDown="PutDownBook" randomPropertiesId="0" rarity="4" seed="1358969600" slot="12"/>
+        <item displayInfoId="59322" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_gem_bloodstone_03" id="47734" level="245" maxDurability="0" name="Mark of Supremacy" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="13"/>
+        <item displayInfoId="33096" durability="0" gem0Id="40111" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_misc_cape_17" id="50467" level="264" maxDurability="0" name="Might of the Ocean Serpent" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44457" permanentenchant="1099" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="14"/>
+        <item displayInfoId="64472" durability="81" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_axe_113" id="50787" level="251" maxDurability="105" name="Frost Giant's Cleaver" permanentEnchantIcon="spell_holy_retributionaura" permanentEnchantSpellDesc="Affixes your rune weapon with a rune that has a chance to heal you for 3% and increase total Strength by 15% for 15 sec.  Modifying your rune weapon requires a Rune Forge in Ebon Hold." permanentEnchantSpellName="Rune of the Fallen Crusader" permanentenchant="3368" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="0" slot="15"/>
+        <item displayInfoId="64153" durability="83" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_sword_155" id="50046" level="251" maxDurability="105" name="Quel'Delar, Cunning of the Shadows" permanentEnchantIcon="spell_frost_frostarmor" permanentEnchantSpellDesc="Affixes your weapon with a rune that causes 2% extra weapon damage as Frost damage and increases enemies' vulnerability to your Frost attacks. Modifying your rune weapon requires a Rune Forge in Ebon Hold." permanentEnchantSpellName="Rune of Razorice" permanentenchant="3370" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="729637568" slot="16"/>
+        <item displayInfoId="51913" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shield_56" id="47673" level="245" maxDurability="0" name="Sigil of Virulence" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="0" rarity="4" seed="0" slot="17"/>
+        <item displayInfoId="20621" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="5976" level="1" maxDurability="0" name="Guild Tabard" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="0" slot="18"/>
+      </items>
+      <glyphs>
+        <glyph effect="Your Chains of Ice also causes 150 Frost damage, with additional damage depending on your attack power." icon="spell_frost_chainsofice" id="516" name="Glyph of Chains of Ice" type="major"/>
+        <glyph effect="When your Death Grip ability fails because its target is immune, its cooldown is reset." icon="spell_deathknight_strangulate" id="553" name="Glyph of Resilient Grip" type="minor"/>
+        <glyph effect="Increases the duration of your Horn of Winter ability by 1 min." icon="inv_misc_horn_02" id="522" name="Glyph of Horn of Winter" type="minor"/>
+        <glyph effect="Your Blood Tap no longer causes damage to you." icon="spell_deathknight_bloodtap" id="514" name="Glyph of Blood Tap" type="minor"/>
+        <glyph effect="Increases the duration of your Anti-Magic Shell by 2 sec." icon="spell_shadow_antimagicshell" id="512" name="Glyph of Anti-Magic Shell" type="major"/>
+        <glyph effect="Reduces the cost of your Frost Strike by 8 Runic Power." icon="spell_deathknight_empowerruneblade2" id="521" name="Glyph of Frost Strike" type="prime"/>
+        <glyph effect="Increases the damage of your Obliterate ability by 20%." icon="spell_deathknight_classicon" id="525" name="Glyph of Obliterate" type="prime"/>
+        <glyph effect="Your Howling Blast ability now infects your targets with Frost Fever." icon="spell_frost_arcticwinds" id="773" name="Glyph of Howling Blast" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="603" points="6400" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="34" earnedPoints="355" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="27" earnedPoints="270" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="68" earnedPoints="780" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="71" earnedPoints="750" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="202" earnedPoints="2125" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="54" earnedPoints="540" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="12" earnedPoints="150" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="135" earnedPoints="1430" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="11"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

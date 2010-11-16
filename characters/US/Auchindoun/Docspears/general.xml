@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Docspears&amp;gn=IMA+WHALE+OORAAROAAOOA"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Docspears" class="Priest" classId="5" classUrl="c=Priest" faction="Horde" factionId="1" gender="Female" genderId="1" guildName="IMA WHALE OORAAROAAOOA" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" lastModified="November 11, 2010" level="80" name="Docspears" points="5835" prefix="Ambassador " race="Undead" raceId="5" realm="Auchindoun" suffix="" titleId="98">
+      <arenaTeams>
+        <arenaTeam battleGroup="Retaliation" created="1285804800000" faction="Horde" factionId="1" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="All Glitched Up" ranking="0" rating="0" realm="Auchindoun" realmUrl="b=Retaliation&amp;r=Auchindoun&amp;ts=2&amp;t=All+Glitched+Up&amp;ff=realm&amp;fv=Auchindoun&amp;select=All+Glitched+Up" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="2" teamSize="2" teamUrl="r=Auchindoun&amp;ts=2&amp;t=All+Glitched+Up&amp;select=All+Glitched+Up" url="r=Auchindoun&amp;ts=2&amp;t=All+Glitched+Up&amp;select=All+Glitched+Up">
+          <emblem background="ff7875bf" borderColor="ffe582b8" borderStyle="5" iconColor="ff45c708" iconStyle="66"/>
+          <members>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Docspears" class="Priest" classId="5" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="IMA WHALE OORAAROAAOOA" guildId="14401103" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" name="Docspears" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Subz%C3%A9ro" class="Mage" classId="8" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="IMA WHALE OORAAROAAOOA" guildId="14401103" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" name="Subzéro" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Zexxis" class="Rogue" classId="4" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guildId="0" name="Zexxis" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+        <arenaTeam battleGroup="Retaliation" created="1285200000000" faction="Horde" factionId="1" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="BringSoulTrainBack" ranking="0" rating="0" realm="Auchindoun" realmUrl="b=Retaliation&amp;r=Auchindoun&amp;ts=3&amp;t=BringSoulTrainBack&amp;ff=realm&amp;fv=Auchindoun&amp;select=BringSoulTrainBack" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="3" teamSize="3" teamUrl="r=Auchindoun&amp;ts=3&amp;t=BringSoulTrainBack&amp;select=BringSoulTrainBack" url="r=Auchindoun&amp;ts=3&amp;t=BringSoulTrainBack&amp;select=BringSoulTrainBack">
+          <emblem background="ff004b99" borderColor="ff6324a2" borderStyle="3" iconColor="ffb9bab6" iconStyle="26"/>
+          <members>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Docspears" class="Priest" classId="5" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="IMA WHALE OORAAROAAOOA" guildId="14401103" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" name="Docspears" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Milki" class="Druid" classId="11" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="Unstable" guildId="322041" guildUrl="r=Auchindoun&amp;gn=Unstable" name="Milki" race="Tauren" raceId="6" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Zexxis" class="Rogue" classId="4" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guildId="0" name="Zexxis" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Subz%C3%A9ro" class="Mage" classId="8" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guild="IMA WHALE OORAAROAAOOA" guildId="14401103" guildUrl="r=Auchindoun&amp;gn=IMA+WHALE+OORAAROAAOOA" name="Subzéro" race="Undead" raceId="5" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+            <character battleGroup="" charUrl="r=Auchindoun&amp;cn=Warrology" class="Warrior" classId="1" contribution="0" gamesPlayed="0" gamesWon="0" gender="Male" genderId="0" guildId="0" name="Warrology" race="Orc" raceId="2" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+      </arenaTeams>
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec group="2" icon="spell_holy_powerwordshield" prim="Discipline" treeOne="31" treeThree="0" treeTwo="5"/>
+        <talentSpec active="1" group="1" icon="spell_shadow_shadowwordpain" prim="Shadow" treeOne="3" treeThree="33" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="80713"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="333" key="enchanting" max="450" name="Enchanting" value="450"/>
+        <skill id="202" key="engineering" max="450" name="Engineering" value="450"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="450" name="Cooking" value="450"/>
+        <skill id="129" key="firstaid" max="450" name="First Aid" value="437"/>
+        <skill id="356" key="fishing" max="375" name="Fishing" value="343"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="35230"/>
+        <secondBar casting="193" effective="31513" notCasting="398" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="42" base="42" block="-1" effective="52"/>
+        <agility armor="118" attack="-1" base="49" critHitPercent="4.31" effective="59"/>
+        <stamina base="67" effective="2845" health="28270" petBonus="-1"/>
+        <intellect base="180" critHitPercent="12.44" effective="1862" mana="27650" petBonus="-1"/>
+        <spirit base="186" effective="285" healthRegen="19" manaRegen="205"/>
+        <armor base="7024" effective="7024" percent="31.56" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="134.4" max="284" min="193" percent="0" speed="1.78"/>
+        <offHandDamage dps="3.7" max="7" min="6" percent="0" speed="1.78"/>
+        <mainHandSpeed hastePercent="12.60" hasteRating="413" value="1.78"/>
+        <offHandSpeed hastePercent="12.60" hasteRating="413" value="1.78"/>
+        <power base="84" effective="84" increasedDps="6.0"/>
+        <hitRating increasedHitPercent="1.46" penetration="0" reducedArmorPercent="0.00" value="45"/>
+        <critChance percent="20.86" plusPercent="16.56" rating="760"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="586.5" max="1287" min="692" percent="0" speed="1.69"/>
+        <speed hastePercent="12.60" hasteRating="413" value="1.69"/>
+        <power base="0" effective="0" increasedDps="0.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="1.46" penetration="0" reducedArmorPercent="0.00" value="45"/>
+        <critChance percent="20.86" plusPercent="16.56" rating="760"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="3044"/>
+          <fire value="3044"/>
+          <frost value="3044"/>
+          <holy value="3044"/>
+          <nature value="3044"/>
+          <shadow value="3044"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="3044"/>
+        <hitRating increasedHitPercent="5.49" penetration="117" reducedResist="117" value="144"/>
+        <critChance rating="760">
+          <arcane percent="29.00"/>
+          <fire percent="29.00"/>
+          <frost percent="29.00"/>
+          <holy percent="29.00"/>
+          <nature percent="29.00"/>
+          <shadow percent="29.00"/>
+        </critChance>
+        <penetration value="117"/>
+        <manaRegen casting="193.00" notCasting="398.00"/>
+        <hasteRating hastePercent="12.60" hasteRating="413"/>
+      </spell>
+      <defenses>
+        <armor base="7024" effective="7024" percent="31.56" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="400.00"/>
+        <dodge increasePercent="0.00" percent="4.32" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="65281" durability="53" gem0Id="41285" gem1Id="40155" gem2Id="0" gemIcon0="inv_jewelcrafting_icediamond_02" gemIcon1="inv_jewelcrafting_gem_39" icon="inv_helmet_165" id="51489" level="270" maxDurability="100" name="Wrathful Gladiator's Satin Hood" permanentEnchantIcon="spell_fire_masterofelements" permanentEnchantItemId="44877" permanentenchant="3820" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="0"/>
+        <item displayInfoId="39162" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_36" id="51331" level="264" maxDurability="0" name="Wrathful Gladiator's Pendant of Dominance" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="0" slot="1"/>
+        <item displayInfoId="60161" durability="43" gem0Id="40152" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" icon="inv_shoulder_89" id="41935" level="251" maxDurability="100" name="Relentless Gladiator's Satin Mantle" permanentEnchantIcon="spell_nature_lightningoverload" permanentEnchantItemId="44874" permanentenchant="3810" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="65447" durability="79" gem0Id="40155" gem1Id="40155" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" gemIcon1="inv_jewelcrafting_gem_39" icon="inv_chest_cloth_83" id="51487" level="270" maxDurability="165" name="Wrathful Gladiator's Satin Robe" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44465" permanentenchant="3832" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="4"/>
+        <item displayInfoId="64378" durability="26" gem0Id="40165" gem1Id="40124" gem2Id="40128" gemIcon0="inv_jewelcrafting_gem_41" gemIcon1="inv_jewelcrafting_gem_38" gemIcon2="inv_jewelcrafting_gem_38" icon="inv_belt_68" id="51930" level="264" maxDurability="55" name="Cord of the Patronizing Practitioner" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1818835328" slot="5"/>
+        <item displayInfoId="65451" durability="81" gem0Id="40132" gem1Id="40164" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_40" gemIcon1="inv_jewelcrafting_gem_40" icon="inv_pants_cloth_37" id="51490" level="270" maxDurability="120" name="Wrathful Gladiator's Satin Leggings" permanentEnchantIcon="spell_nature_astralrecalgroup" permanentEnchantSpellDesc="Permanently embroiders your pants with master's spellthread, increasing spell power by 50 and Stamina by 30.&#10;&#10;&#10;&#10;Only the tailor's pants can be embroidered, and doing so will cause them to become soulbound." permanentEnchantSpellName="Master's Spellthread" permanentenchant="3873" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="6"/>
+        <item displayInfoId="65291" durability="50" gem0Id="40123" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_boots_cloth_32" id="51338" level="264" maxDurability="75" name="Wrathful Gladiator's Treads of Alacrity" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="7"/>
+        <item displayInfoId="65296" durability="31" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_50" id="51329" level="264" maxDurability="55" name="Wrathful Gladiator's Cuffs of Dominance" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44470" permanentenchant="2332" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="8"/>
+        <item displayInfoId="65952" durability="43" gem0Id="40182" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_41" icon="inv_gauntlets_95" id="51483" level="270" maxDurability="55" name="Wrathful Gladiator's Mooncloth Gloves" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="39129" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_60" id="51336" level="264" maxDurability="0" name="Wrathful Gladiator's Band of Dominance" permanentEnchantIcon="trade_engraving" permanentEnchantSpellDesc="Permanently enchant a ring to increase Stamina by 30.  Only the Enchanter's rings can be enchanted, and enchanting a ring will cause it to become soulbound." permanentEnchantSpellName="Enchant Ring - Stamina" permanentenchant="3791" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="0" slot="10"/>
+        <item displayInfoId="64176" durability="0" gem0Id="40182" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_41" icon="inv_jewelry_ring_82" id="49977" level="264" maxDurability="0" name="Loop of the Endless Labyrinth" permanentEnchantIcon="trade_engraving" permanentEnchantSpellDesc="Permanently enchant a ring to increase spell power by 23.  Only the Enchanter's rings can be enchanted, and enchanting a ring will cause it to become soulbound." permanentEnchantSpellName="Enchant Ring - Greater Spellpower" permanentenchant="3840" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="1632467968" slot="11"/>
+        <item displayInfoId="64264" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_key_15" id="50356" level="264" maxDurability="0" name="Corroded Skeleton Key" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="12"/>
+        <item displayInfoId="37841" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_trinketpvp_02" id="51378" level="264" maxDurability="0" name="Medallion of the Horde" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="0" slot="13"/>
+        <item displayInfoId="61562" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_20" id="51330" level="264" maxDurability="0" name="Wrathful Gladiator's Cloak of Dominance" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="38973" permanentenchant="3243" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="14"/>
+        <item displayInfoId="65332" durability="94" gem0Id="40152" gem1Id="40182" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_39" gemIcon1="inv_jewelcrafting_gem_41" icon="inv_staff_112" id="51404" level="264" maxDurability="120" name="Wrathful Gladiator's Battle Staff" permanentEnchantIcon="inv_scroll_05" permanentEnchantItemId="45056" permanentenchant="3854" pickUp="PutDownWoodSmall" putDown="PutDownWoodLarge" randomPropertiesId="0" rarity="4" seed="0" slot="15"/>
+        <item displayInfoId="65371" durability="68" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_wand_36" id="51531" level="264" maxDurability="75" name="Wrathful Gladiator's Piercing Touch" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="17"/>
+        <item displayInfoId="54723" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_cloth_30" id="43349" level="1" maxDurability="0" name="Tabard of Brute Force" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1538027264" slot="18"/>
+      </items>
+      <glyphs>
+        <glyph effect="When you kill a target with your Shadow Word: Death and yield experience or honor, you instantly receive 12% of your total mana over 12 sec." icon="spell_shadow_requiem" id="711" name="Glyph of Spirit Tap" type="major"/>
+        <glyph effect="Reduces the mana cost of your Fade spell by 30%." icon="ability_mage_invisibility" id="458" name="Glyph of Fading" type="minor"/>
+        <glyph effect="Receive 5% of your maximum mana if your Shadowfiend dies from damage." icon="spell_shadow_shadowfiend" id="463" name="Glyph of Shadowfiend" type="minor"/>
+        <glyph effect="Increases the armor from your Inner Fire spell by 50%." icon="spell_holy_innerfire" id="257" name="Glyph of Inner Fire" type="major"/>
+        <glyph effect="Your Levitate spell no longer requires a reagent." icon="spell_holy_layonhands" id="459" name="Glyph of Levitate" type="minor"/>
+        <glyph effect="Reduces the cooldown on Dispersion by 45 sec." icon="spell_shadow_dispersion" id="708" name="Glyph of Dispersion" type="prime"/>
+        <glyph effect="Increases the damage done by your Mind Flay spell by 10% when your target is afflicted with Shadow Word: Pain." icon="spell_shadow_siphonmana" id="269" name="Glyph of Mind Flay" type="prime"/>
+        <glyph effect="Increases the periodic damage of your Shadow Word: Pain by 10%." icon="spell_shadow_shadowwordpain" id="261" name="Glyph of Shadow Word: Pain" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="559" points="5835" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="32" earnedPoints="335" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="30" earnedPoints="300" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="40" earnedPoints="430" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="112" earnedPoints="1170" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="207" earnedPoints="2180" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="35" earnedPoints="350" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="19" earnedPoints="220" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="84" earnedPoints="850" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="11"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

@@ -152,20 +152,27 @@ form label {
 	}
 	h2
 	{
-		color:#6699FF;
+		color:#6699FF;		
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 18px;
 	}
 	h3
 	{
 		color: #6699FF;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 16px;
 	}
 
 	h4
 	{
 		color: #6699FF;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+		font-size: 14px;
 	}	
 
 	h6
 	{
+		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 		color: #6699FF;
 	}
 	

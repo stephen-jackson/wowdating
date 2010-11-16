@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -15,9 +16,10 @@
 <font color = "505050"><table border = 1>
 <tr><td>Project Demo #1: Created and connected to database, created working login and register forms, scraped character information from the WoW Armory API, created working recommender class that uses Euclidean distance 
 <br>*Need to normalize recommender, create user profiles, allow for recommending a specific gender, make website pretty
-</td></tr></table><h4>
-Before we find your character's match, you should specify a few things below:</h4>
-<form action = "recommender.php" method = "GET">
+</td></tr></table>
+<?php /*
+<h4>Before we find your character's match, you should specify a few things below:</h4>
+<form action = "search.php" method = "GET">
 I want: <input type = "radio" name = "sex" value = "male" checked/> Male matches   
 <input type = "radio" name = "sex" value = "female"> Female matches<br>
 I want matches: <input type = "radio" name = "realm" value = "same"/> to be from my realm
@@ -25,7 +27,8 @@ I want matches: <input type = "radio" name = "realm" value = "same"/> to be from
 I want matches: <input type = "radio" name = "faction" value = "same"/> to be from my faction
 <input type = "radio" name = "faction" value = "any" checked/> to be from any faction<br>
 <input type = "submit" value = "Find My Match!"/>
-</form></font>
+</form> */ ?>
+</font>
 <?php include("footer.html"); ?>
 </div>
 </body>

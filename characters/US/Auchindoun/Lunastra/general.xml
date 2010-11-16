@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Lunastra&amp;gn=Holy+Light+of+Luna"/>
+  <characterInfo>
+    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Lunastra" class="Shaman" classId="7" classUrl="c=Shaman" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Holy Light of Luna" guildUrl="r=Auchindoun&amp;gn=Holy+Light+of+Luna" lastModified="September 21, 2010" level="76" name="Lunastra" points="610" prefix="" race="Draenei" raceId="11" realm="Auchindoun" suffix="" titleId="0">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec group="2" icon="ability_seal" prim="" treeOne="14" treeThree="0" treeTwo="0"/>
+        <talentSpec active="1" group="1" icon="ability_seal" prim="" treeOne="0" treeThree="0" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="29"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="182" key="herbalism" max="450" name="Herbalism" value="423"/>
+        <skill id="393" key="skinning" max="450" name="Skinning" value="450"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="150" name="Cooking" value="74"/>
+        <skill id="129" key="firstaid" max="75" name="First Aid" value="14"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="10609"/>
+        <secondBar casting="117" effective="13931" notCasting="190" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="208" base="114" block="5" effective="114"/>
+        <agility armor="134" attack="-1" base="67" critHitPercent="4.00" effective="67"/>
+        <stamina base="127" effective="557" health="5390" petBonus="-1"/>
+        <intellect base="132" critHitPercent="7.74" effective="686" mana="10010" petBonus="-1"/>
+        <spirit base="136" effective="136" healthRegen="14" manaRegen="73"/>
+        <armor base="12348" effective="12348" percent="48.03" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="102.4" max="342" min="211" percent="0" speed="2.70"/>
+        <offHandDamage dps="0.0" max="0" min="0" percent="0" speed="2.00"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="2.70"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="2.00"/>
+        <power base="313" effective="313" increasedDps="22.0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="15.54" plusPercent="6.66" rating="228"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="0.0" max="0" min="0" percent="0" speed="0.00"/>
+        <speed hastePercent="0.00" hasteRating="0" value="0.00"/>
+        <power base="57" effective="57" increasedDps="4.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="5.10" plusPercent="6.66" rating="228"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="925"/>
+          <fire value="925"/>
+          <frost value="925"/>
+          <holy value="925"/>
+          <nature value="925"/>
+          <shadow value="925"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="1027"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedResist="0" value="0"/>
+        <critChance rating="228">
+          <arcane percent="23.41"/>
+          <fire percent="23.41"/>
+          <frost percent="23.41"/>
+          <holy percent="23.41"/>
+          <nature percent="23.41"/>
+          <shadow percent="23.41"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="117.00" notCasting="190.00"/>
+        <hasteRating hastePercent="0.00" hasteRating="0"/>
+      </spell>
+      <defenses>
+        <armor base="12348" effective="12348" percent="48.03" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="378.00"/>
+        <dodge increasePercent="0.00" percent="3.53" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="4.92" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="52499" durability="46" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_helmet_110" id="36937" level="138" maxDurability="70" name="Tundrastrider Coif" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="2" seed="1553740544" slot="0"/>
+        <item displayInfoId="35437" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_necklace_30naxxramas" id="35631" level="171" maxDurability="0" name="Crystal Pendant of Warding" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="721608832" slot="1"/>
+        <item displayInfoId="30925" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_29" id="42951" level="1" maxDurability="0" name="Mystical Pauldrons of Elements" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="7" seed="0" slot="2"/>
+        <item displayInfoId="31416" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_chain_11" id="48683" level="1" maxDurability="0" name="Mystical Vest of Elements" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="38867" permanentenchant="1893" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="7" seed="0" slot="4"/>
+        <item displayInfoId="52224" durability="32" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_17" id="35662" level="163" maxDurability="45" name="Wing Cover Girdle" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="3" seed="706293376" slot="5"/>
+        <item displayInfoId="52335" durability="72" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_mail_25" id="35619" level="171" maxDurability="100" name="Infection Resistant Legguards" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="3" seed="-1601686400" slot="6"/>
+        <item displayInfoId="52363" durability="45" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_chain_10" id="35650" level="175" maxDurability="65" name="Boots of the Portal Guardian" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="3" seed="2139673216" slot="7"/>
+        <item displayInfoId="54511" durability="29" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_18" id="35615" level="167" maxDurability="45" name="Glowworm Cavern Bindings" permanentenchant="0" pickUp="PickUpSmallChain" putDown="PutDownSmallChain" randomPropertiesId="0" rarity="3" seed="1181978560" slot="8"/>
+        <item displayInfoId="54506" durability="29" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_13" id="35607" level="167" maxDurability="45" name="Ahn'kahar Handwraps" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1616173312" slot="9"/>
+        <item displayInfoId="39121" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_62" id="38220" level="155" maxDurability="0" name="Signet of Swift Judgment" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="451979616" slot="10"/>
+        <item displayInfoId="28682" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_25" id="25606" level="97" maxDurability="0" name="Burning Blade Cultist Band" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="1575338112" slot="11"/>
+        <item displayInfoId="24784" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_talisman_08" id="42992" level="1" maxDurability="0" name="Discerning Eye of the Beast" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="7" seed="0" slot="12"/>
+        <item displayInfoId="24784" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_talisman_08" id="42992" level="1" maxDurability="0" name="Discerning Eye of the Beast" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="7" seed="0" slot="13"/>
+        <item displayInfoId="54512" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_06" id="43278" level="167" maxDurability="0" name="Cloak of the Darkcaster" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1293765440" slot="14"/>
+        <item displayInfoId="34109" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_hammer_05" id="42948" level="1" maxDurability="0" name="Devout Aurastone Hammer" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="7" seed="0" slot="15"/>
+        <item displayInfoId="50607" durability="90" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shield_51" id="35636" level="171" maxDurability="100" name="Tharon'ja's Aegis" permanentenchant="0" pickUp="PickUpMetalLArge" putDown="PutDownLArgeMEtal" randomPropertiesId="0" rarity="3" seed="1041845312" slot="16"/>
+        <item displayInfoId="34956" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_relics_totemoflife" id="25645" level="103" maxDurability="0" name="Totem of the Plains" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="0" rarity="3" seed="277475264" slot="17"/>
+      </items>
+      <glyphs>
+        <glyph effect="Increases the passive mana regeneration of your Water Shield spell by 50%." icon="ability_shaman_watershield" id="211" name="Glyph of Water Shield" type="prime"/>
+        <glyph effect="Your Water Walking spell no longer requires a reagent." icon="spell_frost_windwalkon" id="476" name="Glyph of Water Walking" type="minor"/>
+        <glyph effect="Increases the amount healed by your Earth Shield by 20%." icon="spell_nature_skinofearth" id="751" name="Glyph of Earth Shield" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="61" points="610" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="15" earnedPoints="150" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="5" earnedPoints="50" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="6" earnedPoints="60" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="4" earnedPoints="40" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="17" earnedPoints="170" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="7" earnedPoints="70" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="0" earnedPoints="0" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="7" earnedPoints="70" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="3"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>
