@@ -70,7 +70,7 @@ session_start();
 		}
 		
 		while ($row = mysqli_fetch_assoc($result)) {
-			if ($row['userName'] <> $name) {
+			if (strtolower($row['userName']) <> strtolower($name)) {
 				$userName = $row['userName'];
 				$charName = $row['charName'];
 				$charRealm = $row['charRealm'];

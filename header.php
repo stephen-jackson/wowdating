@@ -9,12 +9,13 @@
 </b></i></td>
 <td align = "right">
 <?php if(isset($_SESSION['currentUser'])){ ?>
-<a href = "index.php"> Home </a> |
-<a href = "logout.php"> Logout </a>
+<a href = "index.php">Home</a> | 
+<a href = "profile_characters.php">Your Characters</a> | 
+<a href = "logout.php">Logout</a>
 <?php } else { ?>
-<a href = "index.php"> Home </a> |
-<a href = "registerForm.php"> Register </a> |
-<a href = "loginForm.php"> Login </a>
+<a href = "index.php">Home</a> | 
+<a href = "registerForm.php">Register</a> | 
+<a href = "loginForm.php">Login</a>
 <?php } ?>
 </tr>
 </table>

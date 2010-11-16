@@ -23,8 +23,6 @@
 <a href=<?php print "personal_".$url; ?>>Personal Information</a>
 |
 <a href=<?php print $url; ?>>Character Statistics</a>
-|
-<button type="button">Make Recommendation!</button>
 </div>
 <div id = "wrap" align = "left">
 <img src="defaultPic.jpg" alt = "Default Picture"/><br/>
