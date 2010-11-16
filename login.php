@@ -33,15 +33,15 @@ session_start();
 		echo "<h1>Welcome, ".$_SESSION['currentUser']."!</h1>";
 		
 		/* Grab user's character */
-		$values_query = "SELECT * FROM userCharacters NATURAL JOIN characters WHERE userName = '$name'";
+		$values_query = "SELECT * FROM userCharacters NATURAL JOIN characters WHERE userId = '$name'";
 		$result = mysqli_query($db, $values_query)
 			or die ("Query Error: Cannot find any character(s) associated with username $name.");
 		
 		echo "<h4>Character profiles:";
 		while ($row = mysqli_fetch_assoc($result)) {
-			$userName = $row['userName'];
-			$charName = $row['charName'];
-			$charRealm = $row['charRealm'];
+			$userName = $row['userId'];
+			$charName = $row['userChar'];
+			$charRealm = $row['userRealm'];
 			$lvl = $row['lvl'];
 			$race = $row['race'];
 			$sex = $row['sex'];
@@ -70,10 +70,10 @@ session_start();
 		}
 		
 		while ($row = mysqli_fetch_assoc($result)) {
-			if (strtolower($row['userName']) <> strtolower($name)) {
-				$userName = $row['userName'];
-				$charName = $row['charName'];
-				$charRealm = $row['charRealm'];
+			if (strtolower($row['userId']) <> strtolower($name)) {
+				$userName = $row['userId'];
+				$charName = $row['userChar'];
+				$charRealm = $row['userRealm'];
 				$lvl = $row['lvl'];
 				$race = $row['race'];
 				$sex = $row['sex'];
@@ -87,7 +87,7 @@ session_start();
 		}
 		
 		$bestUser = $recommend->getBestPersonUsername();
-		$query_toon = "SELECT charName, charRealm FROM usercharacters NATURAL JOIN characters WHERE userName = '$bestUser'";
+		$query_toon = "SELECT userChar, userRealm FROM usercharacters NATURAL JOIN characters WHERE userId = '$bestUser'";
 		$query_result = mysqli_query($db, $query_toon)
 			or die("Query Error: Cannot find a character for the closest user.");
 		
@@ -98,8 +98,8 @@ session_start();
 		}
 		
 		while ($row = mysqli_fetch_assoc($query_result)) {
-			$toon = $row['charName'];
-			$toonRealm = $row['charRealm'];
+			$toon = $row['userChar'];
+			$toonRealm = $row['userRealm'];
 			$toonRegion = "US";
 		}
 		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=".$toonRegion ;

@@ -13,15 +13,15 @@
 	include ("db_connect.php");
 	$name = $_SESSION['currentUser'];
 	echo "<h1>$name's Characters</h1>";
-	$values_query = "SELECT * FROM userCharacters NATURAL JOIN characters WHERE userName = '$name'";
+	$values_query = "SELECT * FROM userCharacters JOIN characters WHERE userId = '$name' AND userChar = charName";
 	$result = mysqli_query($db, $values_query)
 		or die ("Query Error: Cannot find any character(s) associated with username $name.");
 	
 	echo "<h4>";
 	while ($row = mysqli_fetch_assoc($result)) {
-		$userName = $row['userName'];
-		$charName = $row['charName'];
-		$charRealm = $row['charRealm'];
+		$userName = $row['userId'];
+		$charName = $row['userChar'];
+		$charRealm = $row['userRealm'];
 		$lvl = $row['lvl'];
 		$race = $row['race'];
 		$sex = $row['sex'];

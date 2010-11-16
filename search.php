@@ -33,14 +33,14 @@
 	echo " in $addressFaction faction on $addressRealm realm...</h2>";
 	
 	/* Grab user's character */
-	$query = "SELECT * FROM usercharacters NATURAL JOIN characters WHERE charName='$aCharName' AND charRealm='$aCharRealm'";
+	$query = "SELECT * FROM usercharacters NATURAL JOIN characters WHERE userChar='$aCharName' AND userRealm='$aCharRealm'";
 	$result = mysqli_query($db, $query)
 		or die ("Query Error: Cannot query character.");
 	
 	while ($row = mysqli_fetch_assoc($result)) {
-		$userName = $row['userName'];
-		$charName = $row['charName'];
-		$charRealm = $row['charRealm'];
+		$userName = $row['userId'];
+		$charName = $row['userChar'];
+		$charRealm = $row['userRealm'];
 		$lvl = $row['lvl'];
 		$race = $row['race'];
 		$sex = $row['sex'];
@@ -56,10 +56,10 @@
 	
 	/* Grab all other characters */
 	$recommend = new recommender($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
-	$query = "SELECT * FROM userCharacters NATURAL JOIN characters WHERE sex=$addressSex";
+	$query = "SELECT * FROM userCharacters JOIN characters WHERE charName = userChar AND sex=$addressSex";
 	$add = "";
 	if($addressRealm = "same") {
-		$add = $add." AND charRealm='$charRealm'";
+		$add = $add." AND userRealm='$charRealm'";
 	}
 	if($addressFaction = "same") {
 		$add = $add." AND faction=$faction";
@@ -71,14 +71,14 @@
 	/* test */
 	$num_rows = mysqli_num_rows($result);
 	if ($num_rows<1) {
-		echo "<h2>Error: No characters in database.</h2>";
+		echo "<h2>There are no current suggestions for you.</h2>";
 	}
 	
 	while ($row = mysqli_fetch_assoc($result)) {
-		if ($row['charName'] <> $aCharName) {
-			$userName = $row['userName'];
-			$charName = $row['charName'];
-			$charRealm = $row['charRealm'];
+		if ($row['userChar'] <> $aCharName) {
+			$userName = $row['userId'];
+			$charName = $row['userChar'];
+			$charRealm = $row['userRealm'];
 			$lvl = $row['lvl'];
 			$race = $row['race'];
 			$sex = $row['sex'];
@@ -92,7 +92,7 @@
 	}
 	
 	$bestUser = $recommend->getBestPersonUsername();
-	$query_toon = "SELECT charName, charRealm FROM usercharacters NATURAL JOIN characters WHERE userName = '$bestUser'";
+	$query_toon = "SELECT userChar, userRealm FROM usercharacters JOIN characters WHERE userId = '$bestUser' AND userChar = charName";
 	$query_result = mysqli_query($db, $query_toon)
 		or die("Query Error: Cannot find a character for the closest user.");
 	
@@ -103,8 +103,8 @@
 	}
 	
 	while ($row = mysqli_fetch_assoc($query_result)) {
-		$toon = $row['charName'];
-		$toonRealm = $row['charRealm'];
+		$toon = $row['userChar'];
+		$toonRealm = $row['userRealm'];
 		$toonRegion = "US";
 	}
 	$charLinkUrl = "profile.php?character=$aCharName&realm=$aCharRealm&region=$toonRegion";
