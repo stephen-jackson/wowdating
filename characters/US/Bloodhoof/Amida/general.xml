@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Amida&amp;gn=Seven"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Amida" class="Priest" classId="5" classUrl="c=Priest" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="Seven" guildUrl="r=Bloodhoof&amp;gn=Seven" lastModified="November 16, 2010" level="80" name="Amida" points="3730" prefix="Twilight Vanquisher " race="Draenei" raceId="11" realm="Bloodhoof" suffix="" titleId="89">
+      <arenaTeams>
+        <arenaTeam battleGroup="Ruin" created="1284681600000" faction="Alliance" factionId="0" gamesPlayed="0" gamesWon="0" lastSeasonRanking="0" name="Tool" ranking="0" rating="0" realm="Bloodhoof" realmUrl="b=Ruin&amp;r=Bloodhoof&amp;ts=2&amp;t=Tool&amp;ff=realm&amp;fv=Bloodhoof&amp;select=Tool" season="0" seasonGamesPlayed="0" seasonGamesWon="0" size="2" teamSize="2" teamUrl="r=Bloodhoof&amp;ts=2&amp;t=Tool&amp;select=Tool" url="r=Bloodhoof&amp;ts=2&amp;t=Tool&amp;select=Tool">
+          <emblem background="ff000000" borderColor="ff0056d6" borderStyle="5" iconColor="ff00ed5e" iconStyle="19"/>
+          <members>
+            <character battleGroup="" charUrl="r=Bloodhoof&amp;cn=Amida" class="Priest" classId="5" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Seven" guildId="18907890" guildUrl="r=Bloodhoof&amp;gn=Seven" name="Amida" race="Draenei" raceId="11" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="0"/>
+            <character battleGroup="" charUrl="r=Bloodhoof&amp;cn=Mandrith" class="Paladin" classId="2" contribution="0" gamesPlayed="0" gamesWon="0" gender="Female" genderId="1" guild="Awakening" guildId="20354885" guildUrl="r=Bloodhoof&amp;gn=Awakening" name="Mandrith" race="Draenei" raceId="11" seasonGamesPlayed="0" seasonGamesWon="0" teamRank="1"/>
+          </members>
+        </arenaTeam>
+      </arenaTeams>
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec group="2" icon="spell_shadow_shadowwordpain" prim="Shadow" treeOne="5" treeThree="31" treeTwo="0"/>
+        <talentSpec active="1" group="1" icon="spell_holy_powerwordshield" prim="Discipline" treeOne="31" treeThree="0" treeTwo="5"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="4068"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="333" key="enchanting" max="450" name="Enchanting" value="450"/>
+        <skill id="197" key="tailoring" max="450" name="Tailoring" value="449"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="450" name="Cooking" value="385"/>
+        <skill id="129" key="firstaid" max="300" name="First Aid" value="257"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="28980"/>
+        <secondBar casting="635" effective="37138" notCasting="1078" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="44" base="44" block="-1" effective="54"/>
+        <agility armor="116" attack="-1" base="48" critHitPercent="4.29" effective="58"/>
+        <stamina base="67" effective="2220" health="22020" petBonus="-1"/>
+        <intellect base="210" critHitPercent="14.70" effective="2237" mana="33275" petBonus="-1"/>
+        <spirit base="183" effective="1119" healthRegen="54" manaRegen="885"/>
+        <armor base="6492" effective="6492" percent="29.88" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="141.8" max="277" min="154" percent="0" speed="1.52"/>
+        <offHandDamage dps="0.0" max="0" min="0" percent="0" speed="1.69"/>
+        <mainHandSpeed hastePercent="18.57" hasteRating="609" value="1.52"/>
+        <offHandSpeed hastePercent="18.57" hasteRating="609" value="1.69"/>
+        <power base="88" effective="88" increasedDps="6.0"/>
+        <hitRating increasedHitPercent="0.85" penetration="0" reducedArmorPercent="0.00" value="26"/>
+        <critChance percent="13.48" plusPercent="9.19" rating="422"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="447.9" max="1080" min="581" percent="0" speed="1.86"/>
+        <speed hastePercent="18.57" hasteRating="609" value="1.86"/>
+        <power base="0" effective="0" increasedDps="0.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.85" penetration="0" reducedArmorPercent="0.00" value="26"/>
+        <critChance percent="13.48" plusPercent="9.19" rating="422"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="3398"/>
+          <fire value="3398"/>
+          <frost value="3398"/>
+          <holy value="3398"/>
+          <nature value="3398"/>
+          <shadow value="3398"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="3398"/>
+        <hitRating increasedHitPercent="0.99" penetration="0" reducedResist="0" value="26"/>
+        <critChance rating="422">
+          <arcane percent="23.89"/>
+          <fire percent="23.89"/>
+          <frost percent="23.89"/>
+          <holy percent="23.89"/>
+          <nature percent="23.89"/>
+          <shadow percent="23.89"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="635.00" notCasting="1078.00"/>
+        <hasteRating hastePercent="18.57" hasteRating="609"/>
+      </spell>
+      <defenses>
+        <armor base="6492" effective="6492" percent="29.88" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="400.00"/>
+        <dodge increasePercent="0.00" percent="4.30" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="64258" durability="43" gem0Id="41375" gem1Id="40025" gem2Id="0" gemIcon0="inv_jewelcrafting_icediamond_02" gemIcon1="inv_jewelcrafting_gem_29" icon="inv_helmet_156" id="50807" level="251" maxDurability="100" name="Thaumaturge's Crackling Cowl" permanentEnchantIcon="spell_fire_masterofelements" permanentEnchantItemId="44877" permanentenchant="3820" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="2070033024" slot="0"/>
+        <item displayInfoId="64194" durability="0" gem0Id="40123" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_jewelry_necklace_53" id="49975" level="264" maxDurability="0" name="Bone Sentinel's Amulet" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="0" slot="1"/>
+        <item displayInfoId="64183" durability="54" gem0Id="40123" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_shoulder_119" id="50396" level="251" maxDurability="100" name="Crimson Acolyte Mantle" permanentEnchantIcon="spell_arcane_teleportorgrimmar" permanentEnchantItemId="44872" permanentenchant="3809" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="2"/>
+        <item displayInfoId="53425" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_purple_01" id="42377" level="1" maxDurability="0" name="Purple Martial Shirt" permanentenchant="0" pickUp="" putDown="" randomPropertiesId="0" rarity="1" seed="0" slot="3"/>
+        <item displayInfoId="64167" durability="84" gem0Id="40123" gem1Id="40123" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_chest_cloth_80" id="50768" level="251" maxDurability="165" name="Crimson Acolyte Robe" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44465" permanentenchant="3832" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="4"/>
+        <item displayInfoId="64374" durability="29" gem0Id="40123" gem1Id="40123" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_belt_68" id="50773" level="251" maxDurability="55" name="Cord of the Patronizing Practitioner" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="822632640" slot="5"/>
+        <item displayInfoId="64255" durability="45" gem0Id="40120" gem1Id="40120" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_42" gemIcon1="inv_jewelcrafting_gem_42" icon="inv_pants_cloth_35" id="50769" level="251" maxDurability="120" name="Crimson Acolyte Leggings" permanentEnchantIcon="spell_nature_astralrecalgroup" permanentEnchantSpellDesc="Permanently embroiders your pants with sanctified spellthread, increasing spell power by 50 and Spirit by 20.&#10;&#10;&#10;&#10;Only the tailor's pants can be embroidered, and doing so will cause them to become soulbound." permanentEnchantSpellName="Sanctified Spellthread" permanentenchant="3872" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="6"/>
+        <item displayInfoId="64372" durability="43" gem0Id="40123" gem1Id="40123" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" gemIcon1="inv_jewelcrafting_gem_37" icon="inv_boots_cloth_27" id="51380" level="251" maxDurability="75" name="Pale Corpse Boots" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="38961" permanentenchant="1147" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="1369070016" slot="7"/>
+        <item displayInfoId="64609" durability="19" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_32a" id="50292" level="232" maxDurability="55" name="Bracer of Worn Molars" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44470" permanentenchant="2332" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="395042368" slot="8"/>
+        <item displayInfoId="64159" durability="30" gem0Id="40123" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_gauntlets_92" id="51179" level="264" maxDurability="55" name="Sanctified Crimson Acolyte Gloves" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="38979" permanentenchant="3246" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="9"/>
+        <item displayInfoId="64176" durability="0" gem0Id="40113" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_37" icon="inv_jewelry_ring_82" id="50986" level="251" maxDurability="0" name="Signet of Putrefaction" permanentEnchantIcon="trade_engraving" permanentEnchantSpellDesc="Permanently enchant a ring to increase spell power by 23.  Only the Enchanter's rings can be enchanted, and enchanting a ring will cause it to become soulbound." permanentEnchantSpellName="Enchant Ring - Greater Spellpower" permanentenchant="3840" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="4" seed="2093374976" slot="10"/>
+        <item displayInfoId="63949" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_85" id="50400" level="277" maxDurability="0" name="Ashen Band of Endless Wisdom" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="751440448" slot="11"/>
+        <item displayInfoId="59322" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_gem_bloodstone_03" id="48724" level="245" maxDurability="0" name="Talisman of Resurgence" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="0" slot="12"/>
+        <item displayInfoId="64252" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelcrafting_empyreansapphire_01" id="50260" level="232" maxDurability="0" name="Ephemeral Snowflake" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="722818496" slot="13"/>
+        <item displayInfoId="58977" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_16" id="50469" level="264" maxDurability="0" name="Volde's Cloak of the Night Sky" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="39003" permanentenchant="3831" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="4" seed="0" slot="14"/>
+        <item displayInfoId="64676" durability="54" gem0Id="40128" gem1Id="0" gem2Id="0" gemIcon0="inv_jewelcrafting_gem_38" icon="inv_weapon_shortblade_103" id="51910" level="264" maxDurability="75" name="Midnight Sun" permanentEnchantIcon="inv_scroll_03" permanentEnchantItemId="44467" permanentenchant="3834" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="0" slot="15"/>
+        <item displayInfoId="61377" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_offhand_pvealliance_d_01" id="47138" level="245" maxDurability="0" name="Chalice of Searing Light" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="4" seed="1987679872" slot="16"/>
+        <item displayInfoId="64358" durability="54" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_wand_35" id="51553" level="251" maxDurability="75" name="Lana'thel's Bloody Nail" permanentenchant="0" pickUp="PickUpWand" putDown="PutDownWand" randomPropertiesId="0" rarity="4" seed="1354346624" slot="17"/>
+        <item displayInfoId="20621" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_guildtabard_01" id="5976" level="1" maxDurability="0" name="Guild Tabard" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="0" slot="18"/>
+      </items>
+      <glyphs>
+        <glyph effect="Increases the armor from your Inner Fire spell by 50%." icon="spell_holy_innerfire" id="257" name="Glyph of Inner Fire" type="major"/>
+        <glyph effect="Reduces the mana cost of your Power Word: Fortitude spell by 50%." icon="spell_holy_wordfortitude" id="460" name="Glyph of Fortitude" type="minor"/>
+        <glyph effect="Your Levitate spell no longer requires a reagent." icon="spell_holy_layonhands" id="459" name="Glyph of Levitate" type="minor"/>
+        <glyph effect="Reduces the global cooldown of your Holy Nova by .5 sec." icon="spell_holy_holynova" id="256" name="Glyph of Holy Nova" type="major"/>
+        <glyph effect="Receive 5% of your maximum mana if your Shadowfiend dies from damage." icon="spell_shadow_shadowfiend" id="463" name="Glyph of Shadowfiend" type="minor"/>
+        <glyph effect="Increases your chance to hit with your Smite by 18%." icon="spell_holy_greaterblessingofsalvation" id="712" name="Glyph of Divine Accuracy" type="major"/>
+        <glyph effect="Increases the amount healed by your Renew by an additional 10%." icon="spell_holy_renew" id="266" name="Glyph of Renew" type="prime"/>
+        <glyph effect="Your Power Word: Shield also heals the target for 20% of the absorption amount." icon="spell_holy_powerwordshield" id="263" name="Glyph of Power Word: Shield" type="prime"/>
+        <glyph effect="Increases the healing received while under the Barrier by 10%." icon="spell_holy_powerwordbarrier" id="262" name="Glyph of Power Word: Barrier" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="352" points="3730" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="27" earnedPoints="285" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="12" earnedPoints="120" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="67" earnedPoints="770" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="48" earnedPoints="490" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="134" earnedPoints="1365" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="17" earnedPoints="170" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="12" earnedPoints="170" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="35" earnedPoints="360" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="5"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

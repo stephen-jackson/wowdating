@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Kayinna"/>
+  <characterInfo>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Kayinna" class="Druid" classId="11" classUrl="c=Druid" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="" lastModified="September 30, 2010" level="80" name="Kayinna" points="2935" prefix="" race="Night Elf" raceId="4" realm="Korialstrasz" suffix=" the Kingslayer" titleId="140"/>
+  </characterInfo>
+  <achievements>
+    <summary>
+      <c earned="282" points="2935" total="1056" totalPoints="11640"/>
+      <category>
+        <c earned="25" earnedPoints="265" total="52" totalPoints="535"/>
+      </category>
+      <category>
+        <c earned="9" earnedPoints="90" total="49" totalPoints="530"/>
+      </category>
+      <category>
+        <c earned="22" earnedPoints="235" total="70" totalPoints="830"/>
+      </category>
+      <category>
+        <c earned="43" earnedPoints="440" total="166" totalPoints="1930"/>
+      </category>
+      <category>
+        <c earned="158" earnedPoints="1635" total="458" totalPoints="4955"/>
+      </category>
+      <category>
+        <c earned="9" earnedPoints="90" total="75" totalPoints="760"/>
+      </category>
+      <category>
+        <c earned="6" earnedPoints="80" total="45" totalPoints="560"/>
+      </category>
+      <category>
+        <c earned="10" earnedPoints="100" total="141" totalPoints="1540"/>
+      </category>
+      <category>
+        <c earned="2"/>
+      </category>
+      <achievement categoryId="92" dateCompleted="2010-07-31T12:19:00-07:00" desc="Loot 5,000 gold." icon="inv_misc_coin_03" id="1178" points="10" title="Got My Mind On My Money"/>
+      <achievement categoryId="168" dateCompleted="2010-07-26T20:42:00-07:00" desc="Defeat the Lich King in Icecrown Citadel in 10-player mode." icon="achievement_dungeon_frozenthrone" id="4530" points="10" reward="Title: The Kingslayer" title="The Frozen Throne (10 player)"/>
+      <achievement categoryId="168" dateCompleted="2010-07-26T20:42:00-07:00" desc="Defeat every boss in Icecrown Citadel in 10-player mode." icon="achievement_dungeon_icecrown_frostmourne" id="4532" points="25" title="Fall of the Lich King (10 player)"/>
+      <achievement categoryId="168" dateCompleted="2010-07-22T19:51:00-07:00" desc="Defeat Halion in The Ruby Sanctum in 10-player mode." icon="spell_shadow_twilight" id="4817" points="10" title="The Twilight Destroyer (10 player)"/>
+      <achievement categoryId="168" dateCompleted="2010-07-13T20:28:00-07:00" desc="Defeat the bosses of The Frostwing Halls in Icecrown Citadel in 10-player mode." icon="achievement_dungeon_icecrown_frostwinghalls" id="4527" points="10" title="The Frostwing Halls (10 player)"/>
+    </summary>
+    <rootCategories>
+      <category id="92" name="General"/>
+      <category id="96" name="Quests">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="97" name="Exploration">
+        <category name="Eastern Kingdoms"/>
+        <category name="Kalimdor"/>
+        <category name="Outland"/>
+        <category name="Northrend"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <category name="Arena"/>
+        <category name="Alterac Valley"/>
+        <category name="Arathi Basin"/>
+        <category name="Eye of the Storm"/>
+        <category name="Warsong Gulch"/>
+        <category name="Strand of the Ancients"/>
+        <category name="Wintergrasp"/>
+        <category name="Isle of Conquest"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Lich King Dungeon"/>
+        <category name="Lich King 10-Player Raid"/>
+        <category name="Lich King 25-Player Raid"/>
+        <category name="Secrets of Ulduar 10-Player Raid"/>
+        <category name="Secrets of Ulduar 25-Player Raid"/>
+        <category name="Call of the Crusade 10-Player Raid"/>
+        <category name="Call of the Crusade 25-Player Raid"/>
+        <category name="Fall of the Lich King 10-Player Raid"/>
+        <category name="Fall of the Lich King 25-Player Raid"/>
+      </category>
+      <category id="169" name="Professions">
+        <category name="Cooking"/>
+        <category name="Fishing"/>
+        <category name="First Aid"/>
+      </category>
+      <category id="201" name="Reputation">
+        <category name="Classic"/>
+        <category name="The Burning Crusade"/>
+        <category name="Wrath of the Lich King"/>
+      </category>
+      <category id="155" name="World Events">
+        <category name="Lunar Festival"/>
+        <category name="Love is in the Air"/>
+        <category name="Noblegarden"/>
+        <category name="Children's Week"/>
+        <category name="Midsummer"/>
+        <category name="Brewfest"/>
+        <category name="Hallow's End"/>
+        <category name="Pilgrim's Bounty"/>
+        <category name="Winter Veil"/>
+        <category name="Argent Tournament"/>
+      </category>
+      <category id="81" name="Feats of Strength"/>
+    </rootCategories>
+  </achievements>
+</page>

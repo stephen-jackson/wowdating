@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Frostrage"/>
+  <characterInfo>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Frostrage" class="Mage" classId="8" classUrl="c=Mage" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="September 20, 2010" level="62" name="Frostrage" points="390" prefix="" race="Human" raceId="1" realm="Korialstrasz" suffix="" titleId="0">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec active="1" group="1" icon="ability_seal" prim="" treeOne="0" treeThree="0" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="770"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="171" key="alchemy" max="150" name="Alchemy" value="75"/>
+        <skill id="182" key="herbalism" max="150" name="Herbalism" value="79"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="cooking" max="75" name="Cooking" value="6"/>
+        <skill id="129" key="firstaid" max="150" name="First Aid" value="72"/>
+        <skill id="356" key="fishing" max="150" name="Fishing" value="80"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="3862"/>
+        <secondBar casting="0" effective="6524" notCasting="172" type="m"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="20" base="30" block="-1" effective="30"/>
+        <agility armor="72" attack="-1" base="36" critHitPercent="5.04" effective="36"/>
+        <stamina base="46" effective="234" health="2160" petBonus="-1"/>
+        <intellect base="130" critHitPercent="6.04" effective="359" mana="5105" petBonus="-1"/>
+        <spirit base="128" effective="288" healthRegen="16" manaRegen="172"/>
+        <armor base="750" effective="750" percent="9.91" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="0"/>
+        <fire petBonus="-1" value="0"/>
+        <frost petBonus="-1" value="0"/>
+        <holy petBonus="-1" value="0"/>
+        <nature petBonus="-1" value="0"/>
+        <shadow petBonus="-1" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="60.2" max="156" min="96" percent="0" speed="2.10"/>
+        <offHandDamage dps="0.0" max="0" min="0" percent="0" speed="2.00"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="2.10"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="2.00"/>
+        <power base="40" effective="40" increasedDps="2.0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="4.49" plusPercent="8.41" rating="127"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="79.1" max="175" min="94" percent="0" speed="1.70"/>
+        <speed hastePercent="0.00" hasteRating="0" value="1.70"/>
+        <power base="26" effective="26" increasedDps="1.0" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="1.65" plusPercent="8.41" rating="127"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="232"/>
+          <fire value="232"/>
+          <frost value="232"/>
+          <holy value="232"/>
+          <nature value="232"/>
+          <shadow value="232"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="232"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedResist="0" value="0"/>
+        <critChance rating="127">
+          <arcane percent="14.45"/>
+          <fire percent="14.45"/>
+          <frost percent="14.45"/>
+          <holy percent="14.45"/>
+          <nature percent="14.45"/>
+          <shadow percent="14.45"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="0.00" notCasting="172.00"/>
+        <hasteRating hastePercent="0.00" hasteRating="0"/>
+      </spell>
+      <defenses>
+        <armor base="750" effective="750" percent="9.91" petBonus="-1"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="295.00"/>
+        <dodge increasePercent="0.00" percent="4.44" rating="0"/>
+        <parry increasePercent="0.00" percent="0.00" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0" hitPercent="0" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="44718" durability="44" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_helmet_61" id="24617" level="93" maxDurability="70" name="Vindicator Cap" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-9" rarity="2" seed="2129330219" slot="0"/>
+        <item displayInfoId="6522" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_amulet_01" id="7722" level="44" maxDurability="0" name="Triune Amulet" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="1906101888" slot="1"/>
+        <item displayInfoId="43187" durability="36" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_01" id="24024" level="85" maxDurability="80" name="Pauldrons of Arcane Rage" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1381329216" slot="2"/>
+        <item displayInfoId="2163" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shirt_01" id="6096" level="1" maxDurability="0" name="Apprentice's Shirt" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="0" slot="3"/>
+        <item displayInfoId="43183" durability="78" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_cloth_31" id="24397" level="88" maxDurability="135" name="Raiments of Divine Authority" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="-1940702080" slot="4"/>
+        <item displayInfoId="43189" durability="30" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_10" id="24395" level="88" maxDurability="45" name="Mindfire Waistband" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="-1653652864" slot="5"/>
+        <item displayInfoId="43932" durability="30" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_cloth_12" id="29928" level="81" maxDurability="85" name="Wanderer's Stitched Trousers" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="2" seed="1971604480" slot="6"/>
+        <item displayInfoId="52117" durability="19" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_cloth_19" id="51967" level="55" maxDurability="65" name="Enumerated Sandals" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-85" rarity="3" seed="-2061238248" slot="7"/>
+        <item displayInfoId="43188" durability="29" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_35" id="24392" level="88" maxDurability="45" name="Arcing Bracers" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="1113538688" slot="8"/>
+        <item displayInfoId="40702" durability="23" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_05" id="24592" level="84" maxDurability="40" name="Fireheart Gloves" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-15" rarity="2" seed="1035468829" slot="9"/>
+        <item displayInfoId="26537" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_26" id="24045" level="85" maxDurability="0" name="Band of Renewal" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="-1919233152" slot="10"/>
+        <item displayInfoId="9834" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_ring_04" id="11990" level="55" maxDurability="0" name="Selenium Loop" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="215" rarity="2" seed="-1165750400" slot="11"/>
+        <item displayInfoId="6502" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_jewelry_talisman_05" id="21118" level="43" maxDurability="0" name="Talisman of Arathor" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="0" slot="12"/>
+        <item displayInfoId="38837" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_qiraj_jewelencased" id="24390" level="88" maxDurability="0" name="Auslese's Light Channeler" permanentenchant="0" pickUp="PickUpRing" putDown="PutDownRing" randomPropertiesId="0" rarity="3" seed="-2060582784" slot="13"/>
+        <item displayInfoId="50059" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_03" id="51993" level="60" maxDurability="0" name="Turbulent Cloak" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-36" rarity="3" seed="687013907" slot="14"/>
+        <item displayInfoId="39050" durability="80" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_staff_46" id="24069" level="85" maxDurability="100" name="Crystalfire Staff" permanentenchant="0" pickUp="PutDownWoodSmall" putDown="PutDownWoodLarge" randomPropertiesId="0" rarity="3" seed="672331680" slot="15"/>
+        <item displayInfoId="40144" durability="55" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_wand_06" id="25284" level="87" maxDurability="55" name="Purpleheart Wand" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="-9" rarity="2" seed="1035010060" slot="17"/>
+      </items>
+      <glyphs>
+        <glyph effect="Reduces the cooldown of your Mana Shield by 2 sec." icon="spell_shadow_detectlesserinvisibility" id="871" name="Glyph of Mana Shield" type="major"/>
+        <glyph effect="Your Polymorph: Sheep spell polymorphs the target into a penguin instead." icon="inv_misc_penguinpet" id="450" name="Glyph of the Penguin" type="minor"/>
+        <glyph effect="Your Slow Fall spell no longer requires a reagent." icon="spell_magic_featherfall" id="451" name="Glyph of Slow Fall" type="minor"/>
+        <glyph effect="Increases the critical strike chance of your Pyroblast spell by 5%." icon="spell_fire_fireball02" id="320" name="Glyph of Pyroblast" type="prime"/>
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="39" points="390" total="1056" totalPoints="11640"/>
+      <category id="92" name="General">
+        <c earned="8" earnedPoints="80" total="52" totalPoints="535"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="1" earnedPoints="10" total="49" totalPoints="530"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="2" earnedPoints="20" total="70" totalPoints="830"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="12" earnedPoints="120" total="166" totalPoints="1930"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="11" earnedPoints="110" total="458" totalPoints="4955"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="5" earnedPoints="50" total="75" totalPoints="760"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="0" earnedPoints="0" total="45" totalPoints="560"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="0" earnedPoints="0" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="0"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>
