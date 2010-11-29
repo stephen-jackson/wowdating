@@ -10,25 +10,12 @@
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8 */;
-
---
--- Database: `romance`
---
 
 DROP DATABASE IF EXISTS romance;
 CREATE DATABASE IF NOT EXISTS romance;
 GRANT ALL PRIVILEGES ON romance.* to 'wowteam'@'localhost' identified by 'wow';
 USE romance;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `users`
---
 
 CREATE TABLE IF NOT EXISTS `users` (
   `userName` varchar(50) NOT NULL,
@@ -36,11 +23,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`userName`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
--- --------------------------------------------------------
-
---
--- Table structure for table `characters`
---
 
 CREATE TABLE IF NOT EXISTS `characters` (
   `charName` varchar(20) NOT NULL,
@@ -50,22 +32,42 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `sex` char(1) Not Null,
   `charClass` int(2) Not Null,
   `Faction` int(1) Not Null,
+  `guild` varchar(30),
+  `primarySpec` varchar(20),
+  `secondarySpec` varchar(20),
+  `pvpAchievements` int(3) NOT NULL,
+  `dungeonAch` int(3) NOT NULL,
+  `reputationAch` int(3) NOT NULL,
+  `worldAch` int(3) NOT NULL,
+  `explorationAch` int(3) NOT NULL,
+  `questAch` int(3) NOT NULL,
+  `professionAch` int(3) NOT NULL,
   `HK` int(15) Not Null,
   PRIMARY KEY (`charName`, `charRealm`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
-
--- --------------------------------------------------------
 
 
 CREATE TABLE IF NOT EXISTS `userCharacters` (
 	`userId` varchar(50) Not Null,
 	`userChar` varchar(20) Not Null,
-	`userRealm` varchar(20) Not Null
+	`userRealm` varchar(20) Not Null,
+	PRIMARY KEY (`userId`, `userChar`, `userRealm`)
 )	ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
+CREATE TABLE IF NOT EXISTS `realms` (
+	`realmName` varchar(20) Not Null,
+	`region` varchar(2) Not Null,
+	`battlegroup` varchar(30) Not Null,
+	PRIMARY KEY (`realmName`)
+)	ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
+	
 
-
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+CREATE TABLE IF NOT EXISTS `messages` (
+	`msgId` int(11) Not Null AUTO_INCREMENT,
+	`fromUser` varchar(50) Not Null,
+	`toUser` varchar(50) Not Null,
+	`msgText` BLOB Not Null,
+	`msgSubject` varchar(120),
+	`msgReadStatus` int(1) Not Null,
+	PRIMARY KEY (`msgId`)
+)	ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
