@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
-  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Riddan&amp;gn=Shiloh"/>
-  <characterInfo errCode="noCharacter">
-    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Riddan" class="Warrior" classId="1" classUrl="c=Warrior" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Shiloh" guildUrl="r=Korialstrasz&amp;gn=Shiloh" lastModified="November 29, 2010" level="22" name="Riddan" points="0" prefix="" race="Night Elf" raceId="4" realm="Korialstrasz" suffix="" titleId="0"/>
-  </characterInfo>
-</page>

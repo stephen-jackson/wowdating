@@ -50,7 +50,10 @@ session_start();
 			$hk = $row['HK'];
 			$region = "US";
 			$linkUrl = "profile.php?character=$charName&realm=$charRealm&region=$region";
-			echo " <a href=$linkUrl>$charName - $charRealm</a>";
+			if($prevCharName != $charName){
+				echo " <a href=$linkUrl>$charName - $charRealm</a>";
+			}
+			$prevCharName = $charName;
 		}
 		echo ".</h4>";
 		
@@ -103,7 +106,7 @@ session_start();
 			$toonRegion = "US";
 		}
 		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=".$toonRegion ;
-		echo "<h4>The closest user to you is: <a href=$linkUrl>$toon - $toonRealm</a>.</h4>";
+		//echo "<h4>The closest user to you is: <a href=$linkUrl>$toon - $toonRealm</a>.</h4>";
 	}
 	?>
 	

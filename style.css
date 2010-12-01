@@ -54,7 +54,33 @@ form label {
 /*		background: 	#dceef6;  OLD BACKGROUND*/
 		background:   white;
 	}
-
+	
+	#wrap2{
+		border-style: ridge;
+		/*border-color: #cc9; OLD COLOR */
+		border-color: #6699FF;
+		width: 780px;
+		margin-top: 40px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom:40px;
+/*		background: 	#dceef6;  OLD BACKGROUND*/
+		background:   #FFFFFF url("blue_gradient_background.jpg") top left repeat-x;
+	}
+	
+	#wrap3{
+		border-style: ridge;
+		/*border-color: #cc9; OLD COLOR */
+		border-color: #6699FF;
+		width: 780px;
+		margin-top: 40px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom:40px;
+/*		background: 	#dceef6;  OLD BACKGROUND*/
+		background:   #C25A7C;
+	}
+	
 	#Navigation{
 
 		width: 780px;
@@ -83,7 +109,7 @@ form label {
 		padding-left: 10px;
 		margin-right: 20px;
 		}
-	
+		
 	#picture{
 		float: right;
 		width: 250px;
@@ -97,7 +123,6 @@ form label {
      	/*background: #cc9; old color*/
 		background: #CCCCFF;
      }
-	
 	
 	div.right_box{
 		margin-top: 50px;
@@ -172,8 +197,16 @@ form label {
 
 	h6
 	{
+		color: #FFFFFF;
 		font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-		color: #6699FF;
+		font-size: 18px;
+	}
+	
+	h7
+	{
+		font-family: "Arial",  Sans-Serif;
+		color: #153E7E;
+		font-size: 14px;
 	}
 	
 	label
@@ -330,6 +363,205 @@ form label {
 	.full-star {}
 	.half-star {}
 	.empty-star {}
+	
+	.pretty-table
+	{
+	  padding: 0;
+	  margin: 0;
+	  border-collapse: collapse;
+	  border: 1px solid #333;
+	  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 0.9em;
+	  color: #000;
+	  background: #FFFFFF url("blue_gradient_background.jpg") top left repeat-x;  
+	}
+
+	.pretty-table caption
+	{
+	  caption-side: bottom;
+	  font-size: 0.9em;
+	  font-style: italic;
+	  text-align: right;
+	  padding: 0.5em 0;
+	}
+
+	.pretty-table th, .pretty-table td
+	{
+	  border: 1px dotted #666;
+	  padding: 0.5em;
+	  text-align: left;
+	  color: #632a39;
+	}
+
+	.pretty-table th[scope=col]
+	{
+	  color: #000;
+	  background-color: #8fadcc;
+	  text-transform: uppercase;
+	  font-size: 0.9em;
+	  border-bottom: 2px solid #333;
+	  border-right: 2px solid #333;
+	}
+
+	.pretty-table th+th[scope=col]
+	{
+	  color: #fff;
+	  background-color: #7d98b3;
+	  border-right: 1px dotted #666;
+	}
+
+	.pretty-table th[scope=row]
+	{
+	  background-color: #b8cfe5;
+	  border-right: 2px solid #333;
+	}
+	
+	.pretty-table th[scope=row2]
+	{
+	  border-right: 2px solid #333;
+	  width: 100%;
+	}
+
+	.pretty-table tr.alt th, .pretty-table tr.alt td
+	{
+	  color: #2a4763;
+	}
+
+	.pretty-table tr:hover th[scope=row], .pretty-table tr:hover td
+	{
+	  background-color: #307D7E;
+	  color: #fff;
+	}
+	.pretty-table tr:hover th[scope=row2], .pretty-table tr:hover td
+	{
+	  background-color: #307D7E;
+	  color: #fff;
+	}
+	
+	.pretty-table2
+	{
+	  padding: 0;
+	  margin: 0;
+	  border-collapse: collapse;
+	  border: 1px solid #333;
+	  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 0.9em;
+	  color: #000;
+	  background: #C25A7C;  
+	}
+	.pretty-table2 caption
+	{
+	  caption-side: bottom;
+	  font-size: 0.9em;
+	  font-style: italic;
+	  text-align: right;
+	  padding: 0.5em 0;
+	}
+
+	.pretty-table2 th, .pretty-table2 td
+	{
+	  border: 1px dotted #666;
+	  padding: 0.5em;
+	  text-align: left;
+	  color: #632a39;
+	}
+
+	.pretty-table2 th[scope=col]
+	{
+	  color: #000;
+	  background-color: #8fadcc;
+	  text-transform: uppercase;
+	  font-size: 0.9em;
+	  border-bottom: 2px solid #333;
+	  border-right: 2px solid #333;
+	}
+
+	.pretty-table2 th+th[scope=col]
+	{
+	  color: #fff;
+	  background-color: #7d98b3;
+	  border-right: 1px dotted #666;
+	}
+
+	.pretty-table2 th[scope=row]
+	{
+	  background-color: #F778A1;
+	  border-right: 2px solid #333;
+	}
+	
+	.pretty-table2 th[scope=row2]
+	{
+	  border-right: 2px solid #333;
+	  width: 100%;
+	}
+
+	.pretty-table2 tr.alt th, .pretty-table2 tr.alt td
+	{
+	  color: #2a4763;
+	}
+	
+	.pretty-table3
+	{
+	  padding: 0;
+	  margin: 0;
+	  border-collapse: collapse;
+	  border: 1px solid #333;
+	  font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	  font-size: 0.9em;
+	  color: #000;
+	  background: #FFFFFF url("blue_gradient_background.jpg") top left repeat-x;  
+	}
+
+	.pretty-table3 caption
+	{
+	  caption-side: bottom;
+	  font-size: 0.9em;
+	  font-style: italic;
+	  text-align: right;
+	  padding: 0.5em 0;
+	}
+
+	.pretty-table3 th, .pretty-table3 td
+	{
+	  border: 1px dotted #666;
+	  padding: 0.5em;
+	  text-align: left;
+	  color: #632a39;
+	}
+
+	.pretty-table3 th[scope=col]
+	{
+	  color: #000;
+	  background-color: #8fadcc;
+	  text-transform: uppercase;
+	  font-size: 0.9em;
+	  border-bottom: 2px solid #333;
+	  border-right: 2px solid #333;
+	}
+
+	.pretty-table3 th+th[scope=col]
+	{
+	  color: #fff;
+	  background-color: #7d98b3;
+	  border-right: 1px dotted #666;
+	}
+
+	.pretty-table3 th[scope=row]
+	{
+	  background-color: #b8cfe5;
+	  border-right: 2px solid #333;
+	}
+	
+	.pretty-table3 th[scope=row2]
+	{
+	  border-right: 2px solid #333;
+	  width: 100%;
+	}
+
+	.pretty-table3 tr.alt th, .pretty-table3 tr.alt td
+	{
+	  color: #2a4763;
+	}
     
 table.report {
 	border-width: thin;
