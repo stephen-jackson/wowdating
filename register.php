@@ -20,19 +20,27 @@
 	$pw = $_POST['pw'];
 	$charName = $_POST['charName'];
 	$charRealm = $_POST['charRealm'];
-	/* Remove region option until supported.
-	$region = $_POST['region']; 
-	*/
-	$region = "US";
+	$region = $_POST['region'];
   
 	$character = new armoryscraper($region,$charRealm,$charName);
 
 	$lvl = $character->getLevel();
+	$guild = $character->getGuildName();
+	$primarySpec = $character->getPrimarySpec();
+	$secondarySpec = $character->getSecondarySpec();
+	$pvpAch = $character->getPvpAchievementPoints();
+	$dungeonAch = $character->getDungeonAchievementPoints();
+	$reputationAch = $character->getReputationAchievementPoints();
+	$worldAch = $character->getWorldAchievementPoints();
+	$explorationAch = $character->getExplorationAchievementPoints();
+	$questAch = $character->getQuestAchievementPoints();
+	$professionAch = $character->getProfessionAchievementPoints();
 	$race = $character->getRaceId();
 	$sex = $character->getGenderId();
 	$class = $character->getClassId();
 	$faction = $character->getFactionId();
 	$HK = $character->getLifetimeHonorableKills();
+	$battleGroup = $character->getBattleGroup();
   
 	
 	$query = "SELECT * FROM users WHERE userName='$name' AND password='$pw'";
@@ -47,22 +55,8 @@
 		$result = mysqli_query($db, $query)
 			or die("<br>Error adding user.<br />");	
 		echo "<h4>User created.</h4>";
-		
-		/*
-		echo "
-		<table>
-		<tr><td>Character</td> <td>$charName</td></tr>
-		<tr><td>Realm</td> <td>$charRealm</td></tr>
-		<tr><td>Level</td> <td>$lvl</td></tr>
-		<tr><td>Race</td> <td>$race</td></tr>
-		<tr><td>Sex</td> <td>$sex</td></tr>
-		<tr><td>Class</td> <td>$class</td></tr>
-		<tr><td>Faction</td> <td>$faction</td></tr>
-		<tr><td>HK</td> <td>$HK</td></tr>
-		</table>";
-		*/
 	
-		$query = "INSERT INTO characters(charName, charRealm, lvl, race, sex, charClass, Faction, HK) VALUES ('$charName','$charRealm','$lvl','$race','$sex','$class','$faction','$HK')";
+		$query = "INSERT INTO characters(charName, charRealm, lvl, race, sex, charClass, Faction, guild, primarySpec, secondarySpec, pvpAch, dungeonAch, reputationAch, worldAch, explorationAch, questAch, professionAch, HK) VALUES ('$charName','$charRealm','$lvl','$race','$sex','$class','$faction', '$guild', '$primarySpec', '$secondarySpec', '$pvpAch', '$dungeonAch', '$reputationAch', '$worldAch', '$explorationAch', '$questAch', '$professionAch', '$HK')";
 		$result = mysqli_query($db, $query)
 			or die("Error inserting character into database.");
 		echo "<h4>Character added to database.</h4>";
@@ -70,6 +64,9 @@
 		$query = "INSERT INTO userCharacters(userId, userChar, userRealm) VALUES ('$name', '$charName', '$charRealm')";
 		$result = mysqli_query($db, $query)
 			or die("Error adding user and character to join table.");
+			
+		$query = "INSERT INTO realms(realmName, region, battlegroup) VALUES ('$charRealm', '$region', '$battleGroup')";
+		$result = mysqli_query($db, $query);
 	}
 	else{
 		if($userExists > 0){

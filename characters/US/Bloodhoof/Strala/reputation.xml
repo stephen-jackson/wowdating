@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/reputation.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-reputation.xml">
+  <tabInfo subTab="reputation" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Strala"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Strala" class="Hunter" classId="3" classUrl="c=Hunter" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="" lastModified="August 20, 2010" level="22" name="Strala" points="190" prefix="" race="Night Elf" raceId="4" realm="Bloodhoof" suffix="" titleId="0">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <reputationTab>
+      <faction header="1" iconKey="classic" id="1118" key="classic" name="Classic">
+        <faction header="1" iconKey="classic" id="891" key="allianceforces" name="Alliance Forces">
+          <faction id="730" key="stormpikeguard" name="Stormpike Guard" reputation="0"/>
+        </faction>
+        <faction header="1" iconKey="classic" id="469" key="alliance" name="Alliance" reputation="6146">
+          <faction id="54" key="gnomeregan" name="Gnomeregan" reputation="7015"/>
+          <faction id="69" key="darnassus" name="Darnassus" reputation="21555"/>
+          <faction id="72" key="stormwind" name="Stormwind" reputation="6415"/>
+          <faction id="47" key="ironforge" name="Ironforge" reputation="7183"/>
+          <faction id="930" key="exodar" name="Exodar" reputation="5846"/>
+        </faction>
+      </faction>
+    </reputationTab>
+  </characterInfo>
+</page>

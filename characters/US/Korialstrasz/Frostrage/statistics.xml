@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/statistics.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-statistics.xml">
-  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Frostrage"/>
+  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Frostrage&amp;gn=E+P+I+X"/>
   <characterInfo>
-    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Frostrage" class="Mage" classId="8" classUrl="c=Mage" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="September 20, 2010" level="62" name="Frostrage" points="390" prefix="" race="Human" raceId="1" realm="Korialstrasz" suffix="" titleId="0"/>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Frostrage" class="Mage" classId="8" classUrl="c=Mage" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="E P I X" guildUrl="r=Korialstrasz&amp;gn=E+P+I+X" lastModified="November 29, 2010" level="64" name="Frostrage" points="790" prefix="" race="Human" raceId="1" realm="Korialstrasz" suffix="" titleId="0"/>
   </characterInfo>
   <statistics>
     <summary>
+      <statistic id="1745" name="Cooking Recipes known" quantity="22"/>
       <statistic id="1748" name="First Aid Manuals learned" quantity="5"/>
-      <statistic id="1745" name="Cooking Recipes known" quantity="10"/>
       <statistic id="339" name="Mounts owned" quantity="3"/>
-      <statistic id="1729" name="Alchemy Recipes learned" quantity="18"/>
-      <statistic id="839" name="Battlegrounds played" quantity="26"/>
+      <statistic id="338" name="Vanity pets owned" quantity="1"/>
+      <statistic id="1740" name="Leatherworking Patterns learned" quantity="21"/>
     </summary>
     <rootCategories>
       <category id="130" name="Character">

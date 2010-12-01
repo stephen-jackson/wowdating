@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
-  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Veldron"/>
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Strala"/>
   <characterInfo>
-    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Veldron" class="Death Knight" classId="6" classUrl="c=Death+Knight" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="November 30, 2010" level="80" name="Veldron" points="1090" prefix="" race="Draenei" raceId="11" realm="Bloodhoof" suffix="" titleId="0"/>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Strala" class="Hunter" classId="3" classUrl="c=Hunter" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="" lastModified="August 20, 2010" level="22" name="Strala" points="190" prefix="" race="Night Elf" raceId="4" realm="Bloodhoof" suffix="" titleId="0"/>
   </characterInfo>
   <achievements>
     <summary>
-      <c earned="109" points="1090" total="1318" totalPoints="14360"/>
+      <c earned="19" points="190" total="1318" totalPoints="14360"/>
       <category>
-        <c earned="18" earnedPoints="180" total="59" totalPoints="610"/>
+        <c earned="3" earnedPoints="30" total="59" totalPoints="610"/>
       </category>
       <category>
-        <c earned="5" earnedPoints="50" total="111" totalPoints="1150"/>
+        <c earned="2" earnedPoints="20" total="111" totalPoints="1150"/>
       </category>
       <category>
-        <c earned="40" earnedPoints="400" total="81" totalPoints="955"/>
+        <c earned="2" earnedPoints="20" total="81" totalPoints="955"/>
       </category>
       <category>
-        <c earned="11" earnedPoints="110" total="226" totalPoints="2580"/>
+        <c earned="0" earnedPoints="0" total="226" totalPoints="2580"/>
       </category>
       <category>
-        <c earned="22" earnedPoints="220" total="513" totalPoints="5530"/>
+        <c earned="4" earnedPoints="40" total="513" totalPoints="5530"/>
       </category>
       <category>
-        <c earned="13" earnedPoints="130" total="107" totalPoints="1080"/>
+        <c earned="8" earnedPoints="80" total="107" totalPoints="1080"/>
       </category>
       <category>
         <c earned="0" earnedPoints="0" total="51" totalPoints="620"/>
@@ -31,13 +31,13 @@
         <c earned="0" earnedPoints="0" total="141" totalPoints="1540"/>
       </category>
       <category>
-        <c earned="4"/>
+        <c earned="0"/>
       </category>
-      <achievement categoryId="97" dateCompleted="2010-11-30T13:27:00-05:00" desc="Explore Un'Goro Crater, revealing the covered areas of the world map." icon="achievement_zone_ungorocrater_01" id="854" points="10" title="Explore Un'Goro Crater"/>
-      <achievement categoryId="97" dateCompleted="2010-11-30T13:27:00-05:00" desc="Explore Winterspring, revealing the covered areas of the world map." icon="achievement_zone_winterspring" id="857" points="10" title="Explore Winterspring"/>
-      <achievement categoryId="97" dateCompleted="2010-11-30T13:27:00-05:00" desc="Explore The Barrens, revealing the covered areas of the world map." icon="achievement_zone_barrens_01" id="4996" points="10" title="Explore Southern Barrens"/>
-      <achievement categoryId="81" dateCompleted="2010-11-30T13:27:00-05:00" desc="Logged in during WoW's 6th Anniversary." icon="inv_misc_celebrationcake_01" id="5512" title="WoW's 6th Anniversary"/>
-      <achievement categoryId="97" dateCompleted="2010-11-30T13:27:00-05:00" desc="Explore Wetlands, revealing the covered areas of the world map." icon="achievement_zone_wetlands_01" id="841" points="10" title="Explore Wetlands"/>
+      <achievement categoryId="168" dateCompleted="2010-08-01T20:40:00-04:00" desc="Defeat Hogger." icon="inv_misc_head_gnoll_01" id="633" points="10" title="Stormwind Stockade"/>
+      <achievement categoryId="168" dateCompleted="2010-08-01T17:30:00-04:00" desc="Defeat Lord Godfrey." icon="inv_helm_robe_dungeonrobe_c_04" id="631" points="10" title="Shadowfang Keep"/>
+      <achievement categoryId="96" dateCompleted="2010-07-31T23:08:00-04:00" desc="Complete 100 quests." icon="achievement_quests_completed_02" id="504" points="10" title="100 Quests Completed"/>
+      <achievement categoryId="92" dateCompleted="2010-07-31T23:06:00-04:00" desc="Learn the apprentice riding skill." icon="ability_mount_ridinghorse" id="891" points="10" title="Giddy Up!"/>
+      <achievement categoryId="169" dateCompleted="2010-07-31T22:59:00-04:00" desc="Obtain 225 skill points in a profession." icon="inv_misc_note_01" id="731" points="10" title="Professional Expert"/>
     </summary>
     <rootCategories>
       <category id="92" name="General"/>

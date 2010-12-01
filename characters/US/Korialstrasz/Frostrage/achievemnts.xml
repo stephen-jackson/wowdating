@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/achievements.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-achievements.xml">
-  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Frostrage"/>
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="r=Korialstrasz&amp;cn=Frostrage&amp;gn=E+P+I+X"/>
   <characterInfo>
-    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Frostrage" class="Mage" classId="8" classUrl="c=Mage" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="September 20, 2010" level="62" name="Frostrage" points="390" prefix="" race="Human" raceId="1" realm="Korialstrasz" suffix="" titleId="0"/>
+    <character battleGroup="Whirlwind" charUrl="r=Korialstrasz&amp;cn=Frostrage" class="Mage" classId="8" classUrl="c=Mage" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="E P I X" guildUrl="r=Korialstrasz&amp;gn=E+P+I+X" lastModified="November 29, 2010" level="64" name="Frostrage" points="790" prefix="" race="Human" raceId="1" realm="Korialstrasz" suffix="" titleId="0"/>
   </characterInfo>
   <achievements>
     <summary>
-      <c earned="39" points="390" total="1056" totalPoints="11640"/>
+      <c earned="79" points="790" total="1056" totalPoints="11640"/>
       <category>
-        <c earned="8" earnedPoints="80" total="52" totalPoints="535"/>
+        <c earned="10" earnedPoints="100" total="52" totalPoints="535"/>
       </category>
       <category>
         <c earned="1" earnedPoints="10" total="49" totalPoints="530"/>
       </category>
       <category>
-        <c earned="2" earnedPoints="20" total="70" totalPoints="830"/>
+        <c earned="37" earnedPoints="370" total="70" totalPoints="830"/>
       </category>
       <category>
         <c earned="12" earnedPoints="120" total="166" totalPoints="1930"/>
       </category>
       <category>
-        <c earned="11" earnedPoints="110" total="458" totalPoints="4955"/>
+        <c earned="14" earnedPoints="140" total="458" totalPoints="4955"/>
       </category>
       <category>
         <c earned="5" earnedPoints="50" total="75" totalPoints="760"/>
@@ -33,11 +33,11 @@
       <category>
         <c earned="0"/>
       </category>
-      <achievement categoryId="169" dateCompleted="2010-05-29T07:24:00-07:00" desc="Become a Journeyman in first aid." icon="spell_holy_sealofsacrifice" id="131" points="10" title="Journeyman in First Aid"/>
-      <achievement categoryId="168" dateCompleted="2010-05-29T06:35:00-07:00" desc="Defeat Keli'dan the Breaker." icon="achievement_boss_kelidanthebreaker" id="648" points="10" title="The Blood Furnace"/>
-      <achievement categoryId="169" dateCompleted="2010-05-27T14:39:00-07:00" desc="Become a Journeyman in a profession." icon="inv_misc_note_01" id="116" points="10" title="Professional Journeyman"/>
-      <achievement categoryId="97" dateCompleted="2010-05-27T14:35:00-07:00" desc="Explore Elwynn Forest, revealing the covered areas of the world map." icon="achievement_zone_elwynnforest" id="776" points="10" title="Explore Elwynn Forest"/>
-      <achievement categoryId="168" dateCompleted="2010-05-27T14:16:00-07:00" desc="Defeat Omor the Unscarred." icon="achievement_boss_omartheunscarred_01" id="647" points="10" title="Hellfire Ramparts"/>
+      <achievement categoryId="92" dateCompleted="2010-11-28T17:46:00-08:00" desc="Visit your class trainer when you are at least level 40 and activate your Dual Talent Specialization." icon="achievement_general" id="2716" points="10" title="Dual Talent Specialization"/>
+      <achievement categoryId="168" dateCompleted="2010-11-27T19:19:00-08:00" desc="Defeat Nexus-Prince Shaffar." icon="achievement_boss_nexus_prince_shaffar" id="651" points="10" title="Mana-Tombs"/>
+      <achievement categoryId="168" dateCompleted="2010-11-27T18:41:00-08:00" desc="Defeat The Black Stalker." icon="achievement_boss_theblackstalker" id="650" points="10" title="Underbog"/>
+      <achievement categoryId="168" dateCompleted="2010-11-26T18:33:00-08:00" desc="Defeat Quagmirran." icon="achievement_boss_quagmirran" id="649" points="10" title="The Slave Pens"/>
+      <achievement categoryId="92" dateCompleted="2010-11-24T17:08:00-08:00" desc="Obtain a companion pet." icon="inv_box_petcarrier_01" id="1017" points="10" title="Can I Keep Him?"/>
     </summary>
     <rootCategories>
       <category id="92" name="General"/>

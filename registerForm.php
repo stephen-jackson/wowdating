@@ -20,11 +20,8 @@
     <input type="text" id="charName" name="charName" /><br />
 	<label for="charRealm">*Realm:</label>
     <input type="text" id="charRealm" name="charRealm" /><br />
-<?php /* Remove region option until other regions supported.
 	<input type="radio" name="region" value="US" /> US<br />
 	<input type="radio" name="region" value="EU" /> EU<br />
-	*/
-?>
     <input type="submit" value="Create Account" name="submit" />
   </form>
 <?php include("footer.html"); ?>

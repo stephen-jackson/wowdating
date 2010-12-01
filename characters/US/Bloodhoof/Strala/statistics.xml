@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/statistics.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-statistics.xml">
-  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Veldron"/>
+  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Strala"/>
   <characterInfo>
-    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Veldron" class="Death Knight" classId="6" classUrl="c=Death+Knight" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="" lastModified="November 30, 2010" level="80" name="Veldron" points="1090" prefix="" race="Draenei" raceId="11" realm="Bloodhoof" suffix="" titleId="0"/>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Strala" class="Hunter" classId="3" classUrl="c=Hunter" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="" lastModified="August 20, 2010" level="22" name="Strala" points="190" prefix="" race="Night Elf" raceId="4" realm="Bloodhoof" suffix="" titleId="0"/>
   </characterInfo>
   <statistics>
     <summary>
-      <statistic id="3216" name="Smelting Recipes learned" quantity="13"/>
-      <statistic id="1748" name="First Aid Manuals learned" quantity="31"/>
-      <statistic id="339" name="Mounts owned" quantity="3"/>
-      <statistic id="338" name="Vanity pets owned" quantity="22"/>
-      <statistic id="1730" name="Blacksmithing Plans learned" quantity="71"/>
+      <statistic id="1748" name="First Aid Manuals learned" quantity="5"/>
+      <statistic id="1745" name="Cooking Recipes known" quantity="38"/>
+      <statistic id="339" name="Mounts owned" quantity="5"/>
+      <statistic id="1740" name="Leatherworking Patterns learned" quantity="57"/>
+      <statistic id="1044" name="Need rolls made on loot" quantity="10"/>
     </summary>
     <rootCategories>
       <category id="130" name="Character">

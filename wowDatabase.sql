@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `characters` (
   `guild` varchar(30),
   `primarySpec` varchar(20),
   `secondarySpec` varchar(20),
-  `pvpAchievements` int(3) NOT NULL,
+  `pvpAch` int(3) NOT NULL,
   `dungeonAch` int(3) NOT NULL,
   `reputationAch` int(3) NOT NULL,
   `worldAch` int(3) NOT NULL,

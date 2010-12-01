@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/sheet.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="r=Bloodhoof&amp;cn=Strala"/>
+  <characterInfo>
+    <character battleGroup="Ruin" charUrl="r=Bloodhoof&amp;cn=Strala" class="Hunter" classId="3" classUrl="c=Hunter" faction="Alliance" factionId="0" gender="Female" genderId="1" guildName="" lastModified="August 20, 2010" level="22" name="Strala" points="190" prefix="" race="Night Elf" raceId="4" realm="Bloodhoof" suffix="" titleId="0">
+      <modelBasePath value="http://us.media.battle.net.edgesuite.net/"/>
+    </character>
+    <characterTab>
+      <talentSpecs>
+        <talentSpec active="1" group="1" icon="ability_seal" prim="" treeOne="0" treeThree="0" treeTwo="0"/>
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="0"/>
+        <arenacurrency value="0"/>
+      </pvp>
+      <professions>
+        <skill id="165" key="trade_leatherworking" max="150" name="Leatherworking" value="117"/>
+        <skill id="393" key="inv_misc_pelt_wolf_01" max="225" name="Skinning" value="188"/>
+      </professions>
+      <secondaryProfessions>
+        <skill id="185" key="inv_misc_food_15" max="150" name="Cooking" value="119"/>
+        <skill id="129" key="spell_holy_sealofsacrifice" max="150" name="First Aid" value="75"/>
+        <skill id="356" key="trade_fishing" max="150" name="Fishing" value="105"/>
+      </secondaryProfessions>
+      <characterBars>
+        <health effective="598"/>
+        <secondBar casting="-1" effective="100" notCasting="-1" perFive="-1" type="f"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="23" base="26" block="-1" effective="33"/>
+        <agility armor="162" attack="71" base="55" critHitPercent="5.84" effective="81"/>
+        <stamina base="40" effective="54" health="360" petBonus="16"/>
+        <intellect base="32" critHitPercent="0.00" effective="36" mana="260" petBonus="-1"/>
+        <spirit base="34" effective="38" healthRegen="6" manaRegen="13"/>
+        <armor base="617" effective="625" percent="21.59" petBonus="219"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="0" value="0"/>
+        <fire petBonus="0" value="0"/>
+        <frost petBonus="0" value="0"/>
+        <holy petBonus="0" value="0"/>
+        <nature petBonus="0" value="0"/>
+        <shadow petBonus="0" value="0"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="24.6" max="44" min="29" percent="0" speed="1.50"/>
+        <offHandDamage dps="10.8" max="25" min="17" percent="0" speed="1.90"/>
+        <mainHandSpeed hastePercent="0.00" hasteRating="0" value="1.50"/>
+        <offHandSpeed hastePercent="0.00" hasteRating="0" value="1.90"/>
+        <power base="138" effective="148" increasedDps="10.0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="9.54" plusPercent="3.98" rating="15"/>
+        <expertise additional="0" percent="0.00" rating="0" value="0"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="0" value="0"/>
+        <damage dps="28.5" max="56" min="38" percent="0" speed="1.65"/>
+        <speed hastePercent="0.00" hasteRating="0" value="1.65"/>
+        <power base="115" effective="125" increasedDps="8.0" petAttack="27.50" petSpell="16.09"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedArmorPercent="0.00" value="0"/>
+        <critChance percent="9.82" plusPercent="3.98" rating="15"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="0"/>
+          <fire value="0"/>
+          <frost value="0"/>
+          <holy value="0"/>
+          <nature value="0"/>
+          <shadow value="0"/>
+          <petBonus attack="-1" damage="-1" fromType=""/>
+        </bonusDamage>
+        <bonusHealing value="0"/>
+        <hitRating increasedHitPercent="0.00" penetration="0" reducedResist="0" value="0"/>
+        <critChance rating="15">
+          <arcane percent="8.98"/>
+          <fire percent="8.98"/>
+          <frost percent="8.98"/>
+          <holy percent="8.98"/>
+          <nature percent="8.98"/>
+          <shadow percent="8.98"/>
+        </critChance>
+        <penetration value="0"/>
+        <manaRegen casting="0.00" notCasting="13.00"/>
+        <hasteRating hastePercent="0.00" hasteRating="0"/>
+      </spell>
+      <defenses>
+        <armor base="617" effective="625" percent="21.59" petBonus="219"/>
+        <defense decreasePercent="0.00" increasePercent="0.00" plusDefense="0" rating="0" value="-1.00"/>
+        <dodge increasePercent="0.00" percent="4.30" rating="0"/>
+        <parry increasePercent="0.00" percent="4.64" rating="0"/>
+        <block increasePercent="0.00" percent="0.00" rating="0"/>
+        <resilience damagePercent="0.00" hitPercent="0.00" value="0.00"/>
+      </defenses>
+      <items>
+        <item displayInfoId="6729" durability="47" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_shoulder_08" id="5404" level="21" maxDurability="70" name="Serpent's Shoulders" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="3" seed="-1796303616" slot="2"/>
+        <item displayInfoId="3390" durability="66" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_chest_fur" id="15018" level="20" maxDurability="95" name="Lupine Vest" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="236" rarity="2" seed="1668660096" slot="4"/>
+        <item displayInfoId="49925" durability="34" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_belt_03" id="51964" level="25" maxDurability="40" name="Vigorous Belt" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-71" rarity="3" seed="1369178122" slot="5"/>
+        <item displayInfoId="7834" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_pants_02" id="15202" level="18" maxDurability="65" name="Wildkeeper Leggings" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="2" seed="1997232640" slot="6"/>
+        <item displayInfoId="14470" durability="33" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_boots_wolf" id="843" level="17" maxDurability="45" name="Tanned Leather Boots" permanentEnchantIcon="inv_misc_armorkit_17" permanentEnchantItemId="2304" permanentenchant="15" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="1" seed="0" slot="7"/>
+        <item displayInfoId="28243" durability="20" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_bracer_10" id="15403" level="18" maxDurability="30" name="Ridgeback Bracers" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="2" seed="732702208" slot="8"/>
+        <item displayInfoId="8450" durability="24" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_gauntlets_05" id="5629" level="20" maxDurability="35" name="Hammerfist Gloves" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="0" rarity="2" seed="429254272" slot="9"/>
+        <item displayInfoId="50059" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_misc_cape_03" id="51994" level="25" maxDurability="0" name="Tumultuous Cloak" permanentenchant="0" pickUp="PickUpCloth_Leather01" putDown="PutDownCloth_Leather01" randomPropertiesId="-86" rarity="3" seed="-492503032" slot="14"/>
+        <item displayInfoId="20347" durability="45" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_shortblade_05" id="2169" level="20" maxDurability="45" name="Buzzer Blade" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="3" seed="-1901907584" slot="15"/>
+        <item displayInfoId="20604" durability="45" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_shortblade_10" id="6333" level="22" maxDurability="45" name="Spikelash Dagger" permanentenchant="0" pickUp="PickUpMetalSmall" putDown="PutDownSmallMEtal" randomPropertiesId="0" rarity="2" seed="353978480" slot="16"/>
+        <item displayInfoId="20672" durability="50" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_weapon_bow_03" id="3039" level="23" maxDurability="55" name="Short Ash Bow" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="0" rarity="2" seed="1684164480" slot="17"/>
+        <item displayInfoId="5996" durability="0" gem0Id="0" gem1Id="0" gem2Id="0" icon="inv_ammo_arrow_02" id="2515" level="15" maxDurability="0" name="Sharp Arrow" permanentenchant="0" pickUp="PickUpWoodSmall" putDown="PutDownWoodSmall" randomPropertiesId="0" rarity="0" seed="0" slot="-1"/>
+      </items>
+      <glyphs/>
+    </characterTab>
+    <summary>
+      <c earned="19" points="190" total="1318" totalPoints="14360"/>
+      <category id="92" name="General">
+        <c earned="3" earnedPoints="30" total="59" totalPoints="610"/>
+      </category>
+      <category id="96" name="Quests">
+        <c earned="2" earnedPoints="20" total="111" totalPoints="1150"/>
+      </category>
+      <category id="97" name="Exploration">
+        <c earned="2" earnedPoints="20" total="81" totalPoints="955"/>
+      </category>
+      <category id="95" name="Player vs. Player">
+        <c earned="0" earnedPoints="0" total="226" totalPoints="2580"/>
+      </category>
+      <category id="168" name="Dungeons &amp; Raids">
+        <c earned="4" earnedPoints="40" total="513" totalPoints="5530"/>
+      </category>
+      <category id="169" name="Professions">
+        <c earned="8" earnedPoints="80" total="107" totalPoints="1080"/>
+      </category>
+      <category id="201" name="Reputation">
+        <c earned="0" earnedPoints="0" total="51" totalPoints="620"/>
+      </category>
+      <category id="155" name="World Events">
+        <c earned="0" earnedPoints="0" total="141" totalPoints="1540"/>
+      </category>
+      <category id="81" name="Feats of Strength">
+        <c earned="0"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>
