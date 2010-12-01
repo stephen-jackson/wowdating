@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_layout/character/statistics.xsl"?><page globalSearch="1" lang="en_us" requestUrl="/character-statistics.xml">
-  <tabInfo subTab="statistics" tab="character" tabGroup="character" tabUrl="r=Auchindoun&amp;cn=Lennonist&amp;gn=Anything+Goes"/>
-  <characterInfo errCode="noCharacter">
-    <character battleGroup="Retaliation" charUrl="r=Auchindoun&amp;cn=Lennonist" class="Rogue" classId="4" classUrl="c=Rogue" faction="Alliance" factionId="0" gender="Male" genderId="0" guildName="Anything Goes" guildUrl="r=Auchindoun&amp;gn=Anything+Goes" lastModified="November 16, 2010" level="80" name="Lennonist" points="0" prefix="" race="Dwarf" raceId="3" realm="Auchindoun" suffix="" titleId="0"/>
-  </characterInfo>
-</page>
