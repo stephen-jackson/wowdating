@@ -20,7 +20,7 @@
 	/* male, female */
 	if($_GET['sex'] == "male"){
 		$addressSex = 0;
-		echo "<span style=\"color:#ff6666\">male</span>";
+		echo "male";
 	}
 	if($_GET['sex'] == "female"){
 		$addressSex = 1;
@@ -30,7 +30,7 @@
 	$addressRealm = $_GET['realm'];
 	/* same, any */
 	$addressFaction = $_GET['faction'];
-	echo " in <span style=\"color:#ff6666\">$addressFaction faction</span> on <span style=\"color:#ff6666\">$addressRealm realm</span>...</h2>";
+	echo " in $addressFaction faction on $addressRealm realm...</h2>";
 	
 	/* Grab user's character */
 	$query = "SELECT * FROM usercharacters NATURAL JOIN characters WHERE userChar='$aCharName' AND userRealm='$aCharRealm'";
@@ -106,34 +106,22 @@
 	$query_result = mysqli_query($db, $query_toon)
 		or die("Query Error: Cannot find a character for the closest user.");
 	
-<<<<<<< HEAD
-=======
 	/* test */
 	$num_rows = mysqli_num_rows($query_result);
 	if ($num_rows<1) {
 		echo "<h2>No current users match your criteria.</h2>";
 	}
 	
->>>>>>> 09aeddfbc5070d6fcccbabd9cc54b112d45ef45a
 	while ($row = mysqli_fetch_assoc($query_result)) {
 		$toon = $row['userChar'];
 		$toonRealm = $row['userRealm'];
+		$toonRegion = "US";
 	}
-	$toonRegion = "US";
 	$charLinkUrl = "profile.php?character=$aCharName&realm=$aCharRealm&region=$toonRegion";
 	$toonLinkUrl = "profile.php?character=$toon&realm=$toonRealm&region=$toonRegion";
-<<<<<<< HEAD
-	
-	$num_rows = mysqli_num_rows($query_result);
-	if ($num_rows<1) {
-		echo "<h3>There are no recommendations</h3><h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";
-	} else {
-		echo "<h3>Recommending <a href=$toonLinkUrl><span style=\"color:#ff6666\">$toon - $toonRealm</span></a></h3><h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";	
-=======
 	if(!$toon == null){
 		echo "<h3>Recommending <a href=$toonLinkUrl>$toon - $toonRealm</a></h3>";	
 		echo "<h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";
->>>>>>> 09aeddfbc5070d6fcccbabd9cc54b112d45ef45a
 	}
 ?>
 
