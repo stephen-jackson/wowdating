@@ -16,7 +16,7 @@
 	$aCharName = $_GET['charName'];
 	$aCharRealm = $_GET['charRealm'];
 	
-	echo "<h2>Searching for a ";
+	echo "<h2>Searching for a <span style=\"color:#ff6666\">";
 	/* male, female */
 	if($_GET['sex'] == "male"){
 		$addressSex = 0;
@@ -30,7 +30,7 @@
 	$addressRealm = $_GET['realm'];
 	/* same, any */
 	$addressFaction = $_GET['faction'];
-	echo " in $addressFaction faction on $addressRealm realm...</h2>";
+	echo "</span> in <span style=\"color:#ff6666\">$addressFaction faction</span> on <span style=\"color:#ff6666\">$addressRealm realm</span>...</h2>";
 	
 	/* Grab user's character */
 	$query = "SELECT * FROM usercharacters NATURAL JOIN characters WHERE userChar='$aCharName' AND userRealm='$aCharRealm'";
@@ -120,7 +120,7 @@
 	$charLinkUrl = "profile.php?character=$aCharName&realm=$aCharRealm&region=$toonRegion";
 	$toonLinkUrl = "profile.php?character=$toon&realm=$toonRealm&region=$toonRegion";
 	if(!$toon == null){
-		echo "<h3>Recommending <a href=$toonLinkUrl>$toon - $toonRealm</a></h3>";	
+		echo "<h3>Recommending <a href=$toonLinkUrl><span style=\"color:#ff6666\">$toon - $toonRealm</span></a></h3>";	
 		echo "<h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";
 	}
 ?>
