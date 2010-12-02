@@ -43,6 +43,8 @@
 <a href=<?php print "personal_".$url; ?>>Personal Information</a>
 |
 <a href=<?php print $url; ?>>Character Statistics</a>
+|
+<a href=<?php print "add_friend.php?character=".$name."&realm=".$realm."&region=".$region; ?>>Add Friend</a>
 </div>
 <?php } ?>
 <div id = "picture">
