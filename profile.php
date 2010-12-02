@@ -9,7 +9,7 @@
 <body>
 <div id="wrap">
 <?php include("header.php"); ?>
-<h2>Profile Page</h2>
+<h1>Profile Page</h1>
 </div>
 <?php 
 	include ("db_connect.php");
