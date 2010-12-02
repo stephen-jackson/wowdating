@@ -10,7 +10,7 @@ session_start();
 </head>
 <body>
 <div id="wrap">
-<?php include("header.php"); ?>
+<!--?php include("header.php"); ?-->
 <?php
 	include ("db_connect.php");
 	include ("recommender.php");
@@ -24,12 +24,15 @@ session_start();
 
 	$num_rows = mysqli_num_rows($result);
 	if ($num_rows<1) {
+		include ("header.php");
 		echo "<h1>Invalid login</h1>";
 		echo "<a href=loginForm.php>Try Again</a>";
+		include ("footer.html");
 	}
 	else {
 	
 		$_SESSION['currentUser'] = $name;
+		include ("header.php");
 		echo "<h1>Welcome, ".$_SESSION['currentUser']."!</h1>";
 		
 		/* Grab user's character */
@@ -107,6 +110,7 @@ session_start();
 		}
 		$linkUrl = "profile.php?character=".$toon."&realm=".$toonRealm."&region=".$toonRegion ;
 		//echo "<h4>The closest user to you is: <a href=$linkUrl>$toon - $toonRealm</a>.</h4>";
+		include ("footer.html");
 	}
 	?>
 	
