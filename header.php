@@ -10,6 +10,7 @@
 <td align = "right">
 <?php if(isset($_SESSION['currentUser'])){ ?>
 <a href = "index.php">Home</a> | 
+<a href = "friends.php">Your Friends</a> | 
 <a href = "profile_characters.php">Your Characters</a> | 
 <a href = "logout.php">Logout</a>
 <?php } else { ?>
