@@ -27,6 +27,16 @@
 		$sex = $row['sex'];
 		$class = $row['charClass'];
 		$faction = $row['Faction'];
+		$guild = $row['guild'];
+		$primarySpec = $row['primarySpec'];
+		$secondarySpec = $row['secondarySpec'];
+		$pvpAch = $row['pvpAch'];
+		$dungeonAch = $row['dungeonAch'];
+		$reputationAch = $row['reputationAch'];
+		$worldAch = $row['worldAch'];
+		$explorationAch = $row['explorationAch'];
+		$questAch = $row['questAch'];
+		$professionAch = $row['professionAch'];	
 		$hk = $row['HK'];
 		$region = "US";
 		$linkUrl = "profile.php?character=$charName&realm=$charRealm&region=$region";
