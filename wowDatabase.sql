@@ -46,6 +46,11 @@ CREATE TABLE IF NOT EXISTS `characters` (
   PRIMARY KEY (`charName`, `charRealm`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
+CREATE TABLE IF NOT EXISTS `friends` (
+  `userOne` varchar(50) NOT NULL,
+  `userTwo` varchar(50) NOT NULL,
+  PRIMARY KEY (`userOne`, `userTwo`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 ;
 
 CREATE TABLE IF NOT EXISTS `userCharacters` (
 	`userId` varchar(50) Not Null,
