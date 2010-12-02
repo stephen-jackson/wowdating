@@ -40,7 +40,7 @@
 		$hk = $row['HK'];
 		$region = "US";
 		$linkUrl = "profile.php?character=$charName&realm=$charRealm&region=$region";
-		echo " <a href=$linkUrl>$charName - $charRealm</a></h4><h4>";
+		echo " <a href=$linkUrl><span style=\"color:#ff6666\">$charName - $charRealm</span></a></h4><h4>";
 	}
 	echo "</h4>";
 	

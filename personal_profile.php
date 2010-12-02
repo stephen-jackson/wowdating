@@ -89,11 +89,11 @@
 <a href=<?php print $url; ?>>Character Statistics</a>
 <?php 
 	$currentUser = $_SESSION['currentUser'];
-	$query = "SELECT * FROM friends WHERE userOne='$currentUser'";
+	$query = "SELECT * FROM friends WHERE userOne='$currentUser' AND userTwo='$userName'";
 	$result = mysqli_query($db, $query)
 		or die("Error: Could not query friendships.");
 	if(mysqli_num_rows($result) == 0) {
-		print "|<a href=add_friend.php?character=".$name."&realm=".$realm."&region=".$region.">Add Friend</a>";
+		print "| <a href=add_friend.php?character=".$name."&realm=".$realm."&region=".$region.">Add Friend</a>";
 	}
 ?>
 </div>
