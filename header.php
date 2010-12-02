@@ -1,6 +1,6 @@
 <HTML>
 <BODY>
-
+<link rel="icon" href="favicon.ico" type="image/png" />
 <table width = 100%>
 <tr>
 <td align = "left">
