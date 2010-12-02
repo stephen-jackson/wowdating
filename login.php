@@ -50,6 +50,16 @@ session_start();
 			$sex = $row['sex'];
 			$class = $row['charClass'];
 			$faction = $row['Faction'];
+			$guild = $row['guild'];
+			$primarySpec = $row['primarySpec'];
+			$secondarySpec = $row['secondarySpec'];
+			$pvpAch = $row['pvpAch'];
+			$dungeonAch = $row['dungeonAch'];
+			$reputationAch = $row['reputationAch'];
+			$worldAch = $row['worldAch'];
+			$explorationAch = $row['explorationAch'];
+			$questAch = $row['questAch'];
+			$professionAch = $row['professionAch'];	
 			$hk = $row['HK'];
 			$region = "US";
 			$linkUrl = "profile.php?character=$charName&realm=$charRealm&region=$region";
@@ -61,10 +71,10 @@ session_start();
 		echo ".</h4>";
 		
 		$userArray = array();
-		array_push($userArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
+		array_push($userArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $guild, $primarySpec, $secondarySpec, $pvpAch, $dungeonAch, $reputationAch, $worldAch, $explorationAch, $questAch, $professionAch, $hk);
 		
 		/* Grab all other characters */
-		$recommend = new recommender($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
+		$recommend = new recommender($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $guild, $primarySpec, $secondarySpec, $pvpAch, $dungeonAch, $reputationAch, $worldAch, $explorationAch, $questAch, $professionAch, $hk);
 		$query = "SELECT * FROM userCharacters NATURAL JOIN characters";
 		$result = mysqli_query($db, $query)
 			or die ("Query Error: No characters in database.");
@@ -85,9 +95,19 @@ session_start();
 				$sex = $row['sex'];
 				$class = $row['charClass'];
 				$faction = $row['Faction'];
+				$guild = $row['guild'];
+				$primarySpec = $row['primarySpec'];
+				$secondarySpec = $row['secondarySpec'];
+				$pvpAch = $row['pvpAch'];
+				$dungeonAch = $row['dungeonAch'];
+				$reputationAch = $row['reputationAch'];
+				$worldAch = $row['worldAch'];
+				$explorationAch = $row['explorationAch'];
+				$questAch = $row['questAch'];
+				$professionAch = $row['professionAch'];	
 				$hk = $row['HK'];
 				$otherUserArray = array();
-				array_push($otherUserArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
+				array_push($otherUserArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $guild, $primarySpec, $secondarySpec, $pvpAch, $dungeonAch, $reputationAch, $worldAch, $explorationAch, $questAch, $professionAch, $hk);
 				$recommend->recommend($otherUserArray);
 			}
 		}

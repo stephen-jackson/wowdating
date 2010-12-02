@@ -24,22 +24,22 @@
   
 	$character = new armoryscraper($region,$charRealm,$charName);
 
-	$lvl = $character->getLevel();
+	$lvl = $character->getLevel()/10;
 	$guild = $character->getGuildName();
 	$primarySpec = $character->getPrimarySpec();
 	$secondarySpec = $character->getSecondarySpec();
-	$pvpAch = $character->getPvpAchievementPoints();
-	$dungeonAch = $character->getDungeonAchievementPoints();
-	$reputationAch = $character->getReputationAchievementPoints();
-	$worldAch = $character->getWorldAchievementPoints();
-	$explorationAch = $character->getExplorationAchievementPoints();
-	$questAch = $character->getQuestAchievementPoints();
-	$professionAch = $character->getProfessionAchievementPoints();
+	$pvpAch = $character->getPvpAchievementPoints()/20;
+	$dungeonAch = $character->getDungeonAchievementPoints()/20;
+	$reputationAch = $character->getReputationAchievementPoints()/20;
+	$worldAch = $character->getWorldAchievementPoints()/20;
+	$explorationAch = $character->getExplorationAchievementPoints()/20;
+	$questAch = $character->getQuestAchievementPoints()/20;
+	$professionAch = $character->getProfessionAchievementPoints()/20;
 	$race = $character->getRaceId();
 	$sex = $character->getGenderId();
 	$class = $character->getClassId();
 	$faction = $character->getFactionId();
-	$HK = $character->getLifetimeHonorableKills();
+	$HK = $character->getLifetimeHonorableKills()/10000;
 	$battleGroup = $character->getBattleGroup();
   
 	

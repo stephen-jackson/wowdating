@@ -10,10 +10,10 @@ class recommender{
 	private $user;
 	
 	/* Constructs a recommender. */
-	function __construct($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk){
+	function __construct($userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $guild, $primarySpec, $secondarySpec, $pvpAch, $dungeonAch, $reputationAch, $worldAch, $explorationAch, $questAch, $professionAch, $hk){
 		$this->userArray = array();
 		/* 								 1			2			3		 4	   5	 6 		7		  8		 9 */
-		array_push($this->userArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $hk);
+		array_push($this->userArray, $userName, $charName, $charRealm, $lvl, $race, $sex, $class, $faction, $guild, $primarySpec, $secondarySpec, $pvpAch, $dungeonAch, $reputationAch, $worldAch, $explorationAch, $questAch, $professionAch, $hk);
 		$this->user = $userName;
 		$this->firstRun = true;
 		$this->bestPerson = null;
@@ -30,13 +30,6 @@ class recommender{
 				$loopTwo = 1;
 				foreach($otherPerson as $value_two){
 					if($loopOne == $loopTwo){
-						/* Modify HK number */
-						if($loopOne == $this->hkNum){
-							if($loopTwo == $this->hkNum){
-								$value_one = $value_one/10000;
-								$value_two = $value_two/10000;
-							}
-						}
 						$distance += pow(($value_one - $value_two), 2);
 						/* echo "$value_one::$value_two  $loopOne || "; */
 					}
