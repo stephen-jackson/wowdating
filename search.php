@@ -109,7 +109,7 @@
 	/* test */
 	$num_rows = mysqli_num_rows($query_result);
 	if ($num_rows<1) {
-		echo "<h2>Error: No closest user.</h2>";
+		echo "<h2>No current users match your criteria.</h2>";
 	}
 	
 	while ($row = mysqli_fetch_assoc($query_result)) {
@@ -119,8 +119,10 @@
 	}
 	$charLinkUrl = "profile.php?character=$aCharName&realm=$aCharRealm&region=$toonRegion";
 	$toonLinkUrl = "profile.php?character=$toon&realm=$toonRealm&region=$toonRegion";
-	echo "<h3>Recommending <a href=$toonLinkUrl>$toon - $toonRealm</a></h3>";	
-	echo "<h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";
+	if(!$toon == null){
+		echo "<h3>Recommending <a href=$toonLinkUrl>$toon - $toonRealm</a></h3>";	
+		echo "<h4>for <a href=$charLinkUrl>$aCharName - $aCharRealm</a>.</h4>";
+	}
 ?>
 
 </body>
