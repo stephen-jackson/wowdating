@@ -9,7 +9,7 @@
 <body>
 <div id="wrap">
 <?php include("header.php"); ?>
-<h2>Profile Page</h2>
+<h1>Profile Page</h1>
 </div>
 <?php 
 	include ("db_connect.php");
@@ -87,8 +87,15 @@
 <a href=<?php print "personal_".$url; ?>>Personal Information</a>
 |
 <a href=<?php print $url; ?>>Character Statistics</a>
-|
-<a href=<?php print "add_friend.php?character=".$name."&realm=".$realm."&region=".$region; ?>>Add Friend</a>
+<?php 
+	$currentUser = $_SESSION['currentUser'];
+	$query = "SELECT * FROM friends WHERE userOne='$currentUser'";
+	$result = mysqli_query($db, $query)
+		or die("Error: Could not query friendships.");
+	if(mysqli_num_rows($result) == 0) {
+		print "|<a href=add_friend.php?character=".$name."&realm=".$realm."&region=".$region.">Add Friend</a>";
+	}
+?>
 </div>
 <?php } ?>
 </div>
